@@ -8,17 +8,34 @@ const reportsDir = path.join(root, 'reports');
 
 const MARKET = '한국';
 
-const GOOGLE_NEWS_QUERIES = [
-  '한국 소상공인 자동화',
-  '한국 중소기업 AI',
-  '한국 요양원 비교',
-  '한국 정부지원금 소상공인',
-  '한국 입찰 제안서 AI',
-  '한국 세금 신고 자동화',
-  '한국 규제 변화 자영업',
-  '한국 가격 비교 서비스',
-  '한국 병원 예약 자동화',
-  '한국 부동산 문서 자동화'
+const PUBLIC_SECTOR_QUERIES = [
+  { source: 'K-Startup', query: 'site:k-startup.go.kr 창업지원사업 AI 자동화' },
+  { source: 'K-Startup', query: 'site:k-startup.go.kr 소상공인 창업 지원사업' },
+  { source: 'K-Startup', query: 'site:k-startup.go.kr 중소기업 디지털 전환 지원' },
+  { source: '나라장터/조달', query: 'site:g2b.go.kr AI 용역 입찰 제안서' },
+  { source: '나라장터/조달', query: 'site:g2b.go.kr 시스템 구축 용역 입찰' },
+  { source: '나라장터/조달', query: 'site:g2b.go.kr 데이터 분석 용역 입찰' },
+  { source: '중소벤처기업부', query: 'site:mss.go.kr 소상공인 지원사업 디지털' },
+  { source: '중소벤처기업부', query: 'site:mss.go.kr 중소기업 AI 지원사업' },
+  { source: '소상공인시장진흥공단', query: 'site:semas.or.kr 소상공인 지원사업' },
+  { source: '공공데이터포털', query: 'site:data.go.kr 소상공인 데이터 API' },
+  { source: '공공데이터포털', query: 'site:data.go.kr 요양기관 데이터 API' },
+  { source: '공공데이터포털', query: 'site:data.go.kr 입찰 공고 API' },
+  { source: '고용노동부/노무', query: 'site:moel.go.kr 자영업 노무 규정 변경' },
+  { source: '국세청/세금', query: 'site:nts.go.kr 부가세 종합소득세 자영업' }
+];
+
+const MARKET_NEWS_QUERIES = [
+  { source: 'Google News KR', query: '한국 소상공인 자동화' },
+  { source: 'Google News KR', query: '한국 중소기업 AI 도입' },
+  { source: 'Google News KR', query: '한국 요양원 비교 비용' },
+  { source: 'Google News KR', query: '한국 정부지원금 소상공인' },
+  { source: 'Google News KR', query: '한국 입찰 제안서 AI' },
+  { source: 'Google News KR', query: '한국 세금 신고 자동화' },
+  { source: 'Google News KR', query: '한국 규제 변화 자영업' },
+  { source: 'Google News KR', query: '한국 가격 비교 서비스' },
+  { source: 'Google News KR', query: '한국 병원 예약 자동화' },
+  { source: 'Google News KR', query: '한국 부동산 문서 자동화' }
 ];
 
 const HN_QUERIES = [
@@ -32,7 +49,8 @@ const GITHUB_QUERIES = [
   'korea ai automation created:>2026-06-01',
   'korean saas created:>2026-06-01',
   'proposal generator created:>2026-06-01',
-  'compliance automation created:>2026-06-01'
+  'compliance automation created:>2026-06-01',
+  'procurement ai created:>2026-06-01'
 ];
 
 const REDDIT_SOURCES = [
@@ -44,32 +62,21 @@ const REDDIT_SOURCES = [
 
 const MODELS = [
   {
-    name: '한국 소상공인 업무 자동화 Finder',
-    keywords: ['소상공인', '자영업', '자동화', '예약', '매출', '고객관리', 'automation', 'workflow'],
-    target: '한국 소상공인, 학원, 병원, 매장, 1인 사업자',
-    product: '업종별 반복 업무 자동화 템플릿 + 소형 SaaS',
-    firstExperiment: '미용실/학원/소형 병원 중 하나를 골라 예약·문자·고객관리 자동화 랜딩페이지 제작',
-    monetization: 84,
-    buildEase: 78,
-    maintenance: 68,
-    risk: 45,
-    summary: '반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다.'
-  },
-  {
-    name: '한국 요양원·시니어 케어 비교 엔진',
-    keywords: ['요양원', '요양병원', '노인', '시니어', '돌봄', '간병', '치매', 'senior', 'care'],
-    target: '부모님 요양시설을 찾는 가족',
-    product: '시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트',
-    firstExperiment: '서울/수도권 고급 요양시설 비교 페이지 1개 제작',
-    monetization: 88,
-    buildEase: 72,
-    maintenance: 64,
-    risk: 50,
-    summary: '고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다.'
+    name: '한국 입찰·제안서 AI 작성 도구',
+    keywords: ['입찰', '제안서', '나라장터', '조달', 'RFP', 'proposal', 'bid', 'procurement', '용역 입찰'],
+    target: '입찰 참여 중소기업, SI 업체, 용역 회사',
+    product: '입찰 공고 요약 + 제안서 초안 + 제출 체크리스트',
+    firstExperiment: '나라장터 제안서 체크리스트와 샘플 생성 페이지 제작',
+    monetization: 92,
+    buildEase: 70,
+    maintenance: 60,
+    risk: 58,
+    publicDataFit: 90,
+    summary: '한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다.'
   },
   {
     name: '한국 정부지원금·보조금 Finder',
-    keywords: ['정부지원금', '보조금', '지원사업', '창업지원', '소상공인 지원', '정책자금', 'grant'],
+    keywords: ['정부지원금', '보조금', '지원사업', '창업지원', '소상공인 지원', '정책자금', 'K-Startup', '중소벤처기업부', 'grant'],
     target: '소상공인, 스타트업, 중소기업',
     product: '지원사업 자동 매칭 + 신청 체크리스트 + 알림',
     firstExperiment: '소상공인 지원금 검색/알림 랜딩페이지 제작',
@@ -77,23 +84,38 @@ const MODELS = [
     buildEase: 76,
     maintenance: 58,
     risk: 54,
+    publicDataFit: 94,
     summary: '복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다.'
   },
   {
-    name: '한국 입찰·제안서 AI 작성 도구',
-    keywords: ['입찰', '제안서', '나라장터', '조달', 'RFP', 'proposal', 'bid', 'procurement'],
-    target: '입찰 참여 중소기업, SI 업체, 용역 회사',
-    product: '입찰 공고 요약 + 제안서 초안 + 체크리스트',
-    firstExperiment: '나라장터 제안서 체크리스트와 샘플 생성 페이지 제작',
-    monetization: 92,
-    buildEase: 70,
-    maintenance: 60,
-    risk: 58,
-    summary: '한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다.'
+    name: '한국 요양원·시니어 케어 비교 엔진',
+    keywords: ['요양원', '요양병원', '노인', '시니어', '돌봄', '간병', '치매', '요양기관', 'senior', 'care'],
+    target: '부모님 요양시설을 찾는 가족',
+    product: '시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트',
+    firstExperiment: '서울/수도권 고급 요양시설 비교 페이지 1개 제작',
+    monetization: 88,
+    buildEase: 72,
+    maintenance: 64,
+    risk: 50,
+    publicDataFit: 82,
+    summary: '고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다.'
+  },
+  {
+    name: '한국 소상공인 업무 자동화 Finder',
+    keywords: ['소상공인', '자영업', '자동화', '예약', '매출', '고객관리', '디지털 전환', 'automation', 'workflow'],
+    target: '한국 소상공인, 학원, 병원, 매장, 1인 사업자',
+    product: '업종별 반복 업무 자동화 템플릿 + 소형 SaaS',
+    firstExperiment: '미용실/학원/소형 병원 중 하나를 골라 예약·문자·고객관리 자동화 랜딩페이지 제작',
+    monetization: 84,
+    buildEase: 78,
+    maintenance: 68,
+    risk: 45,
+    publicDataFit: 76,
+    summary: '반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다.'
   },
   {
     name: '한국 규제·세금 변경 알림 서비스',
-    keywords: ['세금', '부가세', '종합소득세', '규제', '법률', '노무', '4대보험', 'compliance', 'tax'],
+    keywords: ['세금', '부가세', '종합소득세', '규제', '법률', '노무', '4대보험', '국세청', '고용노동부', 'compliance', 'tax'],
     target: '자영업자, 프리랜서, 작은 법인',
     product: '세금/노무/규정 변경 알림 + 체크리스트',
     firstExperiment: '자영업자 세금 일정 알림 페이지 제작',
@@ -101,6 +123,7 @@ const MODELS = [
     buildEase: 62,
     maintenance: 56,
     risk: 62,
+    publicDataFit: 88,
     summary: '자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다.'
   },
   {
@@ -113,13 +136,14 @@ const MODELS = [
     buildEase: 84,
     maintenance: 70,
     risk: 52,
+    publicDataFit: 55,
     summary: '한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다.'
   }
 ];
 
 async function main() {
   const now = new Date().toISOString();
-  const logs = [`[${now}] Korea CEO engine started.`];
+  const logs = [`[${now}] Korea public-data CEO engine started.`];
   const memory = readJson(memoryPath, { runs: [], decisions: [], experiments: [] });
 
   const signals = await collectSignals(logs);
@@ -128,32 +152,37 @@ async function main() {
   const decision = makeDecision(top, ideas[1], signals, now);
   const experiment = makeExperiment(top, now);
 
-  memory.runs.unshift({ at: now, market: MARKET, topCandidate: top.name, score: top.score, signals: signals.length });
+  memory.runs.unshift({ at: now, market: MARKET, topCandidate: top.name, score: top.score, signals: signals.length, publicSignals: signals.filter(s => s.publicSector).length });
   memory.decisions.unshift(decision);
   memory.experiments.unshift(experiment);
   memory.runs = memory.runs.slice(0, 100);
   memory.decisions = memory.decisions.slice(0, 100);
   memory.experiments = memory.experiments.slice(0, 100);
 
-  logs.push(`[${now}] ${signals.length} Korean-market signals collected.`);
-  logs.push(`[${now}] ${new Set(signals.map(s => s.source)).size} public sources used.`);
+  const sourceCount = new Set(signals.map(s => s.source)).size;
+  const publicSignals = signals.filter(s => s.publicSector).length;
+
+  logs.push(`[${now}] ${signals.length} total Korean-market signals collected.`);
+  logs.push(`[${now}] ${publicSignals} public-sector/government/procurement signals collected.`);
+  logs.push(`[${now}] ${sourceCount} public sources used.`);
   logs.push(`[${now}] CEO selected: ${top.name} (${top.score}/100).`);
   logs.push(`[${now}] Next experiment designed: ${experiment.title}.`);
 
   const status = {
-    systemStatus: 'AI CEO running Korea market engine',
+    systemStatus: 'AI CEO running Korea public-data market engine',
     lastRun: now,
     topCandidate: top.name,
     company: {
-      mission: '한국 시장에서 실제 공개 신호를 읽고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.',
+      mission: '한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.',
       ceo: 'Decision OS CEO Agent',
       board: 'Bek',
       targetMarket: MARKET,
-      currentGoal: '첫 번째 한국 시장 수익 실험 후보 선정'
+      currentGoal: '무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정'
     },
     kpis: {
       liveSignals: signals.length,
-      sources: new Set(signals.map(s => s.source)).size,
+      publicSignals,
+      sources: sourceCount,
       opportunitiesScored: ideas.length,
       topScore: top.score,
       experimentsDesigned: memory.experiments.length,
@@ -162,14 +191,14 @@ async function main() {
     decision: {
       score: top.score,
       action: decision.action,
-      summary: `${top.name}가 현재 한국 시장 1순위입니다. 실제 공개 신호 ${top.signalCount}개와 수익성/제작용이성/관리부담/위험도를 반영했습니다.`,
+      summary: `${top.name}가 현재 한국 시장 1순위입니다. 전체 공개 신호 ${signals.length}개, 공공/정부/조달 신호 ${publicSignals}개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.`,
       reason: decision.reason
     },
     experiment,
     ideas: ideas.map(idea => ({
       name: idea.name,
       score: idea.score,
-      summary: `${idea.summary} 신호 ${idea.signalCount}개, 수익성 ${idea.monetization}, 제작용이성 ${idea.buildEase}, 관리부담점수 ${idea.maintenance}, 위험도 ${idea.risk}.`,
+      summary: `${idea.summary} 신호 ${idea.signalCount}개, 공공신호 ${idea.publicSignalCount}개, 수익성 ${idea.monetization}, 제작용이성 ${idea.buildEase}, 공공데이터적합도 ${idea.publicDataFit}, 위험도 ${idea.risk}.`,
       target: idea.target,
       product: idea.product,
       evidence: idea.evidence
@@ -184,11 +213,13 @@ async function main() {
 
 async function collectSignals(logs) {
   const groups = await Promise.allSettled([
-    collectGoogleNews(logs),
+    collectPublicSectorNews(logs),
+    collectMarketNews(logs),
     collectHackerNews(logs),
     collectGitHub(logs),
     collectReddit(logs)
   ]);
+
   const all = groups.flatMap(g => g.status === 'fulfilled' ? g.value : []);
   const seen = new Set();
   return all.filter(signal => {
@@ -196,33 +227,62 @@ async function collectSignals(logs) {
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
-  }).slice(0, 500);
+  }).slice(0, 700);
 }
 
-async function collectGoogleNews(logs) {
+async function collectPublicSectorNews(logs) {
   const signals = [];
-  for (const query of GOOGLE_NEWS_QUERIES) {
+  for (const item of PUBLIC_SECTOR_QUERIES) {
     try {
-      const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=ko&gl=KR&ceid=KR:ko`;
-      const xml = await fetchText(url);
-      const items = [...xml.matchAll(/<item>[\s\S]*?<\/item>/g)].slice(0, 10);
-      for (const match of items) {
-        const item = match[0];
-        const title = clean(decodeXml(extractTag(item, 'title')));
+      const xml = await fetchText(googleNewsUrl(item.query));
+      const entries = [...xml.matchAll(/<item>[\s\S]*?<\/item>/g)].slice(0, 12);
+      for (const match of entries) {
+        const node = match[0];
+        const title = clean(decodeXml(extractTag(node, 'title')));
         if (!title) continue;
         signals.push({
-          source: 'Google News KR',
-          query,
+          source: item.source,
+          query: item.query,
           title,
-          url: decodeXml(extractTag(item, 'link')),
-          createdAt: decodeXml(extractTag(item, 'pubDate')),
+          url: decodeXml(extractTag(node, 'link')),
+          createdAt: decodeXml(extractTag(node, 'pubDate')),
           points: 0,
           comments: 0,
-          text: `${title} ${query}`.toLowerCase()
+          publicSector: true,
+          text: `${title} ${item.query} ${item.source}`.toLowerCase()
         });
       }
     } catch (error) {
-      logs.push(`[${new Date().toISOString()}] Google News failed: ${query} — ${error.message}`);
+      logs.push(`[${new Date().toISOString()}] Public sector search failed: ${item.source} — ${error.message}`);
+    }
+  }
+  return signals;
+}
+
+async function collectMarketNews(logs) {
+  const signals = [];
+  for (const item of MARKET_NEWS_QUERIES) {
+    try {
+      const xml = await fetchText(googleNewsUrl(item.query));
+      const entries = [...xml.matchAll(/<item>[\s\S]*?<\/item>/g)].slice(0, 10);
+      for (const match of entries) {
+        const node = match[0];
+        const title = clean(decodeXml(extractTag(node, 'title')));
+        if (!title) continue;
+        signals.push({
+          source: item.source,
+          query: item.query,
+          title,
+          url: decodeXml(extractTag(node, 'link')),
+          createdAt: decodeXml(extractTag(node, 'pubDate')),
+          points: 0,
+          comments: 0,
+          publicSector: false,
+          text: `${title} ${item.query}`.toLowerCase()
+        });
+      }
+    } catch (error) {
+      logs.push(`[${new Date().toISOString()}] Market news failed: ${item.query} — ${error.message}`);
     }
   }
   return signals;
@@ -244,6 +304,7 @@ async function collectHackerNews(logs) {
           createdAt: hit.created_at || null,
           points: Number(hit.points || 0),
           comments: Number(hit.num_comments || 0),
+          publicSector: false,
           text: `${title} ${query}`.toLowerCase()
         });
       }
@@ -269,6 +330,7 @@ async function collectGitHub(logs) {
           createdAt: repo.created_at || null,
           points: Number(repo.stargazers_count || 0),
           comments: Number(repo.forks_count || 0),
+          publicSector: false,
           text: `${title} ${query}`.toLowerCase()
         });
       }
@@ -296,6 +358,7 @@ async function collectReddit(logs) {
           createdAt: post.created_utc ? new Date(post.created_utc * 1000).toISOString() : null,
           points: Number(post.score || 0),
           comments: Number(post.num_comments || 0),
+          publicSector: false,
           text: `${title} ${post.selftext || ''} ${source.query}`.toLowerCase()
         });
       }
@@ -310,31 +373,44 @@ function scoreModels(signals, memory) {
   return MODELS.map(model => {
     const matched = signals.filter(signal => model.keywords.some(keyword => signal.text.includes(keyword.toLowerCase())));
     const sourceDiversity = new Set(matched.map(s => s.source)).size;
+    const publicSignalCount = matched.filter(s => s.publicSector).length;
     const signalStrength = Math.min(100, matched.reduce((sum, signal) => {
-      const sourceWeight = signal.source.includes('Google News') ? 6 : signal.source.includes('GitHub') ? 5 : 4;
+      const sourceWeight = signal.publicSector ? 9 : signal.source.includes('Google News') ? 6 : signal.source.includes('GitHub') ? 5 : 4;
       const engagement = Math.min(12, signal.points / 10) + Math.min(10, signal.comments / 5);
       return sum + sourceWeight + engagement;
     }, 0));
     const novelty = (memory.runs || []).slice(0, 5).some(run => run.topCandidate === model.name) ? -4 : 4;
-    const score = clamp(Math.round(signalStrength * 0.34 + model.monetization * 0.27 + model.buildEase * 0.18 + model.maintenance * 0.12 + sourceDiversity * 3 + novelty - model.risk * 0.08), 0, 100);
+    const score = clamp(Math.round(
+      signalStrength * 0.31 +
+      model.monetization * 0.24 +
+      model.buildEase * 0.16 +
+      model.maintenance * 0.10 +
+      model.publicDataFit * 0.14 +
+      Math.min(12, sourceDiversity * 3) +
+      Math.min(10, publicSignalCount * 2) +
+      novelty -
+      model.risk * 0.08
+    ), 0, 100);
     return {
       ...model,
       score,
       signalCount: matched.length,
+      publicSignalCount,
       sourceDiversity,
-      evidence: matched.slice(0, 5).map(s => ({ source: s.source, title: s.title, query: s.query, url: s.url, createdAt: s.createdAt }))
+      evidence: matched.slice(0, 6).map(s => ({ source: s.source, title: s.title, query: s.query, url: s.url, createdAt: s.createdAt }))
     };
   });
 }
 
 function makeDecision(top, runnerUp, signals, now) {
+  const publicSignals = signals.filter(s => s.publicSector).length;
   const action = top.score >= 78 ? 'BUILD_EXPERIMENT' : top.score >= 65 ? 'VALIDATE_DEMAND' : 'KEEP_SCANNING';
   const reason = action === 'BUILD_EXPERIMENT'
-    ? `한국 시장 신호가 충분합니다. ${top.name}의 첫 MVP 실험을 시작합니다.`
+    ? `무료 공개/공공 신호 기준으로 ${top.name}가 가장 강합니다. 공공 신호 ${publicSignals}개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다.`
     : action === 'VALIDATE_DEMAND'
       ? `${top.name}의 가능성은 있으나, 제작 전 수요 검증이 먼저입니다.`
       : '강한 시장 신호가 아직 부족합니다. 계속 수집합니다.';
-  return { id: `DEC-${now.replace(/[-:.TZ]/g, '').slice(0, 14)}`, at: now, market: MARKET, action, selected: top.name, runnerUp: runnerUp?.name || null, score: top.score, signalCount: signals.length, reason };
+  return { id: `DEC-${now.replace(/[-:.TZ]/g, '').slice(0, 14)}`, at: now, market: MARKET, action, selected: top.name, runnerUp: runnerUp?.name || null, score: top.score, signalCount: signals.length, publicSignals, reason };
 }
 
 function makeExperiment(top, now) {
@@ -353,13 +429,15 @@ function makeExperiment(top, now) {
 
 function writeReport(now, status, signals) {
   fs.mkdirSync(reportsDir, { recursive: true });
-  const name = `korea-ceo-report-${now.replace(/[:.]/g, '-')}.md`;
+  const name = `korea-public-data-ceo-report-${now.replace(/[:.]/g, '-')}.md`;
   const lines = [
-    '# Decision OS Korea CEO Report', '',
+    '# Decision OS Korea Public-Data CEO Report', '',
     `- Run: ${now}`,
     `- Target Market: ${MARKET}`,
     `- System: ${status.systemStatus}`,
     `- Live Signals: ${signals.length}`,
+    `- Public/Gov Signals: ${status.kpis.publicSignals}`,
+    `- Sources: ${status.kpis.sources}`,
     `- Top Candidate: ${status.topCandidate}`,
     `- Score: ${status.decision.score}/100`, '',
     '## CEO Decision', '',
@@ -371,21 +449,27 @@ function writeReport(now, status, signals) {
     `- Success Metric: ${status.experiment.successMetric}`, '',
     '## Ranking', '',
     ...status.ideas.map((idea, i) => `${i + 1}. **${idea.name}** — ${idea.score}/100 — ${idea.summary}`), '',
+    '## Top Evidence', '',
+    ...(status.ideas[0]?.evidence || []).map(e => `- [${e.source}] ${e.title} (${e.query})`), '',
     '## Limits', '',
-    '- Uses public Google News RSS, Hacker News, GitHub Search, and Reddit public JSON.',
-    '- Naver DataLab, CPC/search volume, and OpenAI reasoning are not connected yet.', ''
+    '- Uses free public Google News RSS search over Korean public-sector domains, GitHub Search, Hacker News, and Reddit public JSON.',
+    '- PublicDataPortal/Naver DataLab/NaraJangteo official APIs may require API keys and are not connected yet.', ''
   ];
   fs.writeFileSync(path.join(reportsDir, name), lines.join('\n'));
 }
 
+function googleNewsUrl(query) {
+  return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=ko&gl=KR&ceid=KR:ko`;
+}
+
 async function fetchJson(url) {
-  const res = await fetch(url, { headers: { 'user-agent': 'DecisionOS-Korea-CEO/0.3' } });
+  const res = await fetch(url, { headers: { 'user-agent': 'DecisionOS-Korea-PublicData-CEO/0.4' } });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
 }
 
 async function fetchText(url) {
-  const res = await fetch(url, { headers: { 'user-agent': 'DecisionOS-Korea-CEO/0.3' } });
+  const res = await fetch(url, { headers: { 'user-agent': 'DecisionOS-Korea-PublicData-CEO/0.4' } });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.text();
 }
@@ -419,10 +503,10 @@ function clamp(value, min, max) {
 main().catch(error => {
   const now = new Date().toISOString();
   writeJson(statusPath, {
-    systemStatus: 'Korea CEO engine error',
+    systemStatus: 'Korea public-data CEO engine error',
     lastRun: now,
     topCandidate: 'None',
-    company: { targetMarket: MARKET, mission: '한국 시장 AI CEO 대시보드입니다.' },
+    company: { targetMarket: MARKET, mission: '한국 공공 데이터 기반 AI CEO 대시보드입니다.' },
     kpis: {},
     decision: { score: 0, action: 'ERROR', summary: `Decision engine failed: ${error.message}`, reason: error.message },
     experiment: null,
