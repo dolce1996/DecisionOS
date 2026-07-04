@@ -1,0 +1,31 @@
+{
+  "systemStatus": "Bootstrapped",
+  "lastRun": "Not yet executed",
+  "topCandidate": "Opportunity Discovery AI",
+  "decision": {
+    "score": 82,
+    "summary": "Decision OS의 첫 목표는 수익성 있는 사업 기회를 자동으로 발견하고, 점수화하고, GitHub Pages 대시보드에 공개하는 것입니다."
+  },
+  "ideas": [
+    {
+      "name": "Opportunity Discovery AI",
+      "score": 82,
+      "summary": "정보 비대칭이 있는 틈새 시장을 찾아 자동으로 사업 후보를 만듭니다."
+    },
+    {
+      "name": "AI Arbitrage Finder",
+      "score": 77,
+      "summary": "가격·수요·검색량 차이를 찾아 작은 웹 서비스나 콘텐츠 자산으로 전환합니다."
+    },
+    {
+      "name": "Static Niche Site Factory",
+      "score": 73,
+      "summary": "관리 부담이 낮은 정적 사이트를 대량으로 만들고 실험합니다."
+    }
+  ],
+  "logs": [
+    "Decision OS repository initialized.",
+    "GitHub Pages dashboard files created.",
+    "Automation workflow will update this status file on schedule."
+  ]
+}
