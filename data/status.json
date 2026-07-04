@@ -1,47 +1,68 @@
 {
-  "systemStatus": "Running live discovery engine",
-  "lastRun": "2026-07-04T21:03:08.665Z",
-  "topCandidate": "AI Lead Generation Microsite",
+  "systemStatus": "AI CEO running Korea market engine",
+  "lastRun": "2026-07-04T21:32:00.000Z",
+  "topCandidate": "한국 입찰·제안서 AI 작성 도구",
+  "company": {
+    "mission": "한국 시장에서 실제 공개 신호를 읽고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
+    "ceo": "Decision OS CEO Agent",
+    "board": "Bek",
+    "targetMarket": "한국",
+    "currentGoal": "첫 번째 한국 시장 수익 실험 후보 선정"
+  },
+  "kpis": {
+    "liveSignals": 0,
+    "sources": 0,
+    "opportunitiesScored": 6,
+    "topScore": 86,
+    "experimentsDesigned": 1,
+    "decisionsStored": 1
+  },
   "decision": {
-    "score": 87,
-    "summary": "AI Lead Generation Microsite가 현재 1순위입니다. 실제 공개 신호 29개와 수익성/제작난이도/관리부담 점수를 반영했습니다."
+    "score": 86,
+    "action": "BUILD_EXPERIMENT",
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 수익성/제작용이성/관리부담/위험도를 기준으로 임시 시드되었습니다. 다음 Actions 실행에서 실제 공개 신호로 자동 갱신됩니다.",
+    "reason": "한국 중소기업은 입찰·제안서 작성 부담이 크고, AI 문서 자동화로 빠른 MVP 검증이 가능합니다."
+  },
+  "experiment": {
+    "id": "EXP-SEED-KOREA-001",
+    "title": "한국 입찰·제안서 AI 작성 도구 48시간 검증",
+    "market": "한국",
+    "hypothesis": "입찰 참여 중소기업은 입찰 공고 요약 + 제안서 초안 + 체크리스트에 비용을 지불할 가능성이 있다.",
+    "nextAction": "나라장터 제안서 체크리스트와 샘플 생성 페이지 제작",
+    "successMetric": "방문자 100명 기준 문의/클릭/이메일 등록 3건 이상",
+    "buildTime": "1~2일",
+    "budget": "0원으로 시작",
+    "status": "designed"
   },
   "ideas": [
     {
-      "name": "AI Lead Generation Microsite",
-      "score": 87,
-      "summary": "특정 업종·지역의 고객 문의를 모아 사업자에게 판매하는 마이크로 사이트를 만듭니다. 신호 29개, 수익성 83, 제작용이성 82, 관리부담점수 72."
+      "name": "한국 입찰·제안서 AI 작성 도구",
+      "score": 86,
+      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 다음 Actions 실행에서 실제 신호 수가 갱신됩니다.",
+      "target": "입찰 참여 중소기업, SI 업체, 용역 회사",
+      "product": "입찰 공고 요약 + 제안서 초안 + 체크리스트",
+      "evidence": []
     },
     {
-      "name": "Static Niche Site Factory",
-      "score": 84,
-      "summary": "검색 수요는 있지만 경쟁이 약한 주제를 찾아 정적 웹사이트로 빠르게 실험합니다. 신호 22개, 수익성 70, 제작용이성 90, 관리부담점수 86."
+      "name": "한국 요양원·시니어 케어 비교 엔진",
+      "score": 82,
+      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다.",
+      "target": "부모님 요양시설을 찾는 가족",
+      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
+      "evidence": []
     },
     {
-      "name": "Price Gap / Arbitrage Radar",
-      "score": 76,
-      "summary": "가격 차이, 정보 비대칭, 비교 수요가 있는 시장을 찾아 유료 데이터/리포트로 전환합니다. 신호 17개, 수익성 88, 제작용이성 70, 관리부담점수 60."
-    },
-    {
-      "name": "B2B Workflow Automation Finder",
-      "score": 73,
-      "summary": "반복 수작업이 많은 소규모 사업자의 업무를 찾아 자동화 도구나 템플릿으로 전환합니다. 신호 19개, 수익성 86, 제작용이성 78, 관리부담점수 68."
-    },
-    {
-      "name": "Compliance Change Monitor",
-      "score": 55,
-      "summary": "규정 변경을 추적하기 어려운 업종에 알림·요약·체크리스트 서비스를 제공합니다. 신호 7개, 수익성 92, 제작용이성 58, 관리부담점수 55."
-    },
-    {
-      "name": "Retirement Micro-SaaS Radar",
-      "score": 46,
-      "summary": "은퇴자·고령자·가족 돌봄에서 반복되는 정보 문제를 소형 유료 서비스로 만듭니다. 신호 0개, 수익성 80, 제작용이성 65, 관리부담점수 62."
+      "name": "한국 정부지원금·보조금 Finder",
+      "score": 80,
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다.",
+      "target": "소상공인, 스타트업, 중소기업",
+      "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
+      "evidence": []
     }
   ],
   "logs": [
-    "[2026-07-04T21:03:08.665Z] Autonomous opportunity discovery cycle started.",
-    "[2026-07-04T21:03:08.665Z] 189 live market signals collected from public sources.",
-    "[2026-07-04T21:03:08.665Z] 6 opportunity models scored.",
-    "[2026-07-04T21:03:08.665Z] Top candidate selected: AI Lead Generation Microsite (87/100)."
+    "[2026-07-04T21:32:00.000Z] Korea CEO dashboard seeded after engine bug fix.",
+    "[2026-07-04T21:32:00.000Z] Undefined REDDIT_SOURCES bug fixed.",
+    "[2026-07-04T21:32:00.000Z] Next scheduled Actions run will replace seed data with live Korean-market signals."
   ]
 }
