@@ -3,42 +3,54 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Decision OS</title>
+  <title>Decision OS Korea CEO</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <main class="shell">
     <section class="hero">
-      <p class="eyebrow">Autonomous Opportunity Discovery</p>
+      <p class="eyebrow">AI CEO · Korea Market</p>
       <h1>Decision OS</h1>
-      <p class="subtitle">AI가 사업 기회를 찾고, 평가하고, 우선순위를 정하는 공개 대시보드입니다.</p>
+      <p class="subtitle" id="mission">한국 시장에서 실제 공개 신호를 읽고, 수익성 높은 사업을 고르는 AI CEO 대시보드입니다.</p>
       <div class="status-grid">
-        <div class="card">
-          <span class="label">System</span>
-          <strong id="systemStatus">Loading...</strong>
-        </div>
-        <div class="card">
-          <span class="label">Last Run</span>
-          <strong id="lastRun">Loading...</strong>
-        </div>
-        <div class="card">
-          <span class="label">Top Candidate</span>
-          <strong id="topCandidate">Loading...</strong>
-        </div>
+        <div class="card"><span class="label">System</span><strong id="systemStatus">Loading...</strong></div>
+        <div class="card"><span class="label">Last Run</span><strong id="lastRun">Loading...</strong></div>
+        <div class="card"><span class="label">Top Candidate</span><strong id="topCandidate">Loading...</strong></div>
       </div>
+    </section>
+
+    <section class="status-grid kpi-grid">
+      <div class="card"><span class="label">Target Market</span><strong id="targetMarket">한국</strong></div>
+      <div class="card"><span class="label">Live Signals</span><strong id="liveSignals">--</strong></div>
+      <div class="card"><span class="label">Sources</span><strong id="sources">--</strong></div>
+      <div class="card"><span class="label">Opportunities</span><strong id="opportunitiesScored">--</strong></div>
+      <div class="card"><span class="label">Decisions</span><strong id="decisionsStored">--</strong></div>
+      <div class="card"><span class="label">Experiments</span><strong id="experimentsDesigned">--</strong></div>
     </section>
 
     <section class="panel">
       <div class="panel-head">
-        <h2>Current Decision</h2>
+        <h2>CEO Decision</h2>
         <span id="decisionScore" class="badge">--</span>
       </div>
       <p id="decisionSummary">Loading current decision...</p>
+      <p id="decisionReason" class="muted"></p>
+    </section>
+
+    <section class="panel accent-panel">
+      <div class="panel-head">
+        <h2>Next Experiment</h2>
+        <span id="experimentStatus" class="badge">--</span>
+      </div>
+      <h3 id="experimentTitle">Loading...</h3>
+      <p id="experimentHypothesis"></p>
+      <p id="experimentNextAction" class="muted"></p>
+      <p id="experimentMetric" class="muted"></p>
     </section>
 
     <section class="columns">
       <div class="panel">
-        <h2>Opportunity Queue</h2>
+        <h2>Korea Opportunity Queue</h2>
         <div id="ideas" class="list"></div>
       </div>
       <div class="panel">
