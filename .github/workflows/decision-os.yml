@@ -2,11 +2,15 @@ name: Decision OS Autonomous Run
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: decision-os-autonomous-run
+  cancel-in-progress: true
 
 jobs:
   run-decision-os:
