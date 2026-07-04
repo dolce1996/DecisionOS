@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Decision OS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <p class="eyebrow">Autonomous Opportunity Discovery</p>
+      <h1>Decision OS</h1>
+      <p class="subtitle">AI가 사업 기회를 찾고, 평가하고, 우선순위를 정하는 공개 대시보드입니다.</p>
+      <div class="status-grid">
+        <div class="card">
+          <span class="label">System</span>
+          <strong id="systemStatus">Loading...</strong>
+        </div>
+        <div class="card">
+          <span class="label">Last Run</span>
+          <strong id="lastRun">Loading...</strong>
+        </div>
+        <div class="card">
+          <span class="label">Top Candidate</span>
+          <strong id="topCandidate">Loading...</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Current Decision</h2>
+        <span id="decisionScore" class="badge">--</span>
+      </div>
+      <p id="decisionSummary">Loading current decision...</p>
+    </section>
+
+    <section class="columns">
+      <div class="panel">
+        <h2>Opportunity Queue</h2>
+        <div id="ideas" class="list"></div>
+      </div>
+      <div class="panel">
+        <h2>Live Work Log</h2>
+        <div id="logs" class="log"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
