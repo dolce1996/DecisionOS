@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-04T23:15:14.184Z",
+  "lastRun": "2026-07-05T00:15:47.233Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -25,7 +25,7 @@
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 118개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260704231514",
+    "id": "EXP-20260705001547",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -90,7 +90,7 @@
     {
       "name": "한국 정부지원금·보조금 Finder",
       "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 47개, 공공신호 34개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 48개, 공공신호 34개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
       "evidence": [
@@ -147,6 +147,13 @@
       "evidence": [
         {
           "source": "공공데이터포털",
+          "title": "건강보험심사평가원_ 병원정보서비스 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14c05pd0RkWXVfVTF4OVR2aUpnQjdLSFljaFVtb3dZajNtVEVhdVBpendDQlJxc1dtd2F6WWtOMTJaa0JOdGZVejExcU5RclI0WVM3OEhiQjgyd2M?oc=5",
+          "createdAt": "Fri, 07 Aug 2020 03:59:04 GMT"
+        },
+        {
+          "source": "공공데이터포털",
           "title": "건강보험심사평가원_전국 병의원 및 약국 현황_20251231 - 공공데이터포털",
           "query": "site:data.go.kr 요양기관 데이터 API",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4NmxsT080S2FQVEowbXN4NDVmV3dnTzNzVm9UY1V1VWZNOGs4VXVnNEJJOWl0ejNrYjdIckxlWEJ2ZlVBOUJaLUNnc2VxVDBiblE0QTEzSXFkQ0JX?oc=5",
@@ -179,13 +186,6 @@
           "query": "site:data.go.kr 요양기관 데이터 API",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oaXBVU3pMOVFLVUNqZHFlZkNSUGZOdUhzN3BQOHdfZWV1d2dHbTBqQTVnbGwxUDdBUlRJVUYycnYzM3BSMXZhZVhmTmJfS0NXQXkxMF9pQUZFQTlQeWNubDltUDlsNDRNTk9RNFE1N2pUYzFl?oc=5",
           "createdAt": "Tue, 12 Jul 2022 02:50:47 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "[건강보험심사평가원] 요양기관개폐업정보조회서비스 외 OPEN API 서비스 변경 안내 공지사항 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSDZOcWFSdFNCY0FoRnU3RmNsR1daNDZxdlJkRkxhWWROZl9LVnBJWWNmZUVNT3NxM0JiV0lhdjBfV0kyMk5WX2RBZE5saFdZVjd2U1lRQjNhZUprY19wVlc5ZHFVcm1OQ2JWdWpsV2wyXzBvcWVWMlJzRjNjLW1nVjZR?oc=5",
-          "createdAt": "Fri, 06 Jun 2025 12:02:22 GMT"
         }
       ]
     },
@@ -293,11 +293,18 @@
     },
     {
       "name": "한국 로컬 서비스 리드 생성 사이트",
-      "score": 79,
-      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 6개, 공공신호 3개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
+      "score": 84,
+      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 7개, 공공신호 4개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
       "target": "지역 서비스업체와 고객",
       "product": "업종별 견적 요청 사이트 + 유료 리드 판매",
       "evidence": [
+        {
+          "source": "중소벤처기업부",
+          "title": "디지털 전환에 따른 지역 소상공인 대응 방안 - 중소벤처기업부",
+          "query": "site:mss.go.kr 소상공인 지원사업 디지털",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNTZCamZISUNsNW43RkVHRjhDR0cwajdZV3llVmxwWE82MkxEdE5HQmpuakRXWTlBaW96Q1lPLVRLN18wbVg3LU1VX2d6QjB3cEhMQ29RQjNfOGxfRUJ6MmluX1A1TEVqU05fdXpEZFkwSkE1LS1SenNXTHItemtWY3JLZjNQWjAxaTB6c3dRR0N6ZWY1UlhhWjB4MUd0MTdrcjlsdzBJV1Ata0tfbkkzQ2V6RVlvck9PUlhTUV9DVQ?oc=5",
+          "createdAt": "Mon, 22 Mar 2021 09:12:28 GMT"
+        },
         {
           "source": "중소벤처기업부",
           "title": "지역 주도형 인공지능(AI) 대전환 사업 지원대상, ‘경남, 대구, 울산, 전남, 제주’ 최종 선정 - 중소벤처기업부",
@@ -332,27 +339,20 @@
           "query": "proposal generator created:>2026-06-01",
           "url": "https://github.com/karabedleadershipgroup/arkay-doc-generator",
           "createdAt": "2026-07-04T13:02:43Z"
-        },
-        {
-          "source": "GitHub Search",
-          "title": "youngwolf2077-a11y/gmail-postmaster-tools-mcp: Access Gmail Postmaster Tools metrics and sender data directly within your MCP clients using local authentication.",
-          "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/youngwolf2077-a11y/gmail-postmaster-tools-mcp",
-          "createdAt": "2026-06-16T19:18:32Z"
         }
       ]
     }
   ],
   "logs": [
-    "[2026-07-04T23:15:14.184Z] Korea public-data CEO engine started.",
-    "[2026-07-04T23:15:14.408Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-04T23:15:14.495Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-04T23:15:14.559Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-04T23:15:14.620Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-04T23:15:14.184Z] 290 total Korean-market signals collected.",
-    "[2026-07-04T23:15:14.184Z] 118 public-sector/government/procurement signals collected.",
-    "[2026-07-04T23:15:14.184Z] 10 public sources used.",
-    "[2026-07-04T23:15:14.184Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-04T23:15:14.184Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-05T00:15:47.233Z] Korea public-data CEO engine started.",
+    "[2026-07-05T00:15:47.366Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-05T00:15:47.385Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-05T00:15:47.401Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-05T00:15:47.415Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-05T00:15:47.233Z] 290 total Korean-market signals collected.",
+    "[2026-07-05T00:15:47.233Z] 118 public-sector/government/procurement signals collected.",
+    "[2026-07-05T00:15:47.233Z] 10 public sources used.",
+    "[2026-07-05T00:15:47.233Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-07-05T00:15:47.233Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
