@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-06T16:42:39.119Z",
+  "lastRun": "2026-07-06T18:31:58.605Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,8 +10,8 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 291,
-    "publicSignals": 121,
+    "liveSignals": 290,
+    "publicSignals": 119,
     "sources": 10,
     "opportunitiesScored": 6,
     "topScore": 100,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 291개, 공공/정부/조달 신호 121개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
-    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 121개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 290개, 공공/정부/조달 신호 119개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 119개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260706164239",
+    "id": "EXP-20260706183158",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -39,7 +39,7 @@
     {
       "name": "한국 입찰·제안서 AI 작성 도구",
       "score": 100,
-      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 73개, 공공신호 41개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
+      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 71개, 공공신호 39개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
       "target": "입찰 참여 중소기업, SI 업체, 용역 회사",
       "product": "입찰 공고 요약 + 제안서 초안 + 제출 체크리스트",
       "evidence": [
@@ -80,17 +80,17 @@
         },
         {
           "source": "나라장터/조달",
-          "title": "『AI 서비스 플랫폼 구축 사업 제안요청서』 - 나라장터",
+          "title": "2026년 AWS 인공지능(AI) 전문인력 양성과정 운영 용역 입찰 공고 - 나라장터",
           "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMiwAZBVV95cUxNSWtyRXkyVTV4TTRpQVM1LW9CVk5RVDVrdW1JeDBabFJIR2pGbnU1bHF2dGJnaXRJZ2R2ZHphUW9UM09BWHpSd19CeG12Y2F0eC1pUTJGd29jT1g1V0N3YUVadkNtYWRDN280TFdqZXluN3RnSEY4dnpRNm9kNHNzby1za1Y2T1BZc0pqSThPbFFjcGxVaEo3RDhrbVA3Yi1CbG42cnkzUXU5THA5eUxiUnVLY0o1emU0bTNXOU1KLWJSeUlrYTlEMUFJT2lLSXJPbUtpMzgyV1FmNmpiaUZ6MmtuMmFtYzRFei1QOVRpc3MybGVSR3gwSWwtdkV2NWM2ZURsaFk4WUhTOGFoT2tabGpWTzMzVTBUVFVrRE5JUk5iT1p3N2k1Q3A0WmN6eWYza2M2TTNBZnNiWW51N1BGN2hKRVF0SXF0NkJlQWJySEQyTVVSaUtoNzM2V01Za3hVTTRmbjRrRmJCajVjdmhyM1RybW1PRVZYUDVZZDk4WWtoNUpfT1hvNHlVVmJxVUNiT0xndWNVNFRoRTMzWDMycVhNc3FFTGk5akZBSTA1c2hmSXRIRkllMnVNd1VGbldRYUxkYW9UQnF2eE44d29CLVNBZ1pPbDg0c2FLQUFKZ29TUnFKUFhPR3dLWG9Ud1dYTzluaE1UOWN3NkkzWG1PUXdzSjI3VEllYXNLc1RqNUJGekRPOVNXRnhmUENtZjRfZVZ5ZFZOb0hYS2MxWmdYZ29wTnlVVDRVNnVXUTVUVjZMSzZfel85SU13SWU5WURMOTR5SmFuNF9OLUlnYVN0WllmUGRMVWxrWFh0VFBLcmZDcWh6QTlGRUp4WHJDU0VCU2VzZW5xWUZZZXZwRTVmZER5cUFBNzBUenVrZzlJSXl1dGxCQ0llWVEyZjlhSFMyWGR6eHRPd2NuOUNsQUlRaFBBOFdJYUNmckV5bnhxSk9OVEs2enNPdkFRd1NhUFFpMkplMW94U29jdkpwSVVPUzlHb2FIMjBLbTljQnFXVmVzS1Z5QWhTbUpDdERKeV9LbHRQYnZSUEw1R1ZrcE5yZjJaaVRScUk5ejVqbTlBa1BNdXQtczl0OTFycnZUSV9F?oc=5",
-          "createdAt": "Wed, 09 Jul 2025 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdzV1Q0ZNcGhHT05HRmtaUkZtNm9yM015TzJKOEYtQi1Wd0dqaHJYWndXMTgyQ1F3VF90N2tHT3ZLNUstY3c5QkdaWGhVdmcwUTRIaHphMlVXb05mcVhHNHZuTGVtRHFXcGlQakxHOFZ4VWFBR1NHOG5YeEc0dXBXZmUzZHBBVFRVTmNhZS1EcDV6WG9HM2JLMElpb1RfY0VQLXBsT0FmMDVKSmdGZW52d3diSDl0c09JZEVjMkNXM0tTUzFkeHZOclV0VHlUVlNTa2hYZTJR?oc=5",
+          "createdAt": "Thu, 07 May 2026 07:00:00 GMT"
         }
       ]
     },
     {
       "name": "한국 정부지원금·보조금 Finder",
       "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 48개, 공공신호 35개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 49개, 공공신호 35개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
       "evidence": [
@@ -192,7 +192,7 @@
     {
       "name": "한국 소상공인 업무 자동화 Finder",
       "score": 100,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 145개, 공공신호 63개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 144개, 공공신호 63개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
@@ -344,15 +344,15 @@
     }
   ],
   "logs": [
-    "[2026-07-06T16:42:39.119Z] Korea public-data CEO engine started.",
-    "[2026-07-06T16:42:39.203Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-06T16:42:39.221Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-06T16:42:39.234Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-06T16:42:39.248Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-06T16:42:39.119Z] 291 total Korean-market signals collected.",
-    "[2026-07-06T16:42:39.119Z] 121 public-sector/government/procurement signals collected.",
-    "[2026-07-06T16:42:39.119Z] 10 public sources used.",
-    "[2026-07-06T16:42:39.119Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-06T16:42:39.119Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-06T18:31:58.605Z] Korea public-data CEO engine started.",
+    "[2026-07-06T18:31:58.729Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-06T18:31:58.748Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-06T18:31:58.771Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-06T18:31:58.794Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-06T18:31:58.605Z] 290 total Korean-market signals collected.",
+    "[2026-07-06T18:31:58.605Z] 119 public-sector/government/procurement signals collected.",
+    "[2026-07-06T18:31:58.605Z] 10 public sources used.",
+    "[2026-07-06T18:31:58.605Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-07-06T18:31:58.605Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
