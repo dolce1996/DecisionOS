@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-12T15:18:18.238Z",
+  "lastRun": "2026-07-12T16:16:11.146Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,22 +10,22 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 73,
-    "publicSignals": 0,
-    "sources": 2,
+    "liveSignals": 291,
+    "publicSignals": 119,
+    "sources": 10,
     "opportunitiesScored": 6,
-    "topScore": 88,
+    "topScore": 100,
     "experimentsDesigned": 1,
     "decisionsStored": 1
   },
   "decision": {
-    "score": 88,
+    "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 73개, 공공/정부/조달 신호 0개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
-    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 0개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 291개, 공공/정부/조달 신호 119개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 119개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260712151818",
+    "id": "EXP-20260712161611",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -38,239 +38,321 @@
   "ideas": [
     {
       "name": "한국 입찰·제안서 AI 작성 도구",
-      "score": 88,
-      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 21개, 공공신호 0개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
+      "score": 100,
+      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 70개, 공공신호 38개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
       "target": "입찰 참여 중소기업, SI 업체, 용역 회사",
       "product": "입찰 공고 요약 + 제안서 초안 + 제출 체크리스트",
       "evidence": [
         {
-          "source": "Hacker News",
-          "title": "Show HN: Alba – Earn and bid on unique software using idle AI credits",
-          "query": "vertical AI SaaS",
-          "url": "https://alba-run.vercel.app/",
-          "createdAt": "2026-02-27T15:25:40Z"
+          "source": "나라장터/조달",
+          "title": "나라장터 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBfQnpuOVc2TVYwTG9mZzg2c2JFTTY1WmlOblgwSFhGMk1qcnctMVNhYk4yOVNaT1FmTVE?oc=5",
+          "createdAt": "Sat, 05 Nov 2016 23:59:17 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "ncreighton/be09b054-aviation-client-proposal-and-q: The aviation tool you'd build yourself — if you had the time. Ready to use immediately — open, fill in your details, done. Professional formatting tested across different screen sizes and printers. ## What's Included - Aviation Client Proposal And Quote Generator Template — fully configured and ready to use - Fully editable: all fields, colors,",
-          "query": "proposal generator created:>2026-06-01",
-          "url": "https://github.com/ncreighton/be09b054-aviation-client-proposal-and-q",
-          "createdAt": "2026-06-26T18:00:33Z"
+          "source": "나라장터/조달",
+          "title": "AI학습분석시스템 고도화 구축 용역 입찰공고 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOVZEamxpYmI3aUhIaXpuZkE2bDJ4MlEzX3owbFJBSnpxdU5VWUJ0QlhCalFRUFBrcnJoQ1E0MExGaGJSWmJ6VHNBNWRpVjRfNmZIUTNLWHNqZE8yLWMtajJOR2dMYkhNMlZGdGZMV1dvc0lLSFBtaDR0cXAxbE1pVml5M2VPeTFsTjI1bmJRY3lORHA1QXFBN2w3OE1xMVU3RnZodlg5UzVzcXhydlJPYWVQTlh4Q29iRXdRUmJJd0Q?oc=5",
+          "createdAt": "Tue, 04 Nov 2025 23:56:38 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "ncreighton/c60bc11e-maritime-shipping-client-propo: maritime shipping professionals waste hours on starting from a blank document every single time. This fixes that. Fully editable: every field, color, and section customizable. Professional formatting tested across different screen sizes and printers. ## What's Included - Maritime Shipping Client Proposal And Quote Generator Template — fully conf",
-          "query": "proposal generator created:>2026-06-01",
-          "url": "https://github.com/ncreighton/c60bc11e-maritime-shipping-client-propo",
-          "createdAt": "2026-06-26T17:55:27Z"
+          "source": "나라장터/조달",
+          "title": "2025년 K-콘텐츠 AI 혁신 선도 프로젝트 프로덕션 용역 입찰 공고 촬영A팀 용역 입찰공고 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd09nQllmR3M5SkcwamFkWnVYaWg2eTNRMS1kUXRFVkZUNjA1cjJQQ3llMXdWSGp6dWRoS3kzTklaZ2tfUHZRWE9LTnlFWXFUX2ZhSFBCNjFYTDVBMUF5ajJrclRRcmVCRXNMeF95Y0Vlb19xWC1ucE5UWklKb3NNQXV3cDU5UUNVZXl5Q2M0azk3RFJWa1dBMlg0MDNHdllyeEZUSkhKdnoxa0hMZi1uZUtYVTZ5ekE2Zzh3cDZaUENraUdXcHJpYUZ0Smh1Q2diTkZZWUJn?oc=5",
+          "createdAt": "Fri, 03 Apr 2026 07:00:00 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "ncreighton/d18e7fcb-travel-client-proposal-and-quo: The fastest way to produce professional output on day one. No setup fees. No learning curve. Professional formatting tested across different screen sizes and printers. Fully editable: every field, color, and section customizable. ## What's Included - Travel Client Proposal And Quote Generator Template — fully configured and ready to use - Fully",
-          "query": "proposal generator created:>2026-06-01",
-          "url": "https://github.com/ncreighton/d18e7fcb-travel-client-proposal-and-quo",
-          "createdAt": "2026-06-26T17:51:53Z"
+          "source": "나라장터/조달",
+          "title": "2025년 K-콘텐츠 AI 혁신 선도 프로젝트 AI 영상 프로덕션 용역 입찰 공고 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbHJLbnBrRjVjeVF1MFRVb1Ywc3FoalVZTXd6dnlic3dkdFcwSDdBUlNoTDlqSEs5WmFac21JaTBMNEVLWkxWal95dmF5NWNSVDhTLW1nek42VVlwV2NNOVZGeUxDeGtBRWI1MXpOUGVUYUtFazdESHhxZXBaWF9WNHp3NGpDUnNVcEZnbk9LRllTTDJLeEh4aDVfS2pTZ0o4dGYzZ0xkTTNzdGNCQ2ttWjhiVURwajhDbHlSdjV2NW5kMU9DM2xiZDZtUnNPdGVJTFR3Wjd3?oc=5",
+          "createdAt": "Tue, 21 Apr 2026 10:42:39 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "AnalytiqDigital/AI-Proposal-Generator: An Ai power proposal and invoice generation project",
-          "query": "proposal generator created:>2026-06-01",
-          "url": "https://github.com/AnalytiqDigital/AI-Proposal-Generator",
-          "createdAt": "2026-07-07T11:03:22Z"
+          "source": "나라장터/조달",
+          "title": "AI시스템 개발사업 용역 공고 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNekhyWE9xZG5hQS1VRUlyY19icmY3M1FzQ1FBMkdrZzc5UFYxLVptUTJDUld2NjJmT29ManBGUTFVMWNNSmNjQlRJSUozNVE0TC1abjZKNzhfSnhoRV9DeFN3VGptN3QzaGdYN2hsbEdvS1VpY1lkQXlMcnZtVEdWVjhjbmF4emc2WTNycWJBMXRjVUtNYkF0X1kwMHVCWXF5ZVlPUVdCM21yS3pjOWc3b2w0OFg4NWhUT2d1NjNhdkhYRFJiWW5fektpM1ZPUEg3RG1HODhn?oc=5",
+          "createdAt": "Wed, 22 Apr 2026 07:00:00 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "saurabhshuklagrowisto/saurabh-ai-systems: AI-Powered Marketing Specialist portfolio. Production agentic systems for B2B sales and marketing: autonomous CRM enrichment agent, WhatsApp opportunity scanner on VPS, ABM scoring pipeline, Fireflies summary automation, live Upwork proposal generator. Built at Growisto.",
-          "query": "proposal generator created:>2026-06-01",
-          "url": "https://github.com/saurabhshuklagrowisto/saurabh-ai-systems",
-          "createdAt": "2026-06-23T18:48:51Z"
+          "source": "나라장터/조달",
+          "title": "2025년도 가톨릭관동대학교 AI 기반 학습·학사 지원 통합 플랫폼 개발 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWmc5a3BkdzlYU2VVN05EeWJOa0dCYlNaMHlBTkZpamE4R21qUE94UFhXaHBCTGFoaE1DTXcyRTVSNHU4WXBrNGNSMm5WMUllQjFTeWE1RUZnNFVqNms5dEl5OU5oUGYzeUY5cXhNZUlpUTJxcDJ4bDVPbk82RDQ0dEJBNTlkSnVnRHlVTGVoclpRQk5vcHRRLWgyQkhnZ2NsSmV5eUhidkFaSS05cHNEdFVXNEYtdkJiM08yVURlY0VqZWJLNU5uX0dPYlpuNmdSZDVGampB?oc=5",
+          "createdAt": "Mon, 05 Jan 2026 11:40:18 GMT"
+        }
+      ]
+    },
+    {
+      "name": "한국 정부지원금·보조금 Finder",
+      "score": 100,
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 49개, 공공신호 36개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "target": "소상공인, 스타트업, 중소기업",
+      "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
+      "evidence": [
+        {
+          "source": "K-Startup",
+          "title": "창업진흥원, K-Startup 바로가기 - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TeXJQR1RCMS1rR0U0VHdMY3pFV3NlVWhKN2hobk55NGtWMnl5RFQ2VGpPQ2hWQTVxanhrOHI2dXN4UQ?oc=5",
+          "createdAt": "Wed, 23 Dec 2015 16:28:36 GMT"
+        },
+        {
+          "source": "K-Startup",
+          "title": "- k-startup.go.kr",
+          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FSS1tR3BYdlk0OXp1WFRwX3o5elVOTTExTXBSZ0hNM2poNlJXdlVfS0hCVmthWG5rSTFMcGc4N3Z5alBBcGlXRW5Md3dobTU5OUNBdGZDTXQxeVJHWkxfeVBsVDlUVXUxMkkxSFR3?oc=5",
+          "createdAt": "Sun, 07 Aug 2022 23:04:03 GMT"
+        },
+        {
+          "source": "K-Startup",
+          "title": "홈페이지 새창열림 - K-Startup - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xR3E0c1BMUVBWdlJCd0JuLVllN19POXVNRDhiTlBuTEV3OTA1LXAycXJBTDN5MHBRZ21CTDVYVmJKMVVlYzdpQ2Vpd2w0T2ZiTXZwUVpCdHV0N2tYOWVvVlNJTDZNMzUwYnc?oc=5",
+          "createdAt": "Fri, 27 Sep 2024 19:55:47 GMT"
+        },
+        {
+          "source": "K-Startup",
+          "title": "K-Startup 창업지원포털 - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1QV1BOTENXNU9EUldfdm9BelNMSXR6eTM1RTRhemgxWVk3LWxpcnNYa0FQUnAzUTFqNDBub1ljUndCNGpEZ1E?oc=5",
+          "createdAt": "Thu, 17 Oct 2024 07:52:12 GMT"
+        },
+        {
+          "source": "K-Startup",
+          "title": "스타트업 원스톱 지원센터 - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YeS1iMXJLWEdZWWZ1RjF4bUVKMGZJWlQyR2dGRWpWTTE2bndMbmN0ZDJBTDJZdjZWSEdLLXZXTURMOHRaQ19pVHFIOA?oc=5",
+          "createdAt": "Thu, 26 Mar 2026 02:23:12 GMT"
+        },
+        {
+          "source": "K-Startup",
+          "title": "지원 사업 공고 정보 오픈 API 조회 - nidview.k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEZSalZTdC12VnMxY3YxYktLbUV3Q20wdG95Q0pEOGIyZ1ZLckFYSW9xUXBHR3MtN0JDR002NWFmWGJKZ1lzLXF4dUNPeHc0V3RJVUFpRHlaNU1ZOUoyeEdDWjhaX2Y3anpTaVVMb2NmSnRxWGxsZkFiTXk2T1p6dm1QX2tKWUpNSTVMeUc5MmExUQ?oc=5",
+          "createdAt": "Mon, 08 Jan 2024 00:51:45 GMT"
         }
       ]
     },
     {
       "name": "한국 소상공인 업무 자동화 Finder",
-      "score": 87,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 21개, 공공신호 0개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "score": 100,
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 144개, 공공신호 62개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
         {
-          "source": "Hacker News",
-          "title": "Brutal feedback on my failed idea (anyone up for part-time interview?)",
-          "query": "Korean startup automation",
-          "url": "https://news.ycombinator.com/item?id=43840606",
-          "createdAt": "2025-04-30T02:31:30Z"
+          "source": "K-Startup",
+          "title": "창업진흥원, K-Startup 바로가기 - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TeXJQR1RCMS1rR0U0VHdMY3pFV3NlVWhKN2hobk55NGtWMnl5RFQ2VGpPQ2hWQTVxanhrOHI2dXN4UQ?oc=5",
+          "createdAt": "Wed, 23 Dec 2015 16:28:36 GMT"
         },
         {
-          "source": "Hacker News",
-          "title": "Ask HN: Building AI notetaker for immigrant founders. What am I missing?",
-          "query": "Korean startup automation",
-          "url": "https://news.ycombinator.com/item?id=43638474",
-          "createdAt": "2025-04-09T21:57:39Z"
+          "source": "K-Startup",
+          "title": "- k-startup.go.kr",
+          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FSS1tR3BYdlk0OXp1WFRwX3o5elVOTTExTXBSZ0hNM2poNlJXdlVfS0hCVmthWG5rSTFMcGc4N3Z5alBBcGlXRW5Md3dobTU5OUNBdGZDTXQxeVJHWkxfeVBsVDlUVXUxMkkxSFR3?oc=5",
+          "createdAt": "Sun, 07 Aug 2022 23:04:03 GMT"
         },
         {
-          "source": "Hacker News",
-          "title": "Ask HN: If you have a great product that people love, so what next?",
-          "query": "Korean startup automation",
-          "url": "https://news.ycombinator.com/item?id=33607075",
-          "createdAt": "2022-11-15T09:28:11Z"
+          "source": "K-Startup",
+          "title": "홈페이지 새창열림 - K-Startup - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xR3E0c1BMUVBWdlJCd0JuLVllN19POXVNRDhiTlBuTEV3OTA1LXAycXJBTDN5MHBRZ21CTDVYVmJKMVVlYzdpQ2Vpd2w0T2ZiTXZwUVpCdHV0N2tYOWVvVlNJTDZNMzUwYnc?oc=5",
+          "createdAt": "Fri, 27 Sep 2024 19:55:47 GMT"
         },
         {
-          "source": "Hacker News",
-          "title": "Launch HN: Axiom (YC W21) – No-code browser automation a.k.a. RPA for everyone",
-          "query": "Korean startup automation",
-          "url": "https://news.ycombinator.com/item?id=26327717",
-          "createdAt": "2021-03-03T12:58:02Z"
+          "source": "K-Startup",
+          "title": "K-Startup 창업지원포털 - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1QV1BOTENXNU9EUldfdm9BelNMSXR6eTM1RTRhemgxWVk3LWxpcnNYa0FQUnAzUTFqNDBub1ljUndCNGpEZ1E?oc=5",
+          "createdAt": "Thu, 17 Oct 2024 07:52:12 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "Wendy-Nam/hermes-agent-kit: Portable Hermes AI-agent template: LLM second-brain (Obsidian) + Korean job-search automation. Secrets scrubbed.",
-          "query": "korea ai automation created:>2026-06-01",
-          "url": "https://github.com/Wendy-Nam/hermes-agent-kit",
-          "createdAt": "2026-07-08T14:38:49Z"
+          "source": "K-Startup",
+          "title": "스타트업 원스톱 지원센터 - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YeS1iMXJLWEdZWWZ1RjF4bUVKMGZJWlQyR2dGRWpWTTE2bndMbmN0ZDJBTDJZdjZWSEdLLXZXTURMOHRaQ19pVHFIOA?oc=5",
+          "createdAt": "Thu, 26 Mar 2026 02:23:12 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "xmfldksl/kmcc-note: Monitoring bot that scrapes KMCC (Korea Media & Communications Commission) boards, summarizes posts with AI, and delivers them via email and Notion",
-          "query": "korea ai automation created:>2026-06-01",
-          "url": "https://github.com/xmfldksl/kmcc-note",
-          "createdAt": "2026-06-10T05:01:54Z"
+          "source": "K-Startup",
+          "title": "지원 사업 공고 정보 오픈 API 조회 - nidview.k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEZSalZTdC12VnMxY3YxYktLbUV3Q20wdG95Q0pEOGIyZ1ZLckFYSW9xUXBHR3MtN0JDR002NWFmWGJKZ1lzLXF4dUNPeHc0V3RJVUFpRHlaNU1ZOUoyeEdDWjhaX2Y3anpTaVVMb2NmSnRxWGxsZkFiTXk2T1p6dm1QX2tKWUpNSTVMeUc5MmExUQ?oc=5",
+          "createdAt": "Mon, 08 Jan 2024 00:51:45 GMT"
         }
       ]
     },
     {
       "name": "한국 규제·세금 변경 알림 서비스",
-      "score": 69,
-      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 12개, 공공신호 0개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
+      "score": 100,
+      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 54개, 공공신호 22개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
       "target": "자영업자, 프리랜서, 작은 법인",
       "product": "세금/노무/규정 변경 알림 + 체크리스트",
       "evidence": [
         {
-          "source": "GitHub Search",
-          "title": "AmineMekki01/agentic-company-platform: Building an agentic platform designed for companies to seamlessly integrate into their existing systems. It will feature pre-built agents for HR, IT support, compliance, legal, and more, along with process automation, advanced search capabilities, and robust context engineering.",
-          "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/AmineMekki01/agentic-company-platform",
-          "createdAt": "2026-06-10T11:23:21Z"
+          "source": "고용노동부/노무",
+          "title": "고용노동부 - 고용노동부",
+          "query": "site:moel.go.kr 자영업 노무 규정 변경",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA2U1FZOFpVY25OVWcxVDJmd2lUaXVUQlBsYnVsS0tLV29FcTFSalNCdE1GdXFtX245ZGVR?oc=5",
+          "createdAt": "Thu, 11 Apr 2013 14:45:01 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "RajvardhanS-Patil/EcoSphere-ESG-Management-Platform: EcoSphere is an AI-powered Enterprise ESG (Environmental, Social & Governance) Management Platform that transforms sustainability operations through real-time analytics, intelligent automation, interactive dashboards, gamification, compliance tracking, and an AI ESG Executive Advisor for data-driven decision-making.",
-          "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/RajvardhanS-Patil/EcoSphere-ESG-Management-Platform",
-          "createdAt": "2026-07-12T03:47:49Z"
+          "source": "고용노동부/노무",
+          "title": "민원제도 안내 - 노동포털",
+          "query": "site:moel.go.kr 자영업 노무 규정 변경",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hX21XbHJXazlZd0FsY19OVWRhYy1hQXcyV0RXNjFlNGZCaG5jdFUwdTNnbmdBOS1xdkt2RTlNX3VpeFhadjJGbDl5SC1kWHZaZ2hOUXZ2N2owcTFySDBIRE9R?oc=5",
+          "createdAt": "Mon, 06 Mar 2023 04:30:19 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "youngwolf2077-a11y/gmail-postmaster-tools-mcp: Access Gmail Postmaster Tools metrics and sender data directly within your MCP clients using local authentication.",
-          "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/youngwolf2077-a11y/gmail-postmaster-tools-mcp",
-          "createdAt": "2026-06-16T19:18:32Z"
+          "source": "고용노동부/노무",
+          "title": "플랫폼 기반 종사자(노무제공자) 고용보험 적용 설명자료 - 고용노동부",
+          "query": "site:moel.go.kr 자영업 노무 규정 변경",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLXk4T1FFemI1V244OG1naURVd3pPWHRMU0VHTm9ybVZ1Ym9VZFVTaHFqcEFJZ256TzdpUWZ4SW1yOHhwcTA2enZ6dnNaRUtXRWg3WFA2NnV3RUNGNnFuamlERW5mSndITS1mU3ZkMmpydFh0MS1jRHNCRVc4cXZGQXJ3UFlGeDdKTUJFUE82ODczcnF4ZjY5dm5SRTQ?oc=5",
+          "createdAt": "Sat, 01 Jan 2022 08:00:00 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "trickfrimpong-beep/GRC-Audit-Framework: A comprehensive Governance, Risk & Compliance (GRC) and IT Audit automation toolkit featuring risk scoring, control testing, compliance mapping (ISO 27001, SOC 2, GDPR), evidence collection, and interactive dashboards. Built for auditors and security professionals to streamline assessments and generate professional audit reports.",
-          "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/trickfrimpong-beep/GRC-Audit-Framework",
-          "createdAt": "2026-07-12T09:40:04Z"
+          "source": "고용노동부/노무",
+          "title": "플랫폼 노무제공자 고용보험 관련 주요 질의문답 - 고용노동부",
+          "query": "site:moel.go.kr 자영업 노무 규정 변경",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbUpzWHNxaUV2aW5fdklYN3lqZmlnQk9vRnNoclBYSlNLV0RJaUpuWnp4c2QyUFg0UVp6RVFBLUhpdFgtN05vY1lQV2lXRUlIRG9TX3JIS1J2blZ5bzhsTndPSjV3RVFySy1xQmpQRlc0N3psdTlrU0NTbHNRQU1HNmI0QW0ta2lSWE1vc2pTb3hFekpUOEkyWFpuNVc?oc=5",
+          "createdAt": "Sat, 01 Jan 2022 08:00:00 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "cognis-digital/auditrail: Tamper-evident audit-log aggregator with hash-chained attestation",
-          "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/cognis-digital/auditrail",
-          "createdAt": "2026-06-08T06:41:33Z"
+          "source": "고용노동부/노무",
+          "title": "- 고용노동부",
+          "query": "site:moel.go.kr 자영업 노무 규정 변경",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXNJb0U1dUxLbzQ3QlRGOVl0eXFnNFVVSFhyS09aWExBV09yTnZZdmVobVV2bm0tUzB3V01OcVVmenkyVUs3MTF1OUVQVUI1Q1pWRFZKUlBENWZ4MnRyV2dmSndIZ2V5TlBrMzRCU1hnTE56VFVqajZ0V2x4UzRndklIMmRfZlQ1a08xbjlPRGlJNjVESXhN?oc=5",
+          "createdAt": "Wed, 17 Jan 2024 00:57:10 GMT"
         },
         {
-          "source": "GitHub Search",
-          "title": "rahulmistry18/compliance-audit-data-automation:",
-          "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/rahulmistry18/compliance-audit-data-automation",
-          "createdAt": "2026-07-11T11:26:15Z"
+          "source": "고용노동부/노무",
+          "title": "고용보험 안내 - 고용노동부",
+          "query": "site:moel.go.kr 자영업 노무 규정 변경",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVEU1dVRLLTZOMmFkZFZLakRuQUdxeE9JM3NWcjYzMUJTZEFJejNReU1KUmNXck9aUWo1dE1Xenc1ZXVfUkJkZ19PajFETHFQR2RhSjNkNElyZWpUUmVxb3RBR2p2VTBkTHRybXRrRkwteVpHd2JQTWxiUXJSRi1MbVJOT2tJdjdMTUx4VUJtdGVQdERIdVdrbXd5NUpRWjF2NWFkQzF4T2M?oc=5",
+          "createdAt": "Tue, 06 Aug 2024 21:06:22 GMT"
+        }
+      ]
+    },
+    {
+      "name": "한국 요양원·시니어 케어 비교 엔진",
+      "score": 98,
+      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 21개, 공공신호 11개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
+      "target": "부모님 요양시설을 찾는 가족",
+      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
+      "evidence": [
+        {
+          "source": "공공데이터포털",
+          "title": "건강보험심사평가원_전국 병의원 및 약국 현황_20251231 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4NmxsT080S2FQVEowbXN4NDVmV3dnTzNzVm9UY1V1VWZNOGs4VXVnNEJJOWl0ejNrYjdIckxlWEJ2ZlVBOUJaLUNnc2VxVDBiblE0QTEzSXFkQ0JX?oc=5",
+          "createdAt": "Tue, 26 May 2020 08:05:11 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "국민건강보험공단_장기요양기관 시설별 상세조회 서비스 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fc2VIcVNOTE1OOUNwaWd1N3N1cktlNnZESEdwQzFQUEJtUEdUWEI2VHo3aGxLcWN5ZThyZTR6N1N2dlR6TG1CTkFueG5neE03ZzBxclB4Qkh1VVU?oc=5",
+          "createdAt": "Thu, 04 Jun 2020 19:26:15 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "건강보험심사평가원_ 요양기관개폐업정보조회서비스 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93YTBPS1pRazBaWlBnUEw0M2xFdmhITTlWQW4tNlVYYThMOWhzVURoS01fR0ZNYmtxVUVrN09HWE1OSmZsWnhHcDFGb1pWZjlfeGlqNC1oWUlhd3M?oc=5",
+          "createdAt": "Thu, 01 Jul 2021 05:30:39 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "[국민건강보험공단] 장기요양기관 검색 서비스외 1종 OPEN API 서비스 변경 안내 공지사항 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMmxDQlV5WEpkb3U0d2hIYzJ5UDQzaUpINjFOVG9nd0J6TVB5dFBlNjZNUEZtaHF4MWJzMFNKbklsR3JIUzFyTE1pT0tVYmdKWDRVcTlNcWI2WU0zSUk2VUZlSkdhTDJjSmxVRFBjZ0ZTUy1IMEUxOGZfd2swbUZaOW1n?oc=5",
+          "createdAt": "Mon, 10 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "건강보험심사평가원_약국정보서비스 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00TVVwYTlOcVd2VV9GWl9yd1Y4WTRRVjEtWVlRb3JwS2N5dDlfbnh4eUh4bkZ0cGtubWpuV1VuX21aVEloWFMxaXBvWnN3aHZFSldtblpMdUk2N1k?oc=5",
+          "createdAt": "Sun, 02 Aug 2020 13:15:29 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "건강보험심사평가원_요양기관 개설 현황_20251231 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oaXBVU3pMOVFLVUNqZHFlZkNSUGZOdUhzN3BQOHdfZWV1d2dHbTBqQTVnbGwxUDdBUlRJVUYycnYzM3BSMXZhZVhmTmJfS0NXQXkxMF9pQUZFQTlQeWNubDltUDlsNDRNTk9RNFE1N2pUYzFl?oc=5",
+          "createdAt": "Tue, 12 Jul 2022 02:50:47 GMT"
         }
       ]
     },
     {
       "name": "한국 로컬 서비스 리드 생성 사이트",
-      "score": 63,
-      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 2개, 공공신호 0개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
+      "score": 90,
+      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 7개, 공공신호 4개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
       "target": "지역 서비스업체와 고객",
       "product": "업종별 견적 요청 사이트 + 유료 리드 판매",
       "evidence": [
+        {
+          "source": "중소벤처기업부",
+          "title": "디지털 전환에 따른 지역 소상공인 대응 방안 - 중소벤처기업부",
+          "query": "site:mss.go.kr 소상공인 지원사업 디지털",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNTZCamZISUNsNW43RkVHRjhDR0cwajdZV3llVmxwWE82MkxEdE5HQmpuakRXWTlBaW96Q1lPLVRLN18wbVg3LU1VX2d6QjB3cEhMQ29RQjNfOGxfRUJ6MmluX1A1TEVqU05fdXpEZFkwSkE1LS1SenNXTHItemtWY3JLZjNQWjAxaTB6c3dRR0N6ZWY1UlhhWjB4MUd0MTdrcjlsdzBJV1Ata0tfbkkzQ2V6RVlvck9PUlhTUV9DVQ?oc=5",
+          "createdAt": "Mon, 22 Mar 2021 09:12:28 GMT"
+        },
+        {
+          "source": "중소벤처기업부",
+          "title": "지역 주도형 인공지능(AI) 대전환 사업 지원대상, ‘경남, 대구, 울산, 전남, 제주’ 최종 선정 - 중소벤처기업부",
+          "query": "site:mss.go.kr 중소기업 AI 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZXNSQW96TF81UXBTSng1Z2tuby1HRFNCZU5mcXpLNHpNVUV5NUR0SVNzdmZ0dm90Y0tnMXQzN3FvNkFybmQtU2RUOVF0VHNGY0dFRFpaUjBUcUxQbDZ2NmdZVzR5a2RKbUxuYzN5a0ZteUsyN1gwX2NCc0dhMU5aWjhmQkZDLVgtd0hISkI4OHo?oc=5",
+          "createdAt": "Wed, 01 Oct 2025 07:00:00 GMT"
+        },
+        {
+          "source": "소상공인시장진흥공단",
+          "title": "지역센터 번호 - 소상공인시장진흥공단 - 소상공인시장진흥공단",
+          "query": "site:semas.or.kr 소상공인 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxdnJNYlRPTklfN3BhUHppR3k5bUVQSThGUkx5N09mdjlmS2V0LVFZR0VlaElmUWg1clRvWkdEek1oWmpaWm9JU0o2aTRod0ZydEJCSzYwLTZIOXU2WGRxUVNtYkpBd1U?oc=5",
+          "createdAt": "Sat, 14 Apr 2018 04:59:09 GMT"
+        },
+        {
+          "source": "소상공인시장진흥공단",
+          "title": "대구경북지역본부 - 소상공인시장진흥공단 - 소상공인시장진흥공단",
+          "query": "site:semas.or.kr 소상공인 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zTXpOYzF3cS1FeFFtYk1MUjMzOUpWampPRklITm9OVFJaQXpnLU5JeVRzQWlGd254eWNoMGtPYjVoa0dja08wdC1RSy1sOXItRDVvTzZkeHRwalpIUmp2TmtEM1V4d3FoRVgzaHJIbV9mZEk?oc=5",
+          "createdAt": "Sat, 14 Apr 2018 14:22:52 GMT"
+        },
+        {
+          "source": "Google News KR",
+          "title": "부산지역 인구구조 변화가 자영업 생태계에 미치는 영향 분석 - KDI 경제교육",
+          "query": "한국 규제 변화 자영업",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1NZHhKSVU4cWFPamtUVTRuZW1BRlBFdkNPWWtfNDhfcjhlUGozZFlWVzNNYTdqV1ZhZDQwR0pBR1BMNHBJRXdTVG45TG03eGpzSGduWk1tN0ZZeUtmOERDLU5UUVJiWFo0bm84?oc=5",
+          "createdAt": "Tue, 24 Feb 2026 18:50:51 GMT"
+        },
         {
           "source": "Hacker News",
           "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
           "query": "AI agent startup",
           "url": "https://github.com/rowboatlabs/rowboat",
           "createdAt": "2026-07-07T16:10:44Z"
-        },
-        {
-          "source": "GitHub Search",
-          "title": "youngwolf2077-a11y/gmail-postmaster-tools-mcp: Access Gmail Postmaster Tools metrics and sender data directly within your MCP clients using local authentication.",
-          "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/youngwolf2077-a11y/gmail-postmaster-tools-mcp",
-          "createdAt": "2026-06-16T19:18:32Z"
         }
       ]
-    },
-    {
-      "name": "한국 정부지원금·보조금 Finder",
-      "score": 56,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 1개, 공공신호 0개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
-      "target": "소상공인, 스타트업, 중소기업",
-      "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
-      "evidence": [
-        {
-          "source": "Hacker News",
-          "title": "Ask HN: Building AI notetaker for immigrant founders. What am I missing?",
-          "query": "Korean startup automation",
-          "url": "https://news.ycombinator.com/item?id=43638474",
-          "createdAt": "2025-04-09T21:57:39Z"
-        }
-      ]
-    },
-    {
-      "name": "한국 요양원·시니어 케어 비교 엔진",
-      "score": 51,
-      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 0개, 공공신호 0개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
-      "target": "부모님 요양시설을 찾는 가족",
-      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
-      "evidence": []
     }
   ],
   "logs": [
-    "[2026-07-12T15:18:18.238Z] Korea public-data CEO engine started.",
-    "[2026-07-12T15:18:18.359Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-12T15:18:18.372Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-12T15:18:18.384Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-12T15:18:18.396Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-12T15:18:26.364Z] Public sector search failed: K-Startup — HTTP 503",
-    "[2026-07-12T15:18:26.928Z] Market news failed: 한국 소상공인 자동화 — HTTP 503",
-    "[2026-07-12T15:18:34.622Z] Public sector search failed: K-Startup — HTTP 503",
-    "[2026-07-12T15:18:35.326Z] Market news failed: 한국 중소기업 AI 도입 — HTTP 503",
-    "[2026-07-12T15:18:41.516Z] Public sector search failed: K-Startup — HTTP 503",
-    "[2026-07-12T15:18:43.120Z] Market news failed: 한국 요양원 비교 비용 — HTTP 503",
-    "[2026-07-12T15:18:47.565Z] Public sector search failed: 나라장터/조달 — HTTP 503",
-    "[2026-07-12T15:18:48.480Z] Market news failed: 한국 정부지원금 소상공인 — HTTP 503",
-    "[2026-07-12T15:18:54.112Z] Public sector search failed: 나라장터/조달 — HTTP 503",
-    "[2026-07-12T15:18:57.732Z] Market news failed: 한국 입찰 제안서 AI — HTTP 503",
-    "[2026-07-12T15:19:00.427Z] Public sector search failed: 나라장터/조달 — HTTP 503",
-    "[2026-07-12T15:19:05.885Z] Public sector search failed: 중소벤처기업부 — HTTP 503",
-    "[2026-07-12T15:19:06.345Z] Market news failed: 한국 세금 신고 자동화 — HTTP 503",
-    "[2026-07-12T15:19:11.531Z] Public sector search failed: 중소벤처기업부 — HTTP 503",
-    "[2026-07-12T15:19:13.166Z] Market news failed: 한국 규제 변화 자영업 — HTTP 503",
-    "[2026-07-12T15:19:16.683Z] Public sector search failed: 소상공인시장진흥공단 — HTTP 503",
-    "[2026-07-12T15:19:20.935Z] Market news failed: 한국 가격 비교 서비스 — HTTP 503",
-    "[2026-07-12T15:19:24.682Z] Public sector search failed: 공공데이터포털 — HTTP 503",
-    "[2026-07-12T15:19:28.511Z] Market news failed: 한국 병원 예약 자동화 — HTTP 503",
-    "[2026-07-12T15:19:32.818Z] Public sector search failed: 공공데이터포털 — HTTP 503",
-    "[2026-07-12T15:19:36.835Z] Market news failed: 한국 부동산 문서 자동화 — HTTP 503",
-    "[2026-07-12T15:19:38.382Z] Public sector search failed: 공공데이터포털 — HTTP 503",
-    "[2026-07-12T15:19:46.241Z] Public sector search failed: 고용노동부/노무 — HTTP 503",
-    "[2026-07-12T15:19:53.319Z] Public sector search failed: 국세청/세금 — HTTP 503",
-    "[2026-07-12T15:18:18.238Z] 73 total Korean-market signals collected.",
-    "[2026-07-12T15:18:18.238Z] 0 public-sector/government/procurement signals collected.",
-    "[2026-07-12T15:18:18.238Z] 2 public sources used.",
-    "[2026-07-12T15:18:18.238Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (88/100).",
-    "[2026-07-12T15:18:18.238Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-12T16:16:11.146Z] Korea public-data CEO engine started.",
+    "[2026-07-12T16:16:11.314Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-12T16:16:11.360Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-12T16:16:11.393Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-12T16:16:11.456Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-12T16:16:11.146Z] 291 total Korean-market signals collected.",
+    "[2026-07-12T16:16:11.146Z] 119 public-sector/government/procurement signals collected.",
+    "[2026-07-12T16:16:11.146Z] 10 public sources used.",
+    "[2026-07-12T16:16:11.146Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-07-12T16:16:11.146Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
