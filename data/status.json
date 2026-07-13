@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-13T13:04:23.560Z",
+  "lastRun": "2026-07-13T15:49:23.092Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -25,7 +25,7 @@
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 118개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260713130423",
+    "id": "EXP-20260713154923",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -293,8 +293,8 @@
     },
     {
       "name": "한국 로컬 서비스 리드 생성 사이트",
-      "score": 84,
-      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 7개, 공공신호 4개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
+      "score": 85,
+      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 8개, 공공신호 4개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
       "target": "지역 서비스업체와 고객",
       "product": "업종별 견적 요청 사이트 + 유료 리드 판매",
       "evidence": [
@@ -344,15 +344,15 @@
     }
   ],
   "logs": [
-    "[2026-07-13T13:04:23.560Z] Korea public-data CEO engine started.",
-    "[2026-07-13T13:04:23.694Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-13T13:04:23.709Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-13T13:04:23.725Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-13T13:04:23.737Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-13T13:04:23.560Z] 290 total Korean-market signals collected.",
-    "[2026-07-13T13:04:23.560Z] 118 public-sector/government/procurement signals collected.",
-    "[2026-07-13T13:04:23.560Z] 10 public sources used.",
-    "[2026-07-13T13:04:23.560Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-13T13:04:23.560Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-13T15:49:23.092Z] Korea public-data CEO engine started.",
+    "[2026-07-13T15:49:23.201Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-13T15:49:23.217Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-13T15:49:23.233Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-13T15:49:23.245Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-13T15:49:23.092Z] 290 total Korean-market signals collected.",
+    "[2026-07-13T15:49:23.092Z] 118 public-sector/government/procurement signals collected.",
+    "[2026-07-13T15:49:23.092Z] 10 public sources used.",
+    "[2026-07-13T15:49:23.092Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-07-13T15:49:23.092Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
