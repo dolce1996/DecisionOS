@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-16T19:33:12.505Z",
+  "lastRun": "2026-07-16T20:30:33.270Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,7 +10,7 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 293,
+    "liveSignals": 292,
     "publicSignals": 121,
     "sources": 10,
     "opportunitiesScored": 6,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 293개, 공공/정부/조달 신호 121개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 292개, 공공/정부/조달 신호 121개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 121개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260716193312",
+    "id": "EXP-20260716203033",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -90,7 +90,7 @@
     {
       "name": "한국 정부지원금·보조금 Finder",
       "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 50개, 공공신호 37개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 49개, 공공신호 37개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
       "evidence": [
@@ -141,7 +141,7 @@
     {
       "name": "한국 소상공인 업무 자동화 Finder",
       "score": 100,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 143개, 공공신호 61개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 141개, 공공신호 61개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
@@ -344,15 +344,15 @@
     }
   ],
   "logs": [
-    "[2026-07-16T19:33:12.505Z] Korea public-data CEO engine started.",
-    "[2026-07-16T19:33:12.641Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-16T19:33:12.699Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-16T19:33:12.749Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-16T19:33:12.796Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-16T19:33:12.505Z] 293 total Korean-market signals collected.",
-    "[2026-07-16T19:33:12.505Z] 121 public-sector/government/procurement signals collected.",
-    "[2026-07-16T19:33:12.505Z] 10 public sources used.",
-    "[2026-07-16T19:33:12.505Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-16T19:33:12.505Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-16T20:30:33.270Z] Korea public-data CEO engine started.",
+    "[2026-07-16T20:30:33.451Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-16T20:30:33.475Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-16T20:30:33.503Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-16T20:30:33.541Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-16T20:30:33.270Z] 292 total Korean-market signals collected.",
+    "[2026-07-16T20:30:33.270Z] 121 public-sector/government/procurement signals collected.",
+    "[2026-07-16T20:30:33.270Z] 10 public sources used.",
+    "[2026-07-16T20:30:33.270Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-07-16T20:30:33.270Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
