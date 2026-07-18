@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-18T21:11:03.232Z",
+  "lastRun": "2026-07-18T22:07:31.825Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,7 +10,7 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 281,
+    "liveSignals": 291,
     "publicSignals": 119,
     "sources": 10,
     "opportunitiesScored": 6,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 281개, 공공/정부/조달 신호 119개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 291개, 공공/정부/조달 신호 119개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 119개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260718211103",
+    "id": "EXP-20260718220731",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -39,7 +39,7 @@
     {
       "name": "한국 입찰·제안서 AI 작성 도구",
       "score": 100,
-      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 62개, 공공신호 40개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
+      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 72개, 공공신호 40개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
       "target": "입찰 참여 중소기업, SI 업체, 용역 회사",
       "product": "입찰 공고 요약 + 제안서 초안 + 제출 체크리스트",
       "evidence": [
@@ -139,9 +139,60 @@
       ]
     },
     {
+      "name": "한국 요양원·시니어 케어 비교 엔진",
+      "score": 100,
+      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 22개, 공공신호 11개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
+      "target": "부모님 요양시설을 찾는 가족",
+      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
+      "evidence": [
+        {
+          "source": "공공데이터포털",
+          "title": "CareMate - 전국요양기관찾기 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxNWk54U0lYUzhWQ21UT1JHenpPYXA3bzMxdjdTaGk3bkNpbTZ6R3pySElzbE1FeDg5TG9KZlRDMGw4QVMtUWZKcV9vbkR2MnhVT2lQLW1DWFhSa3p3YXl2NV84Rk1GTUNKMUg3dkltYjJPWk1GYVNaNW9ic0RWMHpXd1luZ3dMVVNrMG9rR28zYVhkQnhCVVQzMmE5MDZVUzlXOXZIdUl4dkRmNXRNX3k3amtDM1RMYnZPQm9zQlRhZjRMeU9sSTY3b01WSXFXVldPSE1SN0lLSkptS013bEM5ZV9uMlowYjRQSS1pc21zQnQxMkMzNmo0T1hEek9rUTRSUVZwVDNvRnM4bDhMSXV0a3c1OV9LSVZjTnB4cml6MVo1dGhQQzAwUnlmSndxVFJkVFRBbkx6b09RV2M3bEVmaDR4ejRxa1NQdU1XNjdkcVFGYmdGYWdKU2NLS09EMXNXdms3NVNPRGUzTkswVnVMeS1KcEo4bjhmdTVkSExVM01Jbmx0NmFlOWNocTJCbWNLdFZvUTlqNFM5TVBDajNYWHdaX0JKRzM3bWtMYWZINjZJT2luTnRMelBxMExOWEVSalBOazFQWlBLa3hHUk9aNEY3N04tbTdHdVJFQkF3Y2l0V2lnSC1XQWJld1h6eVVOOHJWbWxnN2JoQ3IzNGJzTGN1WGs2UWVWdG16ZkNDX08xRUxtS3VueFFMenpfODRKZENHbWw0ZXd3elF3WE1jTlA0eWxXb3Z2UHAtM3BlUlJ6SU9NM3JubmtKR1JIRWM0T09qdmkxOWR3UHBBbTJRQTM3enNwbmQ1d19FZnRJODRGMGxRZnpENVRJU3dKMkRzTkZoWmZOZ2JMakJoanc?oc=5",
+          "createdAt": "Tue, 14 Jul 2026 03:07:10 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "건강보험심사평가원_전국 병의원 및 약국 현황_20251231 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4NmxsT080S2FQVEowbXN4NDVmV3dnTzNzVm9UY1V1VWZNOGs4VXVnNEJJOWl0ejNrYjdIckxlWEJ2ZlVBOUJaLUNnc2VxVDBiblE0QTEzSXFkQ0JX?oc=5",
+          "createdAt": "Tue, 26 May 2020 08:05:11 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "국민건강보험공단_장기요양기관 시설별 상세조회 서비스 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fc2VIcVNOTE1OOUNwaWd1N3N1cktlNnZESEdwQzFQUEJtUEdUWEI2VHo3aGxLcWN5ZThyZTR6N1N2dlR6TG1CTkFueG5neE03ZzBxclB4Qkh1VVU?oc=5",
+          "createdAt": "Thu, 04 Jun 2020 19:26:15 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "[국민건강보험공단] 장기요양기관 검색 서비스외 1종 OPEN API 서비스 변경 안내 공지사항 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMmxDQlV5WEpkb3U0d2hIYzJ5UDQzaUpINjFOVG9nd0J6TVB5dFBlNjZNUEZtaHF4MWJzMFNKbklsR3JIUzFyTE1pT0tVYmdKWDRVcTlNcWI2WU0zSUk2VUZlSkdhTDJjSmxVRFBjZ0ZTUy1IMEUxOGZfd2swbUZaOW1n?oc=5",
+          "createdAt": "Mon, 10 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "건강보험심사평가원_약국정보서비스 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00TVVwYTlOcVd2VV9GWl9yd1Y4WTRRVjEtWVlRb3JwS2N5dDlfbnh4eUh4bkZ0cGtubWpuV1VuX21aVEloWFMxaXBvWnN3aHZFSldtblpMdUk2N1k?oc=5",
+          "createdAt": "Sun, 02 Aug 2020 13:15:29 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "[건강보험심사평가원] 요양기관개폐업정보조회서비스 외 OPEN API 서비스 변경 안내 공지사항 - 공공데이터포털",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSDZOcWFSdFNCY0FoRnU3RmNsR1daNDZxdlJkRkxhWWROZl9LVnBJWWNmZUVNT3NxM0JiV0lhdjBfV0kyMk5WX2RBZE5saFdZVjd2U1lRQjNhZUprY19wVlc5ZHFVcm1OQ2JWdWpsV2wyXzBvcWVWMlJzRjNjLW1nVjZR?oc=5",
+          "createdAt": "Fri, 06 Jun 2025 12:02:22 GMT"
+        }
+      ]
+    },
+    {
       "name": "한국 소상공인 업무 자동화 Finder",
       "score": 100,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 140개, 공공신호 60개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 142개, 공공신호 60개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
@@ -241,57 +292,6 @@
       ]
     },
     {
-      "name": "한국 요양원·시니어 케어 비교 엔진",
-      "score": 98,
-      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 21개, 공공신호 11개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
-      "target": "부모님 요양시설을 찾는 가족",
-      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
-      "evidence": [
-        {
-          "source": "공공데이터포털",
-          "title": "CareMate - 전국요양기관찾기 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxNWk54U0lYUzhWQ21UT1JHenpPYXA3bzMxdjdTaGk3bkNpbTZ6R3pySElzbE1FeDg5TG9KZlRDMGw4QVMtUWZKcV9vbkR2MnhVT2lQLW1DWFhSa3p3YXl2NV84Rk1GTUNKMUg3dkltYjJPWk1GYVNaNW9ic0RWMHpXd1luZ3dMVVNrMG9rR28zYVhkQnhCVVQzMmE5MDZVUzlXOXZIdUl4dkRmNXRNX3k3amtDM1RMYnZPQm9zQlRhZjRMeU9sSTY3b01WSXFXVldPSE1SN0lLSkptS013bEM5ZV9uMlowYjRQSS1pc21zQnQxMkMzNmo0T1hEek9rUTRSUVZwVDNvRnM4bDhMSXV0a3c1OV9LSVZjTnB4cml6MVo1dGhQQzAwUnlmSndxVFJkVFRBbkx6b09RV2M3bEVmaDR4ejRxa1NQdU1XNjdkcVFGYmdGYWdKU2NLS09EMXNXdms3NVNPRGUzTkswVnVMeS1KcEo4bjhmdTVkSExVM01Jbmx0NmFlOWNocTJCbWNLdFZvUTlqNFM5TVBDajNYWHdaX0JKRzM3bWtMYWZINjZJT2luTnRMelBxMExOWEVSalBOazFQWlBLa3hHUk9aNEY3N04tbTdHdVJFQkF3Y2l0V2lnSC1XQWJld1h6eVVOOHJWbWxnN2JoQ3IzNGJzTGN1WGs2UWVWdG16ZkNDX08xRUxtS3VueFFMenpfODRKZENHbWw0ZXd3elF3WE1jTlA0eWxXb3Z2UHAtM3BlUlJ6SU9NM3JubmtKR1JIRWM0T09qdmkxOWR3UHBBbTJRQTM3enNwbmQ1d19FZnRJODRGMGxRZnpENVRJU3dKMkRzTkZoWmZOZ2JMakJoanc?oc=5",
-          "createdAt": "Tue, 14 Jul 2026 03:07:10 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "건강보험심사평가원_전국 병의원 및 약국 현황_20251231 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4NmxsT080S2FQVEowbXN4NDVmV3dnTzNzVm9UY1V1VWZNOGs4VXVnNEJJOWl0ejNrYjdIckxlWEJ2ZlVBOUJaLUNnc2VxVDBiblE0QTEzSXFkQ0JX?oc=5",
-          "createdAt": "Tue, 26 May 2020 08:05:11 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "국민건강보험공단_장기요양기관 시설별 상세조회 서비스 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fc2VIcVNOTE1OOUNwaWd1N3N1cktlNnZESEdwQzFQUEJtUEdUWEI2VHo3aGxLcWN5ZThyZTR6N1N2dlR6TG1CTkFueG5neE03ZzBxclB4Qkh1VVU?oc=5",
-          "createdAt": "Thu, 04 Jun 2020 19:26:15 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "[국민건강보험공단] 장기요양기관 검색 서비스외 1종 OPEN API 서비스 변경 안내 공지사항 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMmxDQlV5WEpkb3U0d2hIYzJ5UDQzaUpINjFOVG9nd0J6TVB5dFBlNjZNUEZtaHF4MWJzMFNKbklsR3JIUzFyTE1pT0tVYmdKWDRVcTlNcWI2WU0zSUk2VUZlSkdhTDJjSmxVRFBjZ0ZTUy1IMEUxOGZfd2swbUZaOW1n?oc=5",
-          "createdAt": "Mon, 10 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "건강보험심사평가원_약국정보서비스 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00TVVwYTlOcVd2VV9GWl9yd1Y4WTRRVjEtWVlRb3JwS2N5dDlfbnh4eUh4bkZ0cGtubWpuV1VuX21aVEloWFMxaXBvWnN3aHZFSldtblpMdUk2N1k?oc=5",
-          "createdAt": "Sun, 02 Aug 2020 13:15:29 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "[건강보험심사평가원] 요양기관개폐업정보조회서비스 외 OPEN API 서비스 변경 안내 공지사항 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSDZOcWFSdFNCY0FoRnU3RmNsR1daNDZxdlJkRkxhWWROZl9LVnBJWWNmZUVNT3NxM0JiV0lhdjBfV0kyMk5WX2RBZE5saFdZVjd2U1lRQjNhZUprY19wVlc5ZHFVcm1OQ2JWdWpsV2wyXzBvcWVWMlJzRjNjLW1nVjZR?oc=5",
-          "createdAt": "Fri, 06 Jun 2025 12:02:22 GMT"
-        }
-      ]
-    },
-    {
       "name": "한국 로컬 서비스 리드 생성 사이트",
       "score": 73,
       "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 4개, 공공신호 3개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
@@ -330,16 +330,15 @@
     }
   ],
   "logs": [
-    "[2026-07-18T21:11:03.232Z] Korea public-data CEO engine started.",
-    "[2026-07-18T21:11:03.371Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-18T21:11:03.398Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-18T21:11:03.413Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-18T21:11:03.425Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-18T21:11:04.431Z] GitHub failed: procurement ai created:>2026-06-01 — HTTP 403",
-    "[2026-07-18T21:11:03.232Z] 281 total Korean-market signals collected.",
-    "[2026-07-18T21:11:03.232Z] 119 public-sector/government/procurement signals collected.",
-    "[2026-07-18T21:11:03.232Z] 10 public sources used.",
-    "[2026-07-18T21:11:03.232Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-18T21:11:03.232Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-18T22:07:31.825Z] Korea public-data CEO engine started.",
+    "[2026-07-18T22:07:31.971Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-18T22:07:32.009Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-18T22:07:32.039Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-18T22:07:32.070Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-18T22:07:31.825Z] 291 total Korean-market signals collected.",
+    "[2026-07-18T22:07:31.825Z] 119 public-sector/government/procurement signals collected.",
+    "[2026-07-18T22:07:31.825Z] 10 public sources used.",
+    "[2026-07-18T22:07:31.825Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-07-18T22:07:31.825Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
