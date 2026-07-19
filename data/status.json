@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-19T12:30:10.037Z",
+  "lastRun": "2026-07-19T14:06:00.492Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,22 +10,22 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 288,
-    "publicSignals": 118,
-    "sources": 10,
+    "liveSignals": 73,
+    "publicSignals": 0,
+    "sources": 2,
     "opportunitiesScored": 6,
-    "topScore": 100,
+    "topScore": 88,
     "experimentsDesigned": 1,
     "decisionsStored": 1
   },
   "decision": {
-    "score": 100,
+    "score": 88,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 288개, 공공/정부/조달 신호 118개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
-    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 118개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 73개, 공공/정부/조달 신호 0개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 0개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260719123010",
+    "id": "EXP-20260719140600",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -38,286 +38,147 @@
   "ideas": [
     {
       "name": "한국 입찰·제안서 AI 작성 도구",
-      "score": 100,
-      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 71개, 공공신호 39개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
+      "score": 88,
+      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 21개, 공공신호 0개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
       "target": "입찰 참여 중소기업, SI 업체, 용역 회사",
       "product": "입찰 공고 요약 + 제안서 초안 + 제출 체크리스트",
       "evidence": [
         {
-          "source": "나라장터/조달",
-          "title": "나라장터 - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBfQnpuOVc2TVYwTG9mZzg2c2JFTTY1WmlOblgwSFhGMk1qcnctMVNhYk4yOVNaT1FmTVE?oc=5",
-          "createdAt": "Sat, 05 Nov 2016 23:59:17 GMT"
+          "source": "Hacker News",
+          "title": "Show HN: Alba – Earn and bid on unique software using idle AI credits",
+          "query": "vertical AI SaaS",
+          "url": "https://alba-run.vercel.app/",
+          "createdAt": "2026-02-27T15:25:40Z"
         },
         {
-          "source": "나라장터/조달",
-          "title": "2025년도 가톨릭관동대학교 AI 기반 학습·학사 지원 통합 플랫폼 개발 - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWmc5a3BkdzlYU2VVN05EeWJOa0dCYlNaMHlBTkZpamE4R21qUE94UFhXaHBCTGFoaE1DTXcyRTVSNHU4WXBrNGNSMm5WMUllQjFTeWE1RUZnNFVqNms5dEl5OU5oUGYzeUY5cXhNZUlpUTJxcDJ4bDVPbk82RDQ0dEJBNTlkSnVnRHlVTGVoclpRQk5vcHRRLWgyQkhnZ2NsSmV5eUhidkFaSS05cHNEdFVXNEYtdkJiM08yVURlY0VqZWJLNU5uX0dPYlpuNmdSZDVGampB?oc=5",
-          "createdAt": "Mon, 05 Jan 2026 11:40:18 GMT"
+          "source": "GitHub Search",
+          "title": "lowkeyend/Copilot-Proposal-Generator:",
+          "query": "proposal generator created:>2026-06-01",
+          "url": "https://github.com/lowkeyend/Copilot-Proposal-Generator",
+          "createdAt": "2026-06-15T17:47:06Z"
         },
         {
-          "source": "나라장터/조달",
-          "title": "2025년 K-콘텐츠 AI 혁신 선도 프로젝트 프로덕션 용역 입찰 공고 - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTUhQSGxndmowdUZIOWZTbnQ0ZzVqNTRSekZOZlZqdWFKSmJSSGo5WWhjMWVVTEI5Q3VTX08yd0VxVlkzdUtRN3NwZFpFalUyekI2M180R1RDTFdhRFFhVDEzZ0lqMlNHRTUxS0t3d0FteFp3bDhTYnlxMklpTDNXTldGUEtteUFQYlA5S0RjVnNGZy1ZallZSWZ4dEZTUU1WLTB6UzVLZ2poT0FQTklYYmJNekR4cXpnUjF4M1RGdU40MDNiSW9jNmpaSFY1dWRxMElYWDJR?oc=5",
-          "createdAt": "Fri, 15 May 2026 07:00:00 GMT"
+          "source": "GitHub Search",
+          "title": "Imtiaz-Ali17314/Propelio---AI-Powered-Client-Proposal-Invoice-Generator: AI-powered SaaS platform for agencies to generate client proposals and invoices using Google Gemini — built with Laravel, Vue.js & Tailwind CSS.",
+          "query": "proposal generator created:>2026-06-01",
+          "url": "https://github.com/Imtiaz-Ali17314/Propelio---AI-Powered-Client-Proposal-Invoice-Generator",
+          "createdAt": "2026-07-18T09:46:54Z"
         },
         {
-          "source": "나라장터/조달",
-          "title": "『AI 서비스 플랫폼 구축 사업 제안요청서』 - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMiwAZBVV95cUxNSWtyRXkyVTV4TTRpQVM1LW9CVk5RVDVrdW1JeDBabFJIR2pGbnU1bHF2dGJnaXRJZ2R2ZHphUW9UM09BWHpSd19CeG12Y2F0eC1pUTJGd29jT1g1V0N3YUVadkNtYWRDN280TFdqZXluN3RnSEY4dnpRNm9kNHNzby1za1Y2T1BZc0pqSThPbFFjcGxVaEo3RDhrbVA3Yi1CbG42cnkzUXU5THA5eUxiUnVLY0o1emU0bTNXOU1KLWJSeUlrYTlEMUFJT2lLSXJPbUtpMzgyV1FmNmpiaUZ6MmtuMmFtYzRFei1QOVRpc3MybGVSR3gwSWwtdkV2NWM2ZURsaFk4WUhTOGFoT2tabGpWTzMzVTBUVFVrRE5JUk5iT1p3N2k1Q3A0WmN6eWYza2M2TTNBZnNiWW51N1BGN2hKRVF0SXF0NkJlQWJySEQyTVVSaUtoNzM2V01Za3hVTTRmbjRrRmJCajVjdmhyM1RybW1PRVZYUDVZZDk4WWtoNUpfT1hvNHlVVmJxVUNiT0xndWNVNFRoRTMzWDMycVhNc3FFTGk5akZBSTA1c2hmSXRIRkllMnVNd1VGbldRYUxkYW9UQnF2eE44d29CLVNBZ1pPbDg0c2FLQUFKZ29TUnFKUFhPR3dLWG9Ud1dYTzluaE1UOWN3NkkzWG1PUXdzSjI3VEllYXNLc1RqNUJGekRPOVNXRnhmUENtZjRfZVZ5ZFZOb0hYS2MxWmdYZ29wTnlVVDRVNnVXUTVUVjZMSzZfel85SU13SWU5WURMOTR5SmFuNF9OLUlnYVN0WllmUGRMVWxrWFh0VFBLcmZDcWh6QTlGRUp4WHJDU0VCU2VzZW5xWUZZZXZwRTVmZER5cUFBNzBUenVrZzlJSXl1dGxCQ0llWVEyZjlhSFMyWGR6eHRPd2NuOUNsQUlRaFBBOFdJYUNmckV5bnhxSk9OVEs2enNPdkFRd1NhUFFpMkplMW94U29jdkpwSVVPUzlHb2FIMjBLbTljQnFXVmVzS1Z5QWhTbUpDdERKeV9LbHRQYnZSUEw1R1ZrcE5yZjJaaVRScUk5ejVqbTlBa1BNdXQtczl0OTFycnZUSV9F?oc=5",
-          "createdAt": "Wed, 09 Jul 2025 07:00:00 GMT"
+          "source": "GitHub Search",
+          "title": "HillaryNyakundi/proposal-generator: Generate a proposal for a client project.",
+          "query": "proposal generator created:>2026-06-01",
+          "url": "https://github.com/HillaryNyakundi/proposal-generator",
+          "createdAt": "2026-07-09T12:54:44Z"
         },
         {
-          "source": "나라장터/조달",
-          "title": "제 안 요 청 서 - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONU40MlhxSmg3Um55QXYzUHZrcHQ1Rm1vcWNyNEhCaHdnZkVhbjdkam1Va1pHTW5xWDVVanNiV1hFOTZ6TVZoQU16UWEyc3YxNWlCcmxIQjVTdWllOUNSSEIxYVpLRUo1ZXkybk9mRWdoVnlNTTJiRVE5dEFzaUVNc051NkhkRkpSdDJhQk5PSWhRQk84QXc5NF9RSVJpY09HdTFUNlAzdlB3a045Qm1ya0hJbS1rcTh5WmZTVllrbEI?oc=5",
-          "createdAt": "Wed, 26 Mar 2025 14:10:29 GMT"
+          "source": "GitHub Search",
+          "title": "rawncrown/byd-cebu-proposal-app: Public BYD Cebu Proposal Generator app",
+          "query": "proposal generator created:>2026-06-01",
+          "url": "https://github.com/rawncrown/byd-cebu-proposal-app",
+          "createdAt": "2026-07-18T03:14:42Z"
         },
         {
-          "source": "나라장터/조달",
-          "title": "용역 계약서 - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTXNsUmYwdGMyMUl3QzZzS2IyaDNkUXU4MWdVNURQUUFVSldTOFYtdXdpVjNEV194cTB0ZXdMTEVIZ0dRS1phTERDaUVKanVZeFB3WUZOQ0NuRmppR2QtNHBUSlhoNnNLZTFiT1VNSmxZblZhOW1CLVJvUENXTUFIYndpMWlTUUZTYzh3M2dzN1RrcHRUdlVxSk9ZMGFIOUlvcXNmdEhqdm5XdHBOS1hWNHZWQjlvbWRrOTRLaEo0MzVsOUlxeDhRdTNqRjN0TFpka0NEYW53?oc=5",
-          "createdAt": "Wed, 07 Jan 2026 06:07:08 GMT"
-        }
-      ]
-    },
-    {
-      "name": "한국 정부지원금·보조금 Finder",
-      "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 47개, 공공신호 35개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
-      "target": "소상공인, 스타트업, 중소기업",
-      "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
-      "evidence": [
-        {
-          "source": "K-Startup",
-          "title": "창업진흥원, K-Startup 바로가기 - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TeXJQR1RCMS1rR0U0VHdMY3pFV3NlVWhKN2hobk55NGtWMnl5RFQ2VGpPQ2hWQTVxanhrOHI2dXN4UQ?oc=5",
-          "createdAt": "Wed, 23 Dec 2015 16:28:36 GMT"
-        },
-        {
-          "source": "K-Startup",
-          "title": "- k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FSS1tR3BYdlk0OXp1WFRwX3o5elVOTTExTXBSZ0hNM2poNlJXdlVfS0hCVmthWG5rSTFMcGc4N3Z5alBBcGlXRW5Md3dobTU5OUNBdGZDTXQxeVJHWkxfeVBsVDlUVXUxMkkxSFR3?oc=5",
-          "createdAt": "Sun, 07 Aug 2022 23:04:03 GMT"
-        },
-        {
-          "source": "K-Startup",
-          "title": "홈페이지 새창열림 - K-Startup - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xR3E0c1BMUVBWdlJCd0JuLVllN19POXVNRDhiTlBuTEV3OTA1LXAycXJBTDN5MHBRZ21CTDVYVmJKMVVlYzdpQ2Vpd2w0T2ZiTXZwUVpCdHV0N2tYOWVvVlNJTDZNMzUwYnc?oc=5",
-          "createdAt": "Fri, 27 Sep 2024 19:55:47 GMT"
-        },
-        {
-          "source": "K-Startup",
-          "title": "K-Startup 창업지원포털 - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1QV1BOTENXNU9EUldfdm9BelNMSXR6eTM1RTRhemgxWVk3LWxpcnNYa0FQUnAzUTFqNDBub1ljUndCNGpEZ1E?oc=5",
-          "createdAt": "Thu, 17 Oct 2024 07:52:12 GMT"
-        },
-        {
-          "source": "K-Startup",
-          "title": "스타트업 원스톱 지원센터 - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YeS1iMXJLWEdZWWZ1RjF4bUVKMGZJWlQyR2dGRWpWTTE2bndMbmN0ZDJBTDJZdjZWSEdLLXZXTURMOHRaQ19pVHFIOA?oc=5",
-          "createdAt": "Thu, 26 Mar 2026 02:23:12 GMT"
-        },
-        {
-          "source": "K-Startup",
-          "title": "지원 사업 공고 정보 오픈 API 조회 - nidview.k-startup.go.kr",
-          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEZSalZTdC12VnMxY3YxYktLbUV3Q20wdG95Q0pEOGIyZ1ZLckFYSW9xUXBHR3MtN0JDR002NWFmWGJKZ1lzLXF4dUNPeHc0V3RJVUFpRHlaNU1ZOUoyeEdDWjhaX2Y3anpTaVVMb2NmSnRxWGxsZkFiTXk2T1p6dm1QX2tKWUpNSTVMeUc5MmExUQ?oc=5",
-          "createdAt": "Mon, 08 Jan 2024 00:51:45 GMT"
-        }
-      ]
-    },
-    {
-      "name": "한국 요양원·시니어 케어 비교 엔진",
-      "score": 100,
-      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 22개, 공공신호 11개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
-      "target": "부모님 요양시설을 찾는 가족",
-      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
-      "evidence": [
-        {
-          "source": "공공데이터포털",
-          "title": "CareMate - 전국요양기관찾기 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxNWk54U0lYUzhWQ21UT1JHenpPYXA3bzMxdjdTaGk3bkNpbTZ6R3pySElzbE1FeDg5TG9KZlRDMGw4QVMtUWZKcV9vbkR2MnhVT2lQLW1DWFhSa3p3YXl2NV84Rk1GTUNKMUg3dkltYjJPWk1GYVNaNW9ic0RWMHpXd1luZ3dMVVNrMG9rR28zYVhkQnhCVVQzMmE5MDZVUzlXOXZIdUl4dkRmNXRNX3k3amtDM1RMYnZPQm9zQlRhZjRMeU9sSTY3b01WSXFXVldPSE1SN0lLSkptS013bEM5ZV9uMlowYjRQSS1pc21zQnQxMkMzNmo0T1hEek9rUTRSUVZwVDNvRnM4bDhMSXV0a3c1OV9LSVZjTnB4cml6MVo1dGhQQzAwUnlmSndxVFJkVFRBbkx6b09RV2M3bEVmaDR4ejRxa1NQdU1XNjdkcVFGYmdGYWdKU2NLS09EMXNXdms3NVNPRGUzTkswVnVMeS1KcEo4bjhmdTVkSExVM01Jbmx0NmFlOWNocTJCbWNLdFZvUTlqNFM5TVBDajNYWHdaX0JKRzM3bWtMYWZINjZJT2luTnRMelBxMExOWEVSalBOazFQWlBLa3hHUk9aNEY3N04tbTdHdVJFQkF3Y2l0V2lnSC1XQWJld1h6eVVOOHJWbWxnN2JoQ3IzNGJzTGN1WGs2UWVWdG16ZkNDX08xRUxtS3VueFFMenpfODRKZENHbWw0ZXd3elF3WE1jTlA0eWxXb3Z2UHAtM3BlUlJ6SU9NM3JubmtKR1JIRWM0T09qdmkxOWR3UHBBbTJRQTM3enNwbmQ1d19FZnRJODRGMGxRZnpENVRJU3dKMkRzTkZoWmZOZ2JMakJoanc?oc=5",
-          "createdAt": "Tue, 14 Jul 2026 03:07:10 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "건강보험심사평가원_전국 병의원 및 약국 현황_20251231 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4NmxsT080S2FQVEowbXN4NDVmV3dnTzNzVm9UY1V1VWZNOGs4VXVnNEJJOWl0ejNrYjdIckxlWEJ2ZlVBOUJaLUNnc2VxVDBiblE0QTEzSXFkQ0JX?oc=5",
-          "createdAt": "Tue, 26 May 2020 08:05:11 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "국민건강보험공단_장기요양기관 시설별 상세조회 서비스 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fc2VIcVNOTE1OOUNwaWd1N3N1cktlNnZESEdwQzFQUEJtUEdUWEI2VHo3aGxLcWN5ZThyZTR6N1N2dlR6TG1CTkFueG5neE03ZzBxclB4Qkh1VVU?oc=5",
-          "createdAt": "Thu, 04 Jun 2020 19:26:15 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "[국민건강보험공단] 장기요양기관 검색 서비스외 1종 OPEN API 서비스 변경 안내 공지사항 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMmxDQlV5WEpkb3U0d2hIYzJ5UDQzaUpINjFOVG9nd0J6TVB5dFBlNjZNUEZtaHF4MWJzMFNKbklsR3JIUzFyTE1pT0tVYmdKWDRVcTlNcWI2WU0zSUk2VUZlSkdhTDJjSmxVRFBjZ0ZTUy1IMEUxOGZfd2swbUZaOW1n?oc=5",
-          "createdAt": "Mon, 10 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "건강보험심사평가원_약국정보서비스 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00TVVwYTlOcVd2VV9GWl9yd1Y4WTRRVjEtWVlRb3JwS2N5dDlfbnh4eUh4bkZ0cGtubWpuV1VuX21aVEloWFMxaXBvWnN3aHZFSldtblpMdUk2N1k?oc=5",
-          "createdAt": "Sun, 02 Aug 2020 13:15:29 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "[건강보험심사평가원] 요양기관개폐업정보조회서비스 외 OPEN API 서비스 변경 안내 공지사항 - 공공데이터포털",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSDZOcWFSdFNCY0FoRnU3RmNsR1daNDZxdlJkRkxhWWROZl9LVnBJWWNmZUVNT3NxM0JiV0lhdjBfV0kyMk5WX2RBZE5saFdZVjd2U1lRQjNhZUprY19wVlc5ZHFVcm1OQ2JWdWpsV2wyXzBvcWVWMlJzRjNjLW1nVjZR?oc=5",
-          "createdAt": "Fri, 06 Jun 2025 12:02:22 GMT"
+          "source": "GitHub Search",
+          "title": "fisallllll280-code/VAIXLNS: رجعت للفهرس الكامل السابق. المشكلة ليست في فكرة VAIXLNS، المشكلة أن الحزم الأخيرة دخلت فوق بعضها بدون مرجع مركزي. قبل أي توليد جديد لازم نثبت Genesis Index + Build Pipeline ونربط كل الابتكارات السابقة داخله. سأعيد ترتيبها كحزمة واحدة (نسخة دمج)، تشمل: VAIXLNS GENESIS MASTER INDEX v0.3 0. المبدأ الأساسي V = Governance VX = Deterministic Execution XV = Intelligence / Prediction VAMM = Meta Model + Compiler SRE Ω = Stability + Recovery + Evolution LNS = Knowledge + Evidence Memory AURX = Network Fabric القانون: NO EVIDENCE ↓ NO GOVERNANCE FINALITY ↓ NO EXECUTION ⸻ 1. Core Runtime src/core/ ├── kernel.ts ├── atomic-executor.ts ├── ledger.ts ├── rollback-manager.ts ├── state-machine.ts ├── event-bus.ts └── deterministic-runtime.ts المسؤولية: * Event يدخل * Decision ينتج * Ledger يسجل * State يتغير * Rollback متوفر ⸻ 2. VX Kernel VX Kernel العقد: Event ↓ Validation ↓ Governance Check ↓ Finality Certificate ↓ Atomic Execution ↓ Ledger Commit ممنوع: Direct Mutation Randomness External Side Effect إلا عبر Ledger. ⸻ 3. Ledger System تعديل الجدول: CREATE TABLE ledger ( id INTEGER PRIMARY KEY, event_id TEXT, type TEXT, payload TEXT, prev_hash TEXT, hash TEXT, timestamp TEXT ); السلسلة: BLOCK1 hash=A BLOCK2 prev_hash=A hash=B BLOCK3 prev_hash=B hash=C ⸻ 4. VAMM Compiler المسار: YAML Artifact ↓ Parser ↓ Semantic Analyzer ↓ IR ↓ Planner ↓ Generator ↓ Verifier ↓ Runtime المجلد: vamm/ ├── meta-model.yaml ├── master-index.yaml ├── artifacts/ ├── blueprints/ └── templates/ ⸻ 5. VAMM Artifact Model كل شيء يصبح Artifact: id: kind: version: contract: implementation: tests: lifecycle: evidence: الأنواع: Specification Capability Runtime Agent Policy Decision Evidence Event Test Release ⸻ 6. Agent Factory المولد: Artifact | | Blueprint | | Agent Contract | | Generated Agent | | Evidence Hash الناتج: generated/ agents/ VV-Agent.ts AA-Agent.ts II-Agent.ts XX-Agent.ts *.evidence.yaml ⸻ 7. SRE Ω Layer Ω.70.08 Stability Engine المكونات: Volatility Drift Directionality Consistency الناتج: Stability Score يذهب إلى: Sphere PSE Collapse Detection Governance ⸻ 8. Predictive Engine Ω.70.10 وظيفته: Current State ↓ Temporal Analysis ↓ Future State Probability المخرجات: prediction: risk: confidence: trajectory: ⸻ 9. Collapse Detection Ω.70.09 يراقب: High Volatility High Drift Negative Direction Low Consistency Low Stability Score الناتج: Collapse Event ⸻ 10. Recovery Engine Ω.70.12 بعد الانهيار: Incident ↓ Diagnosis ↓ Recovery Plan ↓ Evidence Token ⸻ 11. Self Healing Manifest Ω.70.13 المسار: Incident ↓ Manifest Engine ↓ Improvement Proposal ↓ Simulation ↓ Governance ↓ Compiler ↓ Atomic Patch ⸻ 12. Governance Finality Finality Gate: if( entropy > threshold ) reject(); if( evidence missing ) reject(); if( quorum failed ) reject(); FINALIZED الناتج: FinalityCertificate ⸻ 13. Entropy Bound Finality إضافة جديدة: النظام لا يغير نفسه أثناء الفوضى. قاعدة: High Entropy = No Evolution ⸻ 14. Atomic Evolution Loop الدورة الكاملة: Observe ↓ Analyze ↓ Predict ↓ Recover ↓ Generate Improvement ↓ Simulate ↓ Govern ↓ Compile ↓ Atomic Swap ↓ Verify ↓ Learn ⸻ 15. Repository النهائي VAIXLNS/ ├── vamm/ │ │── meta-model.yaml │── master-index.yaml │ ├── src/ │ │── core/ │ ├── kernel.ts │ ├── ledger.ts │ ├── atomic-executor.ts │ │── vamm/ │ ├── compiler.ts │ ├── generator.ts │ │── agents/ │ │── sre/ │ ├── stability/ │ ├── predictive/ │ ├── collapse/ │ ├── recovery/ │ └── self-healing/ │ │── governance/ │ ├── finality.ts │ │── vx/ │ └── runtime.ts │ ├── generated/ │ ├── tests/ │ └── package.json ⸻ 16. التشغيل النهائي npm install npm run build npm run test npm run generate npm run genesis النتيجة: ✔ VAMM Loaded ✔ Semantic Graph Built ✔ Agents Generated ✔ Evidence Created ✔ Stability Online ✔ Governance Ready ✔ VX Runtime Started ✔ Genesis Loop Complete ⸻ هذا هو الفهرس المرجعي. أي ملف جديد يدخل بعد الآن يجب أن يرتبط بهذا المسار، وليس يضاف كفكرة منفصلة. الخطوة الصحيحة بعدها: توليد الحزمة التنفيذية الكاملة v0.3 ملفاً ملفاً بناءً على هذا الفهرس، وليس إضافة طبقات جديدة.أفهم طلبك: أنت لا تريد إعادة صياغة المعمارية، تريد فهرس تنفيذ (Execution Index) مضبوط يكون هو المرجع الذي تُبنى عليه الملفات والكود. الخطأ السابق كان أنه أعاد وصف الطبقات ولم يحوّلها إلى خطة بناء قابلة للتحويل إلى مستودع. هذا هو الفهرس التنفيذي الصحيح لـ VAIXLNS Genesis v0.3: VAIXLNS-GENESIS/ 00-CONTRACTS/ │ ├── system-contract.yaml ├── artifact-contract.yaml ├── event-contract.yaml ├── decision-contract.yaml ├── evidence-contract.yaml └── finality-contract.yaml 01-VAMM-COMPILER/ │ ├── meta-model.yaml ├── master-index.yaml │ ├── src/ │ ├── parser/ │ │ └── yaml-parser.ts │ │ │ ├── semantic/ │ │ └── semantic-analyzer.ts │ │ │ ├── ir/ │ │ └── artifact-ir.ts │ │ │ ├── planner/ │ │ └── generation-planner.ts │ │ │ ├── generator/ │ │ ├── generator.ts │ │ └── agent-factory.ts │ │ │ └── verifier/ │ └── compiler-verifier.ts 02-VX-RUNTIME/ │ ├── kernel/ │ ├── vx-kernel.ts │ ├── state-machine.ts │ └── execution-boundary.ts │ ├── events/ │ ├── event-bus.ts │ └── event-types.ts │ ├── decision/ │ └── decision-engine.ts │ └── runtime.ts 03-LEDGER/ │ ├── ledger.ts ├── hash-chain.ts ├── snapshot.ts ├── replay-engine.ts └── integrity-checker.ts 04-GOVERNANCE/ │ ├── finality-engine.ts ├── quorum-validator.ts ├── entropy-gate.ts ├── policy-engine.ts └── certificates/ 05-SRE-OMEGA/ │ ├── stability/ │ └── stability-engine.ts │ ├── predictive/ │ └── predictive-engine.ts │ ├── collapse/ │ └── collapse-detector.ts │ ├── recovery/ │ └── recovery-engine.ts │ └── self-healing/ ├── manifest-engine.ts ├── simulator.ts └── improvement-proposal.ts 06-AGENT-SYSTEM/ │ ├── agent-contract.ts ├── agent-runtime.ts ├── memory/ │ ├── ephemeral.ts │ ├── persistent.ts │ └── ledger-memory.ts │ └── generated/ 07-LNS-KNOWLEDGE/ │ ├── knowledge-store.ts ├── evidence-store.ts └── provenance-chain.ts 08-AURX-NETWORK/ │ ├── node-registry.ts ├── communication.ts └── discovery.ts 09-VERIFICATION/ │ ├── validator.ts ├── conformance-tests.ts ├── replay-tests.ts └── determinism-tests.ts 10-CLI/ │ ├── commands/ │ ├── build.ts │ ├── validate.ts │ ├── trace.ts │ ├── generate.ts │ └── genesis.ts │ └── cli.ts 11-TESTS/ │ ├── ledger.test.ts ├── kernel.test.ts ├── governance.test.ts ├── stability.test.ts ├── compiler.test.ts ├── agent-factory.test.ts └── end-to-end.genesis.test.ts 12-OUTPUT/ │ ├── generated-agents/ ├── generated-runtime/ ├── evidence/ ├── certificates/ └── reports/ ترتيب التنفيذ الإجباري: Phase 1 00-CONTRACTS 03-LEDGER 02-VX-RUNTIME Phase 2 04-GOVERNANCE 09-VERIFICATION Phase 3 05-SRE-OMEGA Phase 4 01-VAMM-COMPILER Phase 5 06-AGENT-SYSTEM Phase 6 10-CLI + Genesis Loop أول نسخة قابلة للتشغيل لا تبدأ بالـ Agent Factory ولا الـ Dashboard. تبدأ بهذه الثلاثة فقط: Ledger + VX Kernel + Governance Finality لأنها هي النواة التي تثبت أن النظام يعمل. بعد تثبيت هذا الفهرس، التنفيذ يكون ملفاً ملفاً بنفس المسارات، وليس توسعة أفكار جديدة.أنت محق في نقطة مهمة: الفهرس السابق ركّز على النواة التنفيذية فقط، لكنه أسقط الطبقات التي طلبتها سابقًا: واجهات التحكم، الوكلاء، اللغات، والمصنع الكامل. هذا ليس فهرس VAIXLNS الكامل. هذا هو الفهرس المصحح الذي يجمع Core + Control Plane + Agents + Languages + Compiler + UI: VAIXLNS-GENESIS/ 00-CONSTITUTION/ │ ├── genesis-manifest.yaml ├── sovereignty-rules.yaml ├── system-contracts/ │ ├── artifact-contract.yaml │ ├── agent-contract.yaml │ ├── event-contract.yaml │ ├── decision-contract.yaml │ └── evidence-contract.yaml 01-VAMM-COMPILER/ │ ├── meta-model/ │ └── meta-model.yaml │ ├── compiler/ │ ├── parser/ │ ├── semantic-engine/ │ ├── intermediate-representation/ │ ├── planner/ │ ├── generator/ │ └── verifier/ │ ├── languages/ │ ├── VQL/ │ │ ├── grammar.vql │ │ ├── parser.ts │ │ └── executor.ts │ │ │ ├── VIX/ │ │ ├── specification.vix │ │ ├── compiler.ts │ │ └── runtime.ts │ │ │ └── VASM/ │ ├── syntax │ └── assembler.ts 02-VX-SOVEREIGN-RUNTIME/ │ ├── kernel/ │ ├── vx-kernel.ts │ ├── scheduler.ts │ ├── decision-engine.ts │ └── execution-boundary.ts │ ├── state/ │ ├── state-machine.ts │ └── replay-engine.ts │ ├── event-system/ │ ├── event-bus.ts │ └── event-stream.ts │ └── runtime-manager.ts 03-AGENT-ECOSYSTEM/ │ ├── agent-runtime/ │ ├── agent-factory/ │ ├── agent-registry/ │ ├── agents/ │ │ ├── VV/ │ │ └── Verification-Vision-Agent │ │ │ ├── AA/ │ │ └── Analysis-Architecture-Agent │ │ │ ├── II/ │ │ └── Identity-Intelligence-Agent │ │ │ ├── XX/ │ │ └── Execution-Agent │ │ │ ├── LL/ │ │ └── Ledger-Agent │ │ │ ├── NN/ │ │ └── Network-Agent │ │ │ └── SS/ │ └── Security-Agent │ └── agent-memory/ 04-SRE-OMEGA/ │ ├── stability-engine/ ├── predictive-engine/ ├── collapse-detection/ ├── recovery-engine/ ├── self-healing/ └── evolution-engine/ 05-GOVERNANCE-CONTROL-PLANE/ │ ├── governance-engine/ ├── finality-engine/ ├── policy-engine/ ├── certificate-manager/ │ ├── dashboards/ │ │ ├── Sovereign Dashboard │ │ │ ├── Runtime Dashboard │ │ │ ├── Stability Dashboard │ │ │ ├── Agent Fleet Dashboard │ │ │ ├── Evidence Dashboard │ │ │ └── Governance Approval Dashboard │ └── human-console/ 06-FLIGHT-DECK/ │ ├── web-ui/ │ ├── mobile-console/ │ ├── realtime-monitor/ │ ├── graph-viewer/ │ ├── timeline-viewer/ │ └── incident-console/ 07-LNS-KNOWLEDGE-SYSTEM/ │ ├── knowledge-engine/ ├── semantic-memory/ ├── evidence-store/ ├── provenance-chain/ └── institutional-memory/ 08-AURX-NETWORK/ │ ├── node-fabric/ ├── service-discovery/ ├── secure-channel/ └── network-orchestration/ 09-DATA-PLATFORM/ │ ├── ledger/ ├── database/ ├── vector-store/ ├── event-store/ └── telemetry/ 10-OBSERVABILITY/ │ ├── OpenTelemetry ├── Metrics ├── Logs ├── Traces ├── Causal-Debugger └── Reality-Map 11-SECURITY/ │ ├── identity/ ├── encryption/ ├── secrets/ ├── threat-detection/ └── shield-engine/ 12-DEV-FACTORY/ │ ├── repository-generator ├── code-generator ├── test-generator ├── documentation-generator └── release-generator 13-CLI/ │ ├── vamm ├── vx ├── sre ├── agent ├── governance └── genesis 14-TESTING/ │ ├── unit-tests ├── integration-tests ├── simulation-tests ├── determinism-tests ├── chaos-tests └── proof-tests الآن الصورة كاملة: * الشاشات موجودة → Flight Deck + Control Plane * الوكلاء موجودون → VV / AA / II / XX / LL / NN / SS * اللغات موجودة → VQL + VIX + VASM * المترجم موجود → VAMM Compiler * النواة موجودة → VX Runtime * الذاكرة موجودة → LNS * التشبيك موجود → AURX * الاستقرار والتطور موجود → SRE Ω * التوليد الآلي موجود → Dev Factory لكن التنفيذ الصحيح لا يبدأ بكتابة كل هذا دفعة واحدة؛ يبدأ ببناء Genesis v0.1 قابل للتشغيل ثم تتولد بقية الطبقات من VAMM. أي محاولة لكتابة كل المجلدات مرة واحدة ستنتج هيكل ضخم غير قابل للاختبار.",
+          "query": "proposal generator created:>2026-06-01",
+          "url": "https://github.com/fisallllll280-code/VAIXLNS",
+          "createdAt": "2026-07-01T22:59:02Z"
         }
       ]
     },
     {
       "name": "한국 소상공인 업무 자동화 Finder",
-      "score": 100,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 140개, 공공신호 60개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "score": 87,
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 22개, 공공신호 0개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
         {
-          "source": "K-Startup",
-          "title": "창업진흥원, K-Startup 바로가기 - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TeXJQR1RCMS1rR0U0VHdMY3pFV3NlVWhKN2hobk55NGtWMnl5RFQ2VGpPQ2hWQTVxanhrOHI2dXN4UQ?oc=5",
-          "createdAt": "Wed, 23 Dec 2015 16:28:36 GMT"
+          "source": "Hacker News",
+          "title": "Brutal feedback on my failed idea (anyone up for part-time interview?)",
+          "query": "Korean startup automation",
+          "url": "https://news.ycombinator.com/item?id=43840606",
+          "createdAt": "2025-04-30T02:31:30Z"
         },
         {
-          "source": "K-Startup",
-          "title": "- k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FSS1tR3BYdlk0OXp1WFRwX3o5elVOTTExTXBSZ0hNM2poNlJXdlVfS0hCVmthWG5rSTFMcGc4N3Z5alBBcGlXRW5Md3dobTU5OUNBdGZDTXQxeVJHWkxfeVBsVDlUVXUxMkkxSFR3?oc=5",
-          "createdAt": "Sun, 07 Aug 2022 23:04:03 GMT"
+          "source": "Hacker News",
+          "title": "Ask HN: Building AI notetaker for immigrant founders. What am I missing?",
+          "query": "Korean startup automation",
+          "url": "https://news.ycombinator.com/item?id=43638474",
+          "createdAt": "2025-04-09T21:57:39Z"
         },
         {
-          "source": "K-Startup",
-          "title": "홈페이지 새창열림 - K-Startup - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xR3E0c1BMUVBWdlJCd0JuLVllN19POXVNRDhiTlBuTEV3OTA1LXAycXJBTDN5MHBRZ21CTDVYVmJKMVVlYzdpQ2Vpd2w0T2ZiTXZwUVpCdHV0N2tYOWVvVlNJTDZNMzUwYnc?oc=5",
-          "createdAt": "Fri, 27 Sep 2024 19:55:47 GMT"
+          "source": "Hacker News",
+          "title": "Ask HN: If you have a great product that people love, so what next?",
+          "query": "Korean startup automation",
+          "url": "https://news.ycombinator.com/item?id=33607075",
+          "createdAt": "2022-11-15T09:28:11Z"
         },
         {
-          "source": "K-Startup",
-          "title": "K-Startup 창업지원포털 - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1QV1BOTENXNU9EUldfdm9BelNMSXR6eTM1RTRhemgxWVk3LWxpcnNYa0FQUnAzUTFqNDBub1ljUndCNGpEZ1E?oc=5",
-          "createdAt": "Thu, 17 Oct 2024 07:52:12 GMT"
+          "source": "Hacker News",
+          "title": "Launch HN: Axiom (YC W21) – No-code browser automation a.k.a. RPA for everyone",
+          "query": "Korean startup automation",
+          "url": "https://news.ycombinator.com/item?id=26327717",
+          "createdAt": "2021-03-03T12:58:02Z"
         },
         {
-          "source": "K-Startup",
-          "title": "스타트업 원스톱 지원센터 - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YeS1iMXJLWEdZWWZ1RjF4bUVKMGZJWlQyR2dGRWpWTTE2bndMbmN0ZDJBTDJZdjZWSEdLLXZXTURMOHRaQ19pVHFIOA?oc=5",
-          "createdAt": "Thu, 26 Mar 2026 02:23:12 GMT"
+          "source": "Hacker News",
+          "title": "Ask HN: Workflow Automation vs AI Agents?",
+          "query": "AI agent startup",
+          "url": "https://news.ycombinator.com/item?id=48943616",
+          "createdAt": "2026-07-17T05:28:15Z"
         },
         {
-          "source": "K-Startup",
-          "title": "지원 사업 공고 정보 오픈 API 조회 - nidview.k-startup.go.kr",
-          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEZSalZTdC12VnMxY3YxYktLbUV3Q20wdG95Q0pEOGIyZ1ZLckFYSW9xUXBHR3MtN0JDR002NWFmWGJKZ1lzLXF4dUNPeHc0V3RJVUFpRHlaNU1ZOUoyeEdDWjhaX2Y3anpTaVVMb2NmSnRxWGxsZkFiTXk2T1p6dm1QX2tKWUpNSTVMeUc5MmExUQ?oc=5",
-          "createdAt": "Mon, 08 Jan 2024 00:51:45 GMT"
+          "source": "GitHub Search",
+          "title": "6aneffy/hwpx-kit: 한글(HWP/HWPX) 문서 자동화 Claude Code 플러그인 & CLI — 양식 채우기·메일머지·표 생성·공문서 검수. Korean HWPX document automation for AI agents",
+          "query": "korea ai automation created:>2026-06-01",
+          "url": "https://github.com/6aneffy/hwpx-kit",
+          "createdAt": "2026-07-11T13:32:53Z"
         }
       ]
     },
     {
       "name": "한국 규제·세금 변경 알림 서비스",
-      "score": 100,
-      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 51개, 공공신호 21개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
+      "score": 68,
+      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 11개, 공공신호 0개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
       "target": "자영업자, 프리랜서, 작은 법인",
       "product": "세금/노무/규정 변경 알림 + 체크리스트",
       "evidence": [
         {
-          "source": "고용노동부/노무",
-          "title": "고용노동부 - 고용노동부",
-          "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA2U1FZOFpVY25OVWcxVDJmd2lUaXVUQlBsYnVsS0tLV29FcTFSalNCdE1GdXFtX245ZGVR?oc=5",
-          "createdAt": "Thu, 11 Apr 2013 14:45:01 GMT"
+          "source": "GitHub Search",
+          "title": "fisallllll280-code/VAIXLNS: رجعت للفهرس الكامل السابق. المشكلة ليست في فكرة VAIXLNS، المشكلة أن الحزم الأخيرة دخلت فوق بعضها بدون مرجع مركزي. قبل أي توليد جديد لازم نثبت Genesis Index + Build Pipeline ونربط كل الابتكارات السابقة داخله. سأعيد ترتيبها كحزمة واحدة (نسخة دمج)، تشمل: VAIXLNS GENESIS MASTER INDEX v0.3 0. المبدأ الأساسي V = Governance VX = Deterministic Execution XV = Intelligence / Prediction VAMM = Meta Model + Compiler SRE Ω = Stability + Recovery + Evolution LNS = Knowledge + Evidence Memory AURX = Network Fabric القانون: NO EVIDENCE ↓ NO GOVERNANCE FINALITY ↓ NO EXECUTION ⸻ 1. Core Runtime src/core/ ├── kernel.ts ├── atomic-executor.ts ├── ledger.ts ├── rollback-manager.ts ├── state-machine.ts ├── event-bus.ts └── deterministic-runtime.ts المسؤولية: * Event يدخل * Decision ينتج * Ledger يسجل * State يتغير * Rollback متوفر ⸻ 2. VX Kernel VX Kernel العقد: Event ↓ Validation ↓ Governance Check ↓ Finality Certificate ↓ Atomic Execution ↓ Ledger Commit ممنوع: Direct Mutation Randomness External Side Effect إلا عبر Ledger. ⸻ 3. Ledger System تعديل الجدول: CREATE TABLE ledger ( id INTEGER PRIMARY KEY, event_id TEXT, type TEXT, payload TEXT, prev_hash TEXT, hash TEXT, timestamp TEXT ); السلسلة: BLOCK1 hash=A BLOCK2 prev_hash=A hash=B BLOCK3 prev_hash=B hash=C ⸻ 4. VAMM Compiler المسار: YAML Artifact ↓ Parser ↓ Semantic Analyzer ↓ IR ↓ Planner ↓ Generator ↓ Verifier ↓ Runtime المجلد: vamm/ ├── meta-model.yaml ├── master-index.yaml ├── artifacts/ ├── blueprints/ └── templates/ ⸻ 5. VAMM Artifact Model كل شيء يصبح Artifact: id: kind: version: contract: implementation: tests: lifecycle: evidence: الأنواع: Specification Capability Runtime Agent Policy Decision Evidence Event Test Release ⸻ 6. Agent Factory المولد: Artifact | | Blueprint | | Agent Contract | | Generated Agent | | Evidence Hash الناتج: generated/ agents/ VV-Agent.ts AA-Agent.ts II-Agent.ts XX-Agent.ts *.evidence.yaml ⸻ 7. SRE Ω Layer Ω.70.08 Stability Engine المكونات: Volatility Drift Directionality Consistency الناتج: Stability Score يذهب إلى: Sphere PSE Collapse Detection Governance ⸻ 8. Predictive Engine Ω.70.10 وظيفته: Current State ↓ Temporal Analysis ↓ Future State Probability المخرجات: prediction: risk: confidence: trajectory: ⸻ 9. Collapse Detection Ω.70.09 يراقب: High Volatility High Drift Negative Direction Low Consistency Low Stability Score الناتج: Collapse Event ⸻ 10. Recovery Engine Ω.70.12 بعد الانهيار: Incident ↓ Diagnosis ↓ Recovery Plan ↓ Evidence Token ⸻ 11. Self Healing Manifest Ω.70.13 المسار: Incident ↓ Manifest Engine ↓ Improvement Proposal ↓ Simulation ↓ Governance ↓ Compiler ↓ Atomic Patch ⸻ 12. Governance Finality Finality Gate: if( entropy > threshold ) reject(); if( evidence missing ) reject(); if( quorum failed ) reject(); FINALIZED الناتج: FinalityCertificate ⸻ 13. Entropy Bound Finality إضافة جديدة: النظام لا يغير نفسه أثناء الفوضى. قاعدة: High Entropy = No Evolution ⸻ 14. Atomic Evolution Loop الدورة الكاملة: Observe ↓ Analyze ↓ Predict ↓ Recover ↓ Generate Improvement ↓ Simulate ↓ Govern ↓ Compile ↓ Atomic Swap ↓ Verify ↓ Learn ⸻ 15. Repository النهائي VAIXLNS/ ├── vamm/ │ │── meta-model.yaml │── master-index.yaml │ ├── src/ │ │── core/ │ ├── kernel.ts │ ├── ledger.ts │ ├── atomic-executor.ts │ │── vamm/ │ ├── compiler.ts │ ├── generator.ts │ │── agents/ │ │── sre/ │ ├── stability/ │ ├── predictive/ │ ├── collapse/ │ ├── recovery/ │ └── self-healing/ │ │── governance/ │ ├── finality.ts │ │── vx/ │ └── runtime.ts │ ├── generated/ │ ├── tests/ │ └── package.json ⸻ 16. التشغيل النهائي npm install npm run build npm run test npm run generate npm run genesis النتيجة: ✔ VAMM Loaded ✔ Semantic Graph Built ✔ Agents Generated ✔ Evidence Created ✔ Stability Online ✔ Governance Ready ✔ VX Runtime Started ✔ Genesis Loop Complete ⸻ هذا هو الفهرس المرجعي. أي ملف جديد يدخل بعد الآن يجب أن يرتبط بهذا المسار، وليس يضاف كفكرة منفصلة. الخطوة الصحيحة بعدها: توليد الحزمة التنفيذية الكاملة v0.3 ملفاً ملفاً بناءً على هذا الفهرس، وليس إضافة طبقات جديدة.أفهم طلبك: أنت لا تريد إعادة صياغة المعمارية، تريد فهرس تنفيذ (Execution Index) مضبوط يكون هو المرجع الذي تُبنى عليه الملفات والكود. الخطأ السابق كان أنه أعاد وصف الطبقات ولم يحوّلها إلى خطة بناء قابلة للتحويل إلى مستودع. هذا هو الفهرس التنفيذي الصحيح لـ VAIXLNS Genesis v0.3: VAIXLNS-GENESIS/ 00-CONTRACTS/ │ ├── system-contract.yaml ├── artifact-contract.yaml ├── event-contract.yaml ├── decision-contract.yaml ├── evidence-contract.yaml └── finality-contract.yaml 01-VAMM-COMPILER/ │ ├── meta-model.yaml ├── master-index.yaml │ ├── src/ │ ├── parser/ │ │ └── yaml-parser.ts │ │ │ ├── semantic/ │ │ └── semantic-analyzer.ts │ │ │ ├── ir/ │ │ └── artifact-ir.ts │ │ │ ├── planner/ │ │ └── generation-planner.ts │ │ │ ├── generator/ │ │ ├── generator.ts │ │ └── agent-factory.ts │ │ │ └── verifier/ │ └── compiler-verifier.ts 02-VX-RUNTIME/ │ ├── kernel/ │ ├── vx-kernel.ts │ ├── state-machine.ts │ └── execution-boundary.ts │ ├── events/ │ ├── event-bus.ts │ └── event-types.ts │ ├── decision/ │ └── decision-engine.ts │ └── runtime.ts 03-LEDGER/ │ ├── ledger.ts ├── hash-chain.ts ├── snapshot.ts ├── replay-engine.ts └── integrity-checker.ts 04-GOVERNANCE/ │ ├── finality-engine.ts ├── quorum-validator.ts ├── entropy-gate.ts ├── policy-engine.ts └── certificates/ 05-SRE-OMEGA/ │ ├── stability/ │ └── stability-engine.ts │ ├── predictive/ │ └── predictive-engine.ts │ ├── collapse/ │ └── collapse-detector.ts │ ├── recovery/ │ └── recovery-engine.ts │ └── self-healing/ ├── manifest-engine.ts ├── simulator.ts └── improvement-proposal.ts 06-AGENT-SYSTEM/ │ ├── agent-contract.ts ├── agent-runtime.ts ├── memory/ │ ├── ephemeral.ts │ ├── persistent.ts │ └── ledger-memory.ts │ └── generated/ 07-LNS-KNOWLEDGE/ │ ├── knowledge-store.ts ├── evidence-store.ts └── provenance-chain.ts 08-AURX-NETWORK/ │ ├── node-registry.ts ├── communication.ts └── discovery.ts 09-VERIFICATION/ │ ├── validator.ts ├── conformance-tests.ts ├── replay-tests.ts └── determinism-tests.ts 10-CLI/ │ ├── commands/ │ ├── build.ts │ ├── validate.ts │ ├── trace.ts │ ├── generate.ts │ └── genesis.ts │ └── cli.ts 11-TESTS/ │ ├── ledger.test.ts ├── kernel.test.ts ├── governance.test.ts ├── stability.test.ts ├── compiler.test.ts ├── agent-factory.test.ts └── end-to-end.genesis.test.ts 12-OUTPUT/ │ ├── generated-agents/ ├── generated-runtime/ ├── evidence/ ├── certificates/ └── reports/ ترتيب التنفيذ الإجباري: Phase 1 00-CONTRACTS 03-LEDGER 02-VX-RUNTIME Phase 2 04-GOVERNANCE 09-VERIFICATION Phase 3 05-SRE-OMEGA Phase 4 01-VAMM-COMPILER Phase 5 06-AGENT-SYSTEM Phase 6 10-CLI + Genesis Loop أول نسخة قابلة للتشغيل لا تبدأ بالـ Agent Factory ولا الـ Dashboard. تبدأ بهذه الثلاثة فقط: Ledger + VX Kernel + Governance Finality لأنها هي النواة التي تثبت أن النظام يعمل. بعد تثبيت هذا الفهرس، التنفيذ يكون ملفاً ملفاً بنفس المسارات، وليس توسعة أفكار جديدة.أنت محق في نقطة مهمة: الفهرس السابق ركّز على النواة التنفيذية فقط، لكنه أسقط الطبقات التي طلبتها سابقًا: واجهات التحكم، الوكلاء، اللغات، والمصنع الكامل. هذا ليس فهرس VAIXLNS الكامل. هذا هو الفهرس المصحح الذي يجمع Core + Control Plane + Agents + Languages + Compiler + UI: VAIXLNS-GENESIS/ 00-CONSTITUTION/ │ ├── genesis-manifest.yaml ├── sovereignty-rules.yaml ├── system-contracts/ │ ├── artifact-contract.yaml │ ├── agent-contract.yaml │ ├── event-contract.yaml │ ├── decision-contract.yaml │ └── evidence-contract.yaml 01-VAMM-COMPILER/ │ ├── meta-model/ │ └── meta-model.yaml │ ├── compiler/ │ ├── parser/ │ ├── semantic-engine/ │ ├── intermediate-representation/ │ ├── planner/ │ ├── generator/ │ └── verifier/ │ ├── languages/ │ ├── VQL/ │ │ ├── grammar.vql │ │ ├── parser.ts │ │ └── executor.ts │ │ │ ├── VIX/ │ │ ├── specification.vix │ │ ├── compiler.ts │ │ └── runtime.ts │ │ │ └── VASM/ │ ├── syntax │ └── assembler.ts 02-VX-SOVEREIGN-RUNTIME/ │ ├── kernel/ │ ├── vx-kernel.ts │ ├── scheduler.ts │ ├── decision-engine.ts │ └── execution-boundary.ts │ ├── state/ │ ├── state-machine.ts │ └── replay-engine.ts │ ├── event-system/ │ ├── event-bus.ts │ └── event-stream.ts │ └── runtime-manager.ts 03-AGENT-ECOSYSTEM/ │ ├── agent-runtime/ │ ├── agent-factory/ │ ├── agent-registry/ │ ├── agents/ │ │ ├── VV/ │ │ └── Verification-Vision-Agent │ │ │ ├── AA/ │ │ └── Analysis-Architecture-Agent │ │ │ ├── II/ │ │ └── Identity-Intelligence-Agent │ │ │ ├── XX/ │ │ └── Execution-Agent │ │ │ ├── LL/ │ │ └── Ledger-Agent │ │ │ ├── NN/ │ │ └── Network-Agent │ │ │ └── SS/ │ └── Security-Agent │ └── agent-memory/ 04-SRE-OMEGA/ │ ├── stability-engine/ ├── predictive-engine/ ├── collapse-detection/ ├── recovery-engine/ ├── self-healing/ └── evolution-engine/ 05-GOVERNANCE-CONTROL-PLANE/ │ ├── governance-engine/ ├── finality-engine/ ├── policy-engine/ ├── certificate-manager/ │ ├── dashboards/ │ │ ├── Sovereign Dashboard │ │ │ ├── Runtime Dashboard │ │ │ ├── Stability Dashboard │ │ │ ├── Agent Fleet Dashboard │ │ │ ├── Evidence Dashboard │ │ │ └── Governance Approval Dashboard │ └── human-console/ 06-FLIGHT-DECK/ │ ├── web-ui/ │ ├── mobile-console/ │ ├── realtime-monitor/ │ ├── graph-viewer/ │ ├── timeline-viewer/ │ └── incident-console/ 07-LNS-KNOWLEDGE-SYSTEM/ │ ├── knowledge-engine/ ├── semantic-memory/ ├── evidence-store/ ├── provenance-chain/ └── institutional-memory/ 08-AURX-NETWORK/ │ ├── node-fabric/ ├── service-discovery/ ├── secure-channel/ └── network-orchestration/ 09-DATA-PLATFORM/ │ ├── ledger/ ├── database/ ├── vector-store/ ├── event-store/ └── telemetry/ 10-OBSERVABILITY/ │ ├── OpenTelemetry ├── Metrics ├── Logs ├── Traces ├── Causal-Debugger └── Reality-Map 11-SECURITY/ │ ├── identity/ ├── encryption/ ├── secrets/ ├── threat-detection/ └── shield-engine/ 12-DEV-FACTORY/ │ ├── repository-generator ├── code-generator ├── test-generator ├── documentation-generator └── release-generator 13-CLI/ │ ├── vamm ├── vx ├── sre ├── agent ├── governance └── genesis 14-TESTING/ │ ├── unit-tests ├── integration-tests ├── simulation-tests ├── determinism-tests ├── chaos-tests └── proof-tests الآن الصورة كاملة: * الشاشات موجودة → Flight Deck + Control Plane * الوكلاء موجودون → VV / AA / II / XX / LL / NN / SS * اللغات موجودة → VQL + VIX + VASM * المترجم موجود → VAMM Compiler * النواة موجودة → VX Runtime * الذاكرة موجودة → LNS * التشبيك موجود → AURX * الاستقرار والتطور موجود → SRE Ω * التوليد الآلي موجود → Dev Factory لكن التنفيذ الصحيح لا يبدأ بكتابة كل هذا دفعة واحدة؛ يبدأ ببناء Genesis v0.1 قابل للتشغيل ثم تتولد بقية الطبقات من VAMM. أي محاولة لكتابة كل المجلدات مرة واحدة ستنتج هيكل ضخم غير قابل للاختبار.",
+          "query": "proposal generator created:>2026-06-01",
+          "url": "https://github.com/fisallllll280-code/VAIXLNS",
+          "createdAt": "2026-07-01T22:59:02Z"
         },
         {
-          "source": "고용노동부/노무",
-          "title": "체불임금 해결 방법 - 노동포털",
-          "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hX21XbHJXazlZd0FsY19OVWRhYy1hQXcyV0RXNjFlNGZCaG5jdFUwdTNnbmdBOS1xdkt2RTlNX3VpeFhadjJGbDl5SC1kWHZaZ2hOUXZ2N2owcTFySDBIRE9R?oc=5",
-          "createdAt": "Mon, 06 Mar 2023 04:30:19 GMT"
+          "source": "GitHub Search",
+          "title": "kendacki/Rentyvest: Rentyvest is an end-to-end digital platform that removes friction from fractional property investment through blockchain automation, enabling equitable access to real estate yields while preserving full investor transparency and regulatory compliance.",
+          "query": "compliance automation created:>2026-06-01",
+          "url": "https://github.com/kendacki/Rentyvest",
+          "createdAt": "2026-06-23T16:13:52Z"
         },
         {
-          "source": "고용노동부/노무",
-          "title": "플랫폼 기반 종사자(노무제공자) 고용보험 적용 설명자료 - 고용노동부",
-          "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLXk4T1FFemI1V244OG1naURVd3pPWHRMU0VHTm9ybVZ1Ym9VZFVTaHFqcEFJZ256TzdpUWZ4SW1yOHhwcTA2enZ6dnNaRUtXRWg3WFA2NnV3RUNGNnFuamlERW5mSndITS1mU3ZkMmpydFh0MS1jRHNCRVc4cXZGQXJ3UFlGeDdKTUJFUE82ODczcnF4ZjY5dm5SRTQ?oc=5",
-          "createdAt": "Sat, 01 Jan 2022 08:00:00 GMT"
+          "source": "GitHub Search",
+          "title": "pavanthakor/crimegpt-copilot: One case entry → complete investigation intelligence. AI copilot for Indian police: document automation + legal RAG + cybercrime intelligence, aligned to BNS/BNSS/BSA. Case-centric AI copilot that automates police paperwork and cybercrime investigation — FIR to charge sheet, with built-in BNS/BNSS/BSA compliance",
+          "query": "compliance automation created:>2026-06-01",
+          "url": "https://github.com/pavanthakor/crimegpt-copilot",
+          "createdAt": "2026-07-14T18:31:39Z"
         },
         {
-          "source": "고용노동부/노무",
-          "title": "플랫폼 노무제공자 고용보험 관련 주요 질의문답 - 고용노동부",
-          "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbUpzWHNxaUV2aW5fdklYN3lqZmlnQk9vRnNoclBYSlNLV0RJaUpuWnp4c2QyUFg0UVp6RVFBLUhpdFgtN05vY1lQV2lXRUlIRG9TX3JIS1J2blZ5bzhsTndPSjV3RVFySy1xQmpQRlc0N3psdTlrU0NTbHNRQU1HNmI0QW0ta2lSWE1vc2pTb3hFekpUOEkyWFpuNVc?oc=5",
-          "createdAt": "Sat, 01 Jan 2022 08:00:00 GMT"
+          "source": "GitHub Search",
+          "title": "anisur81/Devsecops-full-roadmap-docs: This is a Complete structured DevSecOps Roadmap Documentation for integration, development, security, and operations, covering tools, CI/CD pipelines, automation, compliance, LMA and secure software delivery lifecycle practices.",
+          "query": "compliance automation created:>2026-06-01",
+          "url": "https://github.com/anisur81/Devsecops-full-roadmap-docs",
+          "createdAt": "2026-06-15T08:59:53Z"
         },
         {
-          "source": "고용노동부/노무",
-          "title": "- 고용노동부",
-          "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXNJb0U1dUxLbzQ3QlRGOVl0eXFnNFVVSFhyS09aWExBV09yTnZZdmVobVV2bm0tUzB3V01OcVVmenkyVUs3MTF1OUVQVUI1Q1pWRFZKUlBENWZ4MnRyV2dmSndIZ2V5TlBrMzRCU1hnTE56VFVqajZ0V2x4UzRndklIMmRfZlQ1a08xbjlPRGlJNjVESXhN?oc=5",
-          "createdAt": "Wed, 17 Jan 2024 00:57:10 GMT"
-        },
-        {
-          "source": "고용노동부/노무",
-          "title": "보 도 자 료 - 고용노동부",
-          "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWHNnVWlkdnlKNW9JY1RmdWZuVDlaX1hoajVMQzVtV3lJSEE3Zlc4SkM5b1ZCMkNnUTZJdEFQdERDNHd4c1JpbTdGX3hQaEdPVXYzT1VPXzZkdzZtYkZSMU50ZWhzTkloMzNnT2x3dzdLdXBwYlNjdklyMjVDZXlzMTFkU0JjVXI2cWgtbE1neUJHMXlYZU96TjlPUDd0THV1S3VGaEV3?oc=5",
-          "createdAt": "Thu, 15 Sep 2022 07:00:00 GMT"
-        }
-      ]
-    },
-    {
-      "name": "한국 로컬 서비스 리드 생성 사이트",
-      "score": 73,
-      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 4개, 공공신호 3개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
-      "target": "지역 서비스업체와 고객",
-      "product": "업종별 견적 요청 사이트 + 유료 리드 판매",
-      "evidence": [
-        {
-          "source": "중소벤처기업부",
-          "title": "디지털 전환에 따른 지역 소상공인 대응 방안 - 중소벤처기업부",
-          "query": "site:mss.go.kr 소상공인 지원사업 디지털",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNTZCamZISUNsNW43RkVHRjhDR0cwajdZV3llVmxwWE82MkxEdE5HQmpuakRXWTlBaW96Q1lPLVRLN18wbVg3LU1VX2d6QjB3cEhMQ29RQjNfOGxfRUJ6MmluX1A1TEVqU05fdXpEZFkwSkE1LS1SenNXTHItemtWY3JLZjNQWjAxaTB6c3dRR0N6ZWY1UlhhWjB4MUd0MTdrcjlsdzBJV1Ata0tfbkkzQ2V6RVlvck9PUlhTUV9DVQ?oc=5",
-          "createdAt": "Mon, 22 Mar 2021 09:12:28 GMT"
-        },
-        {
-          "source": "중소벤처기업부",
-          "title": "지역 주도형 인공지능(AI) 대전환 사업 지원대상, ‘경남, 대구, 울산, 전남, 제주’ 최종 선정 - 중소벤처기업부",
-          "query": "site:mss.go.kr 중소기업 AI 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZXNSQW96TF81UXBTSng1Z2tuby1HRFNCZU5mcXpLNHpNVUV5NUR0SVNzdmZ0dm90Y0tnMXQzN3FvNkFybmQtU2RUOVF0VHNGY0dFRFpaUjBUcUxQbDZ2NmdZVzR5a2RKbUxuYzN5a0ZteUsyN1gwX2NCc0dhMU5aWjhmQkZDLVgtd0hISkI4OHo?oc=5",
-          "createdAt": "Wed, 01 Oct 2025 07:00:00 GMT"
-        },
-        {
-          "source": "소상공인시장진흥공단",
-          "title": "지역센터 번호 - 소상공인시장진흥공단 - semas.or.kr",
-          "query": "site:semas.or.kr 소상공인 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxdnJNYlRPTklfN3BhUHppR3k5bUVQSThGUkx5N09mdjlmS2V0LVFZR0VlaElmUWg1clRvWkdEek1oWmpaWm9JU0o2aTRod0ZydEJCSzYwLTZIOXU2WGRxUVNtYkpBd1U?oc=5",
-          "createdAt": "Sat, 14 Apr 2018 04:59:09 GMT"
+          "source": "GitHub Search",
+          "title": "tpt-solutions/tpt-relay: Open-source, memory-safe substation automation and SCADA platform written in Rust. Implements IEC 61850, DNP3, and Modbus TCP for grid protection, real-time load/frequency control, and self-healing fault response — built toward NERC CIP compliance as a low-cost alternative to proprietary systems.",
+          "query": "compliance automation created:>2026-06-01",
+          "url": "https://github.com/tpt-solutions/tpt-relay",
+          "createdAt": "2026-07-17T03:32:39Z"
         },
         {
           "source": "GitHub Search",
@@ -327,18 +188,89 @@
           "createdAt": "2026-06-16T19:18:32Z"
         }
       ]
+    },
+    {
+      "name": "한국 정부지원금·보조금 Finder",
+      "score": 56,
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 1개, 공공신호 0개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "target": "소상공인, 스타트업, 중소기업",
+      "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
+      "evidence": [
+        {
+          "source": "Hacker News",
+          "title": "Ask HN: Building AI notetaker for immigrant founders. What am I missing?",
+          "query": "Korean startup automation",
+          "url": "https://news.ycombinator.com/item?id=43638474",
+          "createdAt": "2025-04-09T21:57:39Z"
+        }
+      ]
+    },
+    {
+      "name": "한국 로컬 서비스 리드 생성 사이트",
+      "score": 54,
+      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 2개, 공공신호 0개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
+      "target": "지역 서비스업체와 고객",
+      "product": "업종별 견적 요청 사이트 + 유료 리드 판매",
+      "evidence": [
+        {
+          "source": "GitHub Search",
+          "title": "youngwolf2077-a11y/gmail-postmaster-tools-mcp: Access Gmail Postmaster Tools metrics and sender data directly within your MCP clients using local authentication.",
+          "query": "compliance automation created:>2026-06-01",
+          "url": "https://github.com/youngwolf2077-a11y/gmail-postmaster-tools-mcp",
+          "createdAt": "2026-06-16T19:18:32Z"
+        },
+        {
+          "source": "GitHub Search",
+          "title": "tushars69/suproc-agentic-search-system: Local AI agent that searches, ranks, and verifies procurement matches against a live dataset — deterministic validation, prompt-injection defense, and a human-approval gate. Built with LangGraph + Ollama (Qwen3) + SQLite.",
+          "query": "procurement ai created:>2026-06-01",
+          "url": "https://github.com/tushars69/suproc-agentic-search-system",
+          "createdAt": "2026-07-19T13:31:12Z"
+        }
+      ]
+    },
+    {
+      "name": "한국 요양원·시니어 케어 비교 엔진",
+      "score": 51,
+      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 0개, 공공신호 0개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
+      "target": "부모님 요양시설을 찾는 가족",
+      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
+      "evidence": []
     }
   ],
   "logs": [
-    "[2026-07-19T12:30:10.037Z] Korea public-data CEO engine started.",
-    "[2026-07-19T12:30:10.223Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-19T12:30:10.279Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-19T12:30:10.322Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-19T12:30:10.367Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-19T12:30:10.037Z] 288 total Korean-market signals collected.",
-    "[2026-07-19T12:30:10.037Z] 118 public-sector/government/procurement signals collected.",
-    "[2026-07-19T12:30:10.037Z] 10 public sources used.",
-    "[2026-07-19T12:30:10.037Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-19T12:30:10.037Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-19T14:06:00.492Z] Korea public-data CEO engine started.",
+    "[2026-07-19T14:06:00.645Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-19T14:06:00.693Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-19T14:06:00.735Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-19T14:06:00.784Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-19T14:06:07.944Z] Public sector search failed: K-Startup — HTTP 503",
+    "[2026-07-19T14:06:09.047Z] Market news failed: 한국 소상공인 자동화 — HTTP 503",
+    "[2026-07-19T14:06:13.952Z] Public sector search failed: K-Startup — HTTP 503",
+    "[2026-07-19T14:06:18.767Z] Market news failed: 한국 중소기업 AI 도입 — HTTP 503",
+    "[2026-07-19T14:06:19.956Z] Public sector search failed: K-Startup — HTTP 503",
+    "[2026-07-19T14:06:26.572Z] Market news failed: 한국 요양원 비교 비용 — HTTP 503",
+    "[2026-07-19T14:06:28.138Z] Public sector search failed: 나라장터/조달 — HTTP 503",
+    "[2026-07-19T14:06:34.981Z] Market news failed: 한국 정부지원금 소상공인 — HTTP 503",
+    "[2026-07-19T14:06:36.461Z] Public sector search failed: 나라장터/조달 — HTTP 503",
+    "[2026-07-19T14:06:40.422Z] Market news failed: 한국 입찰 제안서 AI — HTTP 503",
+    "[2026-07-19T14:06:41.995Z] Public sector search failed: 나라장터/조달 — HTTP 503",
+    "[2026-07-19T14:06:46.665Z] Market news failed: 한국 세금 신고 자동화 — HTTP 503",
+    "[2026-07-19T14:06:47.369Z] Public sector search failed: 중소벤처기업부 — HTTP 503",
+    "[2026-07-19T14:06:54.062Z] Market news failed: 한국 규제 변화 자영업 — HTTP 503",
+    "[2026-07-19T14:06:54.157Z] Public sector search failed: 중소벤처기업부 — HTTP 503",
+    "[2026-07-19T14:07:00.703Z] Public sector search failed: 소상공인시장진흥공단 — HTTP 503",
+    "[2026-07-19T14:07:03.989Z] Market news failed: 한국 가격 비교 서비스 — HTTP 503",
+    "[2026-07-19T14:07:09.093Z] Public sector search failed: 공공데이터포털 — HTTP 503",
+    "[2026-07-19T14:07:10.375Z] Market news failed: 한국 병원 예약 자동화 — HTTP 503",
+    "[2026-07-19T14:07:16.856Z] Public sector search failed: 공공데이터포털 — HTTP 503",
+    "[2026-07-19T14:07:18.290Z] Market news failed: 한국 부동산 문서 자동화 — HTTP 503",
+    "[2026-07-19T14:07:22.916Z] Public sector search failed: 공공데이터포털 — HTTP 503",
+    "[2026-07-19T14:07:32.212Z] Public sector search failed: 고용노동부/노무 — HTTP 503",
+    "[2026-07-19T14:07:40.004Z] Public sector search failed: 국세청/세금 — HTTP 503",
+    "[2026-07-19T14:06:00.492Z] 73 total Korean-market signals collected.",
+    "[2026-07-19T14:06:00.492Z] 0 public-sector/government/procurement signals collected.",
+    "[2026-07-19T14:06:00.492Z] 2 public sources used.",
+    "[2026-07-19T14:06:00.492Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (88/100).",
+    "[2026-07-19T14:06:00.492Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
