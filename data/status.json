@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-20T22:27:13.188Z",
+  "lastRun": "2026-07-20T23:31:38.681Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,7 +10,7 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 289,
+    "liveSignals": 290,
     "publicSignals": 119,
     "sources": 10,
     "opportunitiesScored": 6,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 289개, 공공/정부/조달 신호 119개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 290개, 공공/정부/조달 신호 119개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 119개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260720222713",
+    "id": "EXP-20260720233138",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -90,30 +90,16 @@
     {
       "name": "한국 정부지원금·보조금 Finder",
       "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 48개, 공공신호 35개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 47개, 공공신호 35개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
       "evidence": [
         {
           "source": "K-Startup",
           "title": "창업진흥원, K-Startup 바로가기 - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
           "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TeXJQR1RCMS1rR0U0VHdMY3pFV3NlVWhKN2hobk55NGtWMnl5RFQ2VGpPQ2hWQTVxanhrOHI2dXN4UQ?oc=5",
           "createdAt": "Wed, 23 Dec 2015 16:28:36 GMT"
-        },
-        {
-          "source": "K-Startup",
-          "title": "- k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FSS1tR3BYdlk0OXp1WFRwX3o5elVOTTExTXBSZ0hNM2poNlJXdlVfS0hCVmthWG5rSTFMcGc4N3Z5alBBcGlXRW5Md3dobTU5OUNBdGZDTXQxeVJHWkxfeVBsVDlUVXUxMkkxSFR3?oc=5",
-          "createdAt": "Sun, 07 Aug 2022 23:04:03 GMT"
-        },
-        {
-          "source": "K-Startup",
-          "title": "홈페이지 새창열림 - K-Startup - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xR3E0c1BMUVBWdlJCd0JuLVllN19POXVNRDhiTlBuTEV3OTA1LXAycXJBTDN5MHBRZ21CTDVYVmJKMVVlYzdpQ2Vpd2w0T2ZiTXZwUVpCdHV0N2tYOWVvVlNJTDZNMzUwYnc?oc=5",
-          "createdAt": "Fri, 27 Sep 2024 19:55:47 GMT"
         },
         {
           "source": "K-Startup",
@@ -131,10 +117,24 @@
         },
         {
           "source": "K-Startup",
+          "title": "- k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FSS1tR3BYdlk0OXp1WFRwX3o5elVOTTExTXBSZ0hNM2poNlJXdlVfS0hCVmthWG5rSTFMcGc4N3Z5alBBcGlXRW5Md3dobTU5OUNBdGZDTXQxeVJHWkxfeVBsVDlUVXUxMkkxSFR3?oc=5",
+          "createdAt": "Sun, 07 Aug 2022 23:04:03 GMT"
+        },
+        {
+          "source": "K-Startup",
           "title": "지원 사업 공고 정보 오픈 API 조회 - nidview.k-startup.go.kr",
           "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEZSalZTdC12VnMxY3YxYktLbUV3Q20wdG95Q0pEOGIyZ1ZLckFYSW9xUXBHR3MtN0JDR002NWFmWGJKZ1lzLXF4dUNPeHc0V3RJVUFpRHlaNU1ZOUoyeEdDWjhaX2Y3anpTaVVMb2NmSnRxWGxsZkFiTXk2T1p6dm1QX2tKWUpNSTVMeUc5MmExUQ?oc=5",
           "createdAt": "Mon, 08 Jan 2024 00:51:45 GMT"
+        },
+        {
+          "source": "K-Startup",
+          "title": "홈페이지 새창열림 - K-Startup - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xR3E0c1BMUVBWdlJCd0JuLVllN19POXVNRDhiTlBuTEV3OTA1LXAycXJBTDN5MHBRZ21CTDVYVmJKMVVlYzdpQ2Vpd2w0T2ZiTXZwUVpCdHV0N2tYOWVvVlNJTDZNMzUwYnc?oc=5",
+          "createdAt": "Fri, 27 Sep 2024 19:55:47 GMT"
         }
       ]
     },
@@ -148,23 +148,9 @@
         {
           "source": "K-Startup",
           "title": "창업진흥원, K-Startup 바로가기 - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
           "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TeXJQR1RCMS1rR0U0VHdMY3pFV3NlVWhKN2hobk55NGtWMnl5RFQ2VGpPQ2hWQTVxanhrOHI2dXN4UQ?oc=5",
           "createdAt": "Wed, 23 Dec 2015 16:28:36 GMT"
-        },
-        {
-          "source": "K-Startup",
-          "title": "- k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FSS1tR3BYdlk0OXp1WFRwX3o5elVOTTExTXBSZ0hNM2poNlJXdlVfS0hCVmthWG5rSTFMcGc4N3Z5alBBcGlXRW5Md3dobTU5OUNBdGZDTXQxeVJHWkxfeVBsVDlUVXUxMkkxSFR3?oc=5",
-          "createdAt": "Sun, 07 Aug 2022 23:04:03 GMT"
-        },
-        {
-          "source": "K-Startup",
-          "title": "홈페이지 새창열림 - K-Startup - k-startup.go.kr",
-          "query": "site:k-startup.go.kr 창업지원사업 AI 자동화",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xR3E0c1BMUVBWdlJCd0JuLVllN19POXVNRDhiTlBuTEV3OTA1LXAycXJBTDN5MHBRZ21CTDVYVmJKMVVlYzdpQ2Vpd2w0T2ZiTXZwUVpCdHV0N2tYOWVvVlNJTDZNMzUwYnc?oc=5",
-          "createdAt": "Fri, 27 Sep 2024 19:55:47 GMT"
         },
         {
           "source": "K-Startup",
@@ -182,10 +168,24 @@
         },
         {
           "source": "K-Startup",
+          "title": "- k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FSS1tR3BYdlk0OXp1WFRwX3o5elVOTTExTXBSZ0hNM2poNlJXdlVfS0hCVmthWG5rSTFMcGc4N3Z5alBBcGlXRW5Md3dobTU5OUNBdGZDTXQxeVJHWkxfeVBsVDlUVXUxMkkxSFR3?oc=5",
+          "createdAt": "Sun, 07 Aug 2022 23:04:03 GMT"
+        },
+        {
+          "source": "K-Startup",
           "title": "지원 사업 공고 정보 오픈 API 조회 - nidview.k-startup.go.kr",
           "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEZSalZTdC12VnMxY3YxYktLbUV3Q20wdG95Q0pEOGIyZ1ZLckFYSW9xUXBHR3MtN0JDR002NWFmWGJKZ1lzLXF4dUNPeHc0V3RJVUFpRHlaNU1ZOUoyeEdDWjhaX2Y3anpTaVVMb2NmSnRxWGxsZkFiTXk2T1p6dm1QX2tKWUpNSTVMeUc5MmExUQ?oc=5",
           "createdAt": "Mon, 08 Jan 2024 00:51:45 GMT"
+        },
+        {
+          "source": "K-Startup",
+          "title": "홈페이지 새창열림 - K-Startup - k-startup.go.kr",
+          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xR3E0c1BMUVBWdlJCd0JuLVllN19POXVNRDhiTlBuTEV3OTA1LXAycXJBTDN5MHBRZ21CTDVYVmJKMVVlYzdpQ2Vpd2w0T2ZiTXZwUVpCdHV0N2tYOWVvVlNJTDZNMzUwYnc?oc=5",
+          "createdAt": "Fri, 27 Sep 2024 19:55:47 GMT"
         }
       ]
     },
@@ -200,8 +200,8 @@
           "source": "고용노동부/노무",
           "title": "고용노동부 - 고용노동부",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBoQU5Vb2Z6akpreF9ZQWdGSUVIel83TENvZEFNZVF4NnpIdTFmMEhuVmF5MlBtblBOOUE?oc=5",
-          "createdAt": "Fri, 02 Jul 2010 12:38:59 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA2U1FZOFpVY25OVWcxVDJmd2lUaXVUQlBsYnVsS0tLV29FcTFSalNCdE1GdXFtX245ZGVR?oc=5",
+          "createdAt": "Thu, 11 Apr 2013 14:45:01 GMT"
         },
         {
           "source": "고용노동부/노무",
@@ -330,15 +330,16 @@
     }
   ],
   "logs": [
-    "[2026-07-20T22:27:13.188Z] Korea public-data CEO engine started.",
-    "[2026-07-20T22:27:13.339Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-20T22:27:13.370Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-20T22:27:13.397Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-20T22:27:13.431Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-20T22:27:13.188Z] 289 total Korean-market signals collected.",
-    "[2026-07-20T22:27:13.188Z] 119 public-sector/government/procurement signals collected.",
-    "[2026-07-20T22:27:13.188Z] 10 public sources used.",
-    "[2026-07-20T22:27:13.188Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-20T22:27:13.188Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-20T23:31:38.681Z] Korea public-data CEO engine started.",
+    "[2026-07-20T23:31:38.882Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-20T23:31:38.937Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-20T23:31:38.992Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-20T23:31:39.051Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-20T23:31:48.218Z] Public sector search failed: K-Startup — HTTP 503",
+    "[2026-07-20T23:31:38.681Z] 290 total Korean-market signals collected.",
+    "[2026-07-20T23:31:38.681Z] 119 public-sector/government/procurement signals collected.",
+    "[2026-07-20T23:31:38.681Z] 10 public sources used.",
+    "[2026-07-20T23:31:38.681Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-07-20T23:31:38.681Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
