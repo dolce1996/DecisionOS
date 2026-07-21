@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-21T21:46:50.178Z",
+  "lastRun": "2026-07-21T22:39:35.043Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -25,7 +25,7 @@
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 118개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260721214650",
+    "id": "EXP-20260721223935",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -330,15 +330,15 @@
     }
   ],
   "logs": [
-    "[2026-07-21T21:46:50.178Z] Korea public-data CEO engine started.",
-    "[2026-07-21T21:46:50.383Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-21T21:46:50.456Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-21T21:46:50.527Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-21T21:46:50.597Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-21T21:46:50.178Z] 288 total Korean-market signals collected.",
-    "[2026-07-21T21:46:50.178Z] 118 public-sector/government/procurement signals collected.",
-    "[2026-07-21T21:46:50.178Z] 10 public sources used.",
-    "[2026-07-21T21:46:50.178Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-21T21:46:50.178Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-21T22:39:35.043Z] Korea public-data CEO engine started.",
+    "[2026-07-21T22:39:35.232Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-21T22:39:35.285Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-21T22:39:35.346Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-21T22:39:35.402Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-21T22:39:35.043Z] 288 total Korean-market signals collected.",
+    "[2026-07-21T22:39:35.043Z] 118 public-sector/government/procurement signals collected.",
+    "[2026-07-21T22:39:35.043Z] 10 public sources used.",
+    "[2026-07-21T22:39:35.043Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-07-21T22:39:35.043Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
