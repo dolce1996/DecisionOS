@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-30T11:24:43.869Z",
+  "lastRun": "2026-07-30T13:05:44.367Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -25,7 +25,7 @@
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 120개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260730112443",
+    "id": "EXP-20260730130544",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -141,7 +141,7 @@
     {
       "name": "한국 소상공인 업무 자동화 Finder",
       "score": 100,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 143개, 공공신호 58개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 142개, 공공신호 58개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
@@ -198,45 +198,45 @@
       "evidence": [
         {
           "source": "고용노동부/노무",
-          "title": "고용노동부 - 고용노동부",
+          "title": "고용노동부 - moel.go.kr",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
           "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA2U1FZOFpVY25OVWcxVDJmd2lUaXVUQlBsYnVsS0tLV29FcTFSalNCdE1GdXFtX245ZGVR?oc=5",
           "createdAt": "Thu, 11 Apr 2013 14:45:01 GMT"
         },
         {
           "source": "고용노동부/노무",
-          "title": "민원제도 안내 - 노동포털",
+          "title": "민원제도 안내 - labor.moel.go.kr",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hX21XbHJXazlZd0FsY19OVWRhYy1hQXcyV0RXNjFlNGZCaG5jdFUwdTNnbmdBOS1xdkt2RTlNX3VpeFhadjJGbDl5SC1kWHZaZ2hOUXZ2N2owcTFySDBIRE9R?oc=5",
           "createdAt": "Mon, 06 Mar 2023 04:30:19 GMT"
         },
         {
           "source": "고용노동부/노무",
-          "title": "플랫폼 기반 종사자(노무제공자) 고용보험 적용 설명자료 - 고용노동부",
+          "title": "플랫폼 기반 종사자(노무제공자) 고용보험 적용 설명자료 - moel.go.kr",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLXk4T1FFemI1V244OG1naURVd3pPWHRMU0VHTm9ybVZ1Ym9VZFVTaHFqcEFJZ256TzdpUWZ4SW1yOHhwcTA2enZ6dnNaRUtXRWg3WFA2NnV3RUNGNnFuamlERW5mSndITS1mU3ZkMmpydFh0MS1jRHNCRVc4cXZGQXJ3UFlGeDdKTUJFUE82ODczcnF4ZjY5dm5SRTQ?oc=5",
           "createdAt": "Sat, 01 Jan 2022 08:00:00 GMT"
         },
         {
           "source": "고용노동부/노무",
-          "title": "플랫폼 노무제공자 고용보험 관련 주요 질의문답 - 고용노동부",
+          "title": "플랫폼 노무제공자 고용보험 관련 주요 질의문답 - moel.go.kr",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbUpzWHNxaUV2aW5fdklYN3lqZmlnQk9vRnNoclBYSlNLV0RJaUpuWnp4c2QyUFg0UVp6RVFBLUhpdFgtN05vY1lQV2lXRUlIRG9TX3JIS1J2blZ5bzhsTndPSjV3RVFySy1xQmpQRlc0N3psdTlrU0NTbHNRQU1HNmI0QW0ta2lSWE1vc2pTb3hFekpUOEkyWFpuNVc?oc=5",
           "createdAt": "Sat, 01 Jan 2022 08:00:00 GMT"
         },
         {
           "source": "고용노동부/노무",
-          "title": "- 고용노동부",
-          "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXNJb0U1dUxLbzQ3QlRGOVl0eXFnNFVVSFhyS09aWExBV09yTnZZdmVobVV2bm0tUzB3V01OcVVmenkyVUs3MTF1OUVQVUI1Q1pWRFZKUlBENWZ4MnRyV2dmSndIZ2V5TlBrMzRCU1hnTE56VFVqajZ0V2x4UzRndklIMmRfZlQ1a08xbjlPRGlJNjVESXhN?oc=5",
-          "createdAt": "Wed, 17 Jan 2024 00:57:10 GMT"
-        },
-        {
-          "source": "고용노동부/노무",
-          "title": "보 도 자 료 - 고용노동부",
+          "title": "보 도 자 료 - moel.go.kr",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWHNnVWlkdnlKNW9JY1RmdWZuVDlaX1hoajVMQzVtV3lJSEE3Zlc4SkM5b1ZCMkNnUTZJdEFQdERDNHd4c1JpbTdGX3hQaEdPVXYzT1VPXzZkdzZtYkZSMU50ZWhzTkloMzNnT2x3dzdLdXBwYlNjdklyMjVDZXlzMTFkU0JjVXI2cWgtbE1neUJHMXlYZU96TjlPUDd0THV1S3VGaEV3?oc=5",
           "createdAt": "Thu, 15 Sep 2022 07:00:00 GMT"
+        },
+        {
+          "source": "고용노동부/노무",
+          "title": "고용보험 안내 - moel.go.kr",
+          "query": "site:moel.go.kr 자영업 노무 규정 변경",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVEU1dVRLLTZOMmFkZFZLakRuQUdxeE9JM3NWcjYzMUJTZEFJejNReU1KUmNXck9aUWo1dE1Xenc1ZXVfUkJkZ19PajFETHFQR2RhSjNkNElyZWpUUmVxb3RBR2p2VTBkTHRybXRrRkwteVpHd2JQTWxiUXJSRi1MbVJOT2tJdjdMTUx4VUJtdGVQdERIdVdrbXd5NUpRWjF2NWFkQzF4T2M?oc=5",
+          "createdAt": "Tue, 06 Aug 2024 21:06:22 GMT"
         }
       ]
     },
@@ -330,15 +330,15 @@
     }
   ],
   "logs": [
-    "[2026-07-30T11:24:43.869Z] Korea public-data CEO engine started.",
-    "[2026-07-30T11:24:44.027Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-30T11:24:44.058Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-30T11:24:44.083Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-30T11:24:44.106Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-30T11:24:43.869Z] 293 total Korean-market signals collected.",
-    "[2026-07-30T11:24:43.869Z] 120 public-sector/government/procurement signals collected.",
-    "[2026-07-30T11:24:43.869Z] 10 public sources used.",
-    "[2026-07-30T11:24:43.869Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-30T11:24:43.869Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-07-30T13:05:44.367Z] Korea public-data CEO engine started.",
+    "[2026-07-30T13:05:44.565Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-07-30T13:05:44.623Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-07-30T13:05:44.672Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-07-30T13:05:44.722Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-07-30T13:05:44.367Z] 293 total Korean-market signals collected.",
+    "[2026-07-30T13:05:44.367Z] 120 public-sector/government/procurement signals collected.",
+    "[2026-07-30T13:05:44.367Z] 10 public sources used.",
+    "[2026-07-30T13:05:44.367Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-07-30T13:05:44.367Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
