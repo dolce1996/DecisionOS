@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-07-31T23:45:51.922Z",
+  "lastRun": "2026-08-01T01:18:23.974Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -25,7 +25,7 @@
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 121개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260731234551",
+    "id": "EXP-20260801011823",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -233,10 +233,10 @@
         },
         {
           "source": "고용노동부/노무",
-          "title": "보 도 자 료 - 고용노동부",
+          "title": "고용노동부 법정민원 대상 - 고용노동부",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWHNnVWlkdnlKNW9JY1RmdWZuVDlaX1hoajVMQzVtV3lJSEE3Zlc4SkM5b1ZCMkNnUTZJdEFQdERDNHd4c1JpbTdGX3hQaEdPVXYzT1VPXzZkdzZtYkZSMU50ZWhzTkloMzNnT2x3dzdLdXBwYlNjdklyMjVDZXlzMTFkU0JjVXI2cWgtbE1neUJHMXlYZU96TjlPUDd0THV1S3VGaEV3?oc=5",
-          "createdAt": "Thu, 15 Sep 2022 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTHRVNzZhMFpSaXZxeURsOHlQWXA5MV95R3g3dWtLekNMY2NCeGtoMVhaMVRLaDRSNUtLeDlCS09HUmtWYS1ybkJCZExHN3NzNWNra1hGendjYk9PYmIxbVJzaGkzOGp1ZEthM0N1VjJjd3pMZk8wbmVkLXJhcWNKU3JNSVV6TEZBM09Rb2ZNaEYwUzF5U0NVNkZhREtDOTIya05VS1ZiN0Q4Sll4?oc=5",
+          "createdAt": "Thu, 28 May 2026 21:14:20 GMT"
         }
       ]
     },
@@ -330,15 +330,15 @@
     }
   ],
   "logs": [
-    "[2026-07-31T23:45:51.922Z] Korea public-data CEO engine started.",
-    "[2026-07-31T23:45:52.084Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-07-31T23:45:52.138Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-07-31T23:45:52.172Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-07-31T23:45:52.214Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-07-31T23:45:51.922Z] 292 total Korean-market signals collected.",
-    "[2026-07-31T23:45:51.922Z] 121 public-sector/government/procurement signals collected.",
-    "[2026-07-31T23:45:51.922Z] 10 public sources used.",
-    "[2026-07-31T23:45:51.922Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-07-31T23:45:51.922Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-08-01T01:18:23.974Z] Korea public-data CEO engine started.",
+    "[2026-08-01T01:18:24.123Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-08-01T01:18:24.170Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-08-01T01:18:24.201Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-08-01T01:18:24.227Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-08-01T01:18:23.974Z] 292 total Korean-market signals collected.",
+    "[2026-08-01T01:18:23.974Z] 121 public-sector/government/procurement signals collected.",
+    "[2026-08-01T01:18:23.974Z] 10 public sources used.",
+    "[2026-08-01T01:18:23.974Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-08-01T01:18:23.974Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
