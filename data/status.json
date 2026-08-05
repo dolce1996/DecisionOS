@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-08-05T00:59:52.729Z",
+  "lastRun": "2026-08-05T04:17:53.622Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,7 +10,7 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 291,
+    "liveSignals": 292,
     "publicSignals": 119,
     "sources": 10,
     "opportunitiesScored": 6,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 291개, 공공/정부/조달 신호 119개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 292개, 공공/정부/조달 신호 119개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 119개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260805005952",
+    "id": "EXP-20260805041753",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -80,10 +80,10 @@
         },
         {
           "source": "나라장터/조달",
-          "title": "공공 AX 프로젝트 근로감독분과 AI솔루션 개선방안 조사 용역 입찰공고 - 나라장터",
+          "title": "임상시험 계획서 작성 AI 플랫폼 개발용역 제안요청서 2026. 05. - 나라장터",
           "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX2REWlpQaVozN2h2V0IxRlNEWGhPU2UzV2dBT1lidVpadjZLLTRCX3ltUGZLeVI5UmxXOC1FZUNUOFB2NndSSmZPQVRiRVJYR3Rnb0xhc1U2QTVuOXdpbkt3eUNTTE8xVENVaDZBUWw0a0tFMmlsMUh3d0tIcnM0RGlGTTV4MnYtbTQ0M3o3ZTgtRElqVk15dHhzQ0dBSVpIcW9MaV9nT2k1akhUYnZGVl9YaFl2NHktTXVpYUFTRks1eFZ0ZmZuUEVBdFpBUWV3RVRrT3Z3?oc=5",
-          "createdAt": "Mon, 27 Apr 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUG45V1g3TjhJenhiM1lhd18tSmRyR1E2U2FPY0hUR0VidGFfN0FRMk10MFR3RDFDd3Bfb3pZV0pkZGdOTWZfVk8tMnRJUVplZmExQl9GaUJYVkhUeV9ZaF9leGwyVU5tcGJMLUVxc0dlVmY5VWVWSEdmWXFjTnBiRVRfRlc0NkExXzR0LWc2cWk0cURtT0VvY1FQRWJpTXlGR2tmY2pxMXM4SnN5QTR2Q2wtcTVRQzh6djlkRnJlSHZ3RFpGcDFxNzJDdWR5c1JwdHFjZjl3?oc=5",
+          "createdAt": "Mon, 08 Jun 2026 08:25:22 GMT"
         }
       ]
     },
@@ -192,7 +192,7 @@
     {
       "name": "한국 규제·세금 변경 알림 서비스",
       "score": 100,
-      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 50개, 공공신호 20개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
+      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 51개, 공공신호 20개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
       "target": "자영업자, 프리랜서, 작은 법인",
       "product": "세금/노무/규정 변경 알림 + 체크리스트",
       "evidence": [
@@ -293,8 +293,8 @@
     },
     {
       "name": "한국 로컬 서비스 리드 생성 사이트",
-      "score": 83,
-      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 5개, 공공신호 3개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
+      "score": 84,
+      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 6개, 공공신호 3개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
       "target": "지역 서비스업체와 고객",
       "product": "업종별 견적 요청 사이트 + 유료 리드 판매",
       "evidence": [
@@ -332,20 +332,27 @@
           "query": "AI agent startup",
           "url": "https://github.com/garagehq/nightcrawler/",
           "createdAt": "2026-08-03T11:06:15Z"
+        },
+        {
+          "source": "GitHub Search",
+          "title": "7858LC/Contracting-Intelligence-Opersting-System: \"CIOS is building the world's first Procurement Intelligence Platform—an AI-powered operating system that helps organizations decide what to pursue, how to compete, and how to maximize their probability of winning public-sector contracts across federal, state, local, international, and regulated procurement ecosystems",
+          "query": "procurement ai created:>2026-06-01",
+          "url": "https://github.com/7858LC/Contracting-Intelligence-Opersting-System",
+          "createdAt": "2026-07-18T12:53:38Z"
         }
       ]
     }
   ],
   "logs": [
-    "[2026-08-05T00:59:52.729Z] Korea public-data CEO engine started.",
-    "[2026-08-05T00:59:52.884Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-08-05T00:59:52.901Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-08-05T00:59:52.917Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-08-05T00:59:52.931Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-08-05T00:59:52.729Z] 291 total Korean-market signals collected.",
-    "[2026-08-05T00:59:52.729Z] 119 public-sector/government/procurement signals collected.",
-    "[2026-08-05T00:59:52.729Z] 10 public sources used.",
-    "[2026-08-05T00:59:52.729Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-08-05T00:59:52.729Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-08-05T04:17:53.622Z] Korea public-data CEO engine started.",
+    "[2026-08-05T04:17:53.854Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-08-05T04:17:53.949Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-08-05T04:17:54.040Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-08-05T04:17:54.135Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-08-05T04:17:53.622Z] 292 total Korean-market signals collected.",
+    "[2026-08-05T04:17:53.622Z] 119 public-sector/government/procurement signals collected.",
+    "[2026-08-05T04:17:53.622Z] 10 public sources used.",
+    "[2026-08-05T04:17:53.622Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-08-05T04:17:53.622Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
