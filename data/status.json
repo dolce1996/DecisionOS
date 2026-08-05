@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-08-05T20:17:22.984Z",
+  "lastRun": "2026-08-05T21:37:03.777Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -25,7 +25,7 @@
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 120개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260805201722",
+    "id": "EXP-20260805213703",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -52,24 +52,10 @@
         },
         {
           "source": "나라장터/조달",
-          "title": "AI시스템 개발사업 용역 공고 - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNekhyWE9xZG5hQS1VRUlyY19icmY3M1FzQ1FBMkdrZzc5UFYxLVptUTJDUld2NjJmT29ManBGUTFVMWNNSmNjQlRJSUozNVE0TC1abjZKNzhfSnhoRV9DeFN3VGptN3QzaGdYN2hsbEdvS1VpY1lkQXlMcnZtVEdWVjhjbmF4emc2WTNycWJBMXRjVUtNYkF0X1kwMHVCWXF5ZVlPUVdCM21yS3pjOWc3b2w0OFg4NWhUT2d1NjNhdkhYRFJiWW5fektpM1ZPUEg3RG1HODhn?oc=5",
-          "createdAt": "Wed, 22 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "source": "나라장터/조달",
           "title": "2025년도 가톨릭관동대학교 AI 기반 학습·학사 지원 통합 플랫폼 개발 - 나라장터",
           "query": "site:g2b.go.kr AI 용역 입찰 제안서",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWmc5a3BkdzlYU2VVN05EeWJOa0dCYlNaMHlBTkZpamE4R21qUE94UFhXaHBCTGFoaE1DTXcyRTVSNHU4WXBrNGNSMm5WMUllQjFTeWE1RUZnNFVqNms5dEl5OU5oUGYzeUY5cXhNZUlpUTJxcDJ4bDVPbk82RDQ0dEJBNTlkSnVnRHlVTGVoclpRQk5vcHRRLWgyQkhnZ2NsSmV5eUhidkFaSS05cHNEdFVXNEYtdkJiM08yVURlY0VqZWJLNU5uX0dPYlpuNmdSZDVGampB?oc=5",
           "createdAt": "Mon, 05 Jan 2026 11:40:18 GMT"
-        },
-        {
-          "source": "나라장터/조달",
-          "title": "생성형 온라인 교육 콘텐츠 제작 및 운영 AI 용역 입찰 공고 - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxNTWJGZ0pxc1daLVZXYko1VG5URktPbFlLTnZmbGFOWlJ0R1c4YmcyMDZUeml4SV9yS2ZRVkhUMjc0SjBKbTdBMzBidktqQUlmM2VPS0NGMEd0ZVJuTkdmVTlLR1BISzJ1RGNJRUhiRDFCclJ1ZEhmNU9ZUWcyUXlFQmduMUtlb19ncTBUQUQxUlZJd21hS1Byc0EtMl9qX0NwWWRtdExZdGE1WDdlWXl5ckM4N2Nwb1p5ZW9JVzFfamJFdjhLQWRuZm9QMnFEREZDdnlpZ0N0cGtSNlFONjQyM2ZsMTBBUGxwU1YwXzl2UGprLXg0dndZcDdMa1VMVWF3YWRWR19GYVluZS1uNmtKYWQxTVE3enBuS0FHMm9LY3NFeHdkU3VmdjhIaG5JT1lsaWdpbHphWmc2d2RQaGtzZFFUaXVQYWE3cndzY0ItZEdhdWtZRUdZT09kcHlJb0s4UnVCM3VmWVNwcC1QdG85am8tV3Z4a2R0b256MWUtTC02a2pvVVFWaXQ1b211bTFfelBPRTFudGJPSnVVbG4xMW1qWjZ3Vm5BR0xicjItd1o?oc=5",
-          "createdAt": "Fri, 26 Jun 2026 04:00:00 GMT"
         },
         {
           "source": "나라장터/조달",
@@ -84,6 +70,20 @@
           "query": "site:g2b.go.kr AI 용역 입찰 제안서",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUG45V1g3TjhJenhiM1lhd18tSmRyR1E2U2FPY0hUR0VidGFfN0FRMk10MFR3RDFDd3Bfb3pZV0pkZGdOTWZfVk8tMnRJUVplZmExQl9GaUJYVkhUeV9ZaF9leGwyVU5tcGJMLUVxc0dlVmY5VWVWSEdmWXFjTnBiRVRfRlc0NkExXzR0LWc2cWk0cURtT0VvY1FQRWJpTXlGR2tmY2pxMXM4SnN5QTR2Q2wtcTVRQzh6djlkRnJlSHZ3RFpGcDFxNzJDdWR5c1JwdHFjZjl3?oc=5",
           "createdAt": "Mon, 08 Jun 2026 08:25:22 GMT"
+        },
+        {
+          "source": "나라장터/조달",
+          "title": "용역 입찰공고 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxNZ3FRcEtXT0k5OTlVVFpoY2g3X3AzNThzdDQ0S0FFQzAtZUVKbDVuUTZfVjJucWozTEdWYUVBWlJmMGJLYnVWN1FqOXJlNW1POF9pVGlVWEJTVzh0WTc3MG54eC1vakw1SFJ6RHktTWF1VGFEY1pUN1FLc0xNMGNVR0VpTHAyTjU4MnFiRG5iSEhIN2NJZEpCVzBuMmQ3Q0VzY0RhQ3psOWF5cUpXUFZjTlpUeDJZSEJuOGY0STZvUGVEM0pPOWc2cDVjWUxqcC1lcFhvY1dBM0R1M2w3WGRPQXpsRGNHTkk0UkN3M1ZNR05pSEQ4N2t0N0ZzenAycG1oNVBnMWxtZGxXNHJ3VS00M0tKb1YzbU42ZDVhRXdVenZuNzZGRUF2VGIxeUw5RVpFMUhFNzZ4UEZUcDV4M25naFpXU2U2R0dReDFQRjM3YVVYSzREOS13c21fSWV3YVoxeDRhVWk0WXZvdXAteHlWMWpNRFA3VEJJeTM1WkVZRGY3UHZBWFJ6SlRVNXVackp6RktYYTNZbU16WTlXbFhuN3RqN2pKZ0w5bUoyZ1pDRkN6blhaUm1JLXBhTFZiMDlMekNJYV9LWkxUQjBMU0Rya2ZoSktURGJHZm9zaFFDVkN0VFgxN1o3VTUzaw?oc=5",
+          "createdAt": "Sun, 07 Jun 2026 12:03:13 GMT"
+        },
+        {
+          "source": "나라장터/조달",
+          "title": "입 찰 공 고 문 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX1owdE11Q0hjMkVKd1ZaRzE3NDh4OGpZZWJNWXo3dEN3TldXdzBXSnRvVEtXbXczd0ZVNFBkbWdOVlVJeWI0X0pITmlWT2hmSmZ3ZEF2N2tnV2xPaVlheXlLcFNabG44Q3RNMWFSWHB2ODA4MDVDZHJ3MDA4NTdSUVpyYVhEWHJYOXNDaUF6Wm8xWEFXaUdrZDMxWGxKQ1RvVW42THRHaVpsVmxlSlFqdTVoTUZYT29XWHBpOC1TdHJ4STd2TmQtajQ5MXp6U0xFdks3WC1B?oc=5",
+          "createdAt": "Wed, 24 Jun 2026 10:03:11 GMT"
         }
       ]
     },
@@ -293,28 +293,28 @@
     },
     {
       "name": "한국 로컬 서비스 리드 생성 사이트",
-      "score": 84,
-      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 6개, 공공신호 3개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
+      "score": 86,
+      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 7개, 공공신호 3개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
       "target": "지역 서비스업체와 고객",
       "product": "업종별 견적 요청 사이트 + 유료 리드 판매",
       "evidence": [
         {
           "source": "중소벤처기업부",
-          "title": "디지털 전환에 따른 지역 소상공인 대응 방안 - mss.go.kr",
+          "title": "디지털 전환에 따른 지역 소상공인 대응 방안 - 중소벤처기업부",
           "query": "site:mss.go.kr 소상공인 지원사업 디지털",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNTZCamZISUNsNW43RkVHRjhDR0cwajdZV3llVmxwWE82MkxEdE5HQmpuakRXWTlBaW96Q1lPLVRLN18wbVg3LU1VX2d6QjB3cEhMQ29RQjNfOGxfRUJ6MmluX1A1TEVqU05fdXpEZFkwSkE1LS1SenNXTHItemtWY3JLZjNQWjAxaTB6c3dRR0N6ZWY1UlhhWjB4MUd0MTdrcjlsdzBJV1Ata0tfbkkzQ2V6RVlvck9PUlhTUV9DVQ?oc=5",
           "createdAt": "Mon, 22 Mar 2021 09:12:28 GMT"
         },
         {
           "source": "중소벤처기업부",
-          "title": "지역 주도형 인공지능(AI) 대전환 사업 지원대상, ‘경남, 대구, 울산, 전남, 제주’ 최종 선정 - mss.go.kr",
+          "title": "지역 주도형 인공지능(AI) 대전환 사업 지원대상, ‘경남, 대구, 울산, 전남, 제주’ 최종 선정 - 중소벤처기업부",
           "query": "site:mss.go.kr 중소기업 AI 지원사업",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZXNSQW96TF81UXBTSng1Z2tuby1HRFNCZU5mcXpLNHpNVUV5NUR0SVNzdmZ0dm90Y0tnMXQzN3FvNkFybmQtU2RUOVF0VHNGY0dFRFpaUjBUcUxQbDZ2NmdZVzR5a2RKbUxuYzN5a0ZteUsyN1gwX2NCc0dhMU5aWjhmQkZDLVgtd0hISkI4OHo?oc=5",
           "createdAt": "Wed, 01 Oct 2025 07:00:00 GMT"
         },
         {
           "source": "소상공인시장진흥공단",
-          "title": "지역센터 번호 - 소상공인시장진흥공단 - 소상공인시장진흥공단",
+          "title": "지역센터 번호 - 소상공인시장진흥공단 - semas.or.kr",
           "query": "site:semas.or.kr 소상공인 지원사업",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxdnJNYlRPTklfN3BhUHppR3k5bUVQSThGUkx5N09mdjlmS2V0LVFZR0VlaElmUWg1clRvWkdEek1oWmpaWm9JU0o2aTRod0ZydEJCSzYwLTZIOXU2WGRxUVNtYkpBd1U?oc=5",
           "createdAt": "Sat, 14 Apr 2018 04:59:09 GMT"
@@ -335,24 +335,24 @@
         },
         {
           "source": "GitHub Search",
-          "title": "7858LC/Contracting-Intelligence-Opersting-System: \"CIOS is building the world's first Procurement Intelligence Platform—an AI-powered operating system that helps organizations decide what to pursue, how to compete, and how to maximize their probability of winning public-sector contracts across federal, state, local, international, and regulated procurement ecosystems",
-          "query": "procurement ai created:>2026-06-01",
-          "url": "https://github.com/7858LC/Contracting-Intelligence-Opersting-System",
-          "createdAt": "2026-07-18T12:53:38Z"
+          "title": "medboughrara/Jarvis-PCB-Copilot: A local, voice-activated \"Jarvis-style\" open-source AI copilot designed for PCB schematic review, electronic component selection, power distribution tree generation, regulatory compliance checks (RoHS/FCC), IPC-2221 thermal analysis, signal integrity, supply chain EOL tracking, and KiCad EDA design automation.",
+          "query": "compliance automation created:>2026-06-01",
+          "url": "https://github.com/medboughrara/Jarvis-PCB-Copilot",
+          "createdAt": "2026-08-02T22:32:01Z"
         }
       ]
     }
   ],
   "logs": [
-    "[2026-08-05T20:17:22.984Z] Korea public-data CEO engine started.",
-    "[2026-08-05T20:17:23.185Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-08-05T20:17:23.263Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-08-05T20:17:23.340Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-08-05T20:17:23.420Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-08-05T20:17:22.984Z] 295 total Korean-market signals collected.",
-    "[2026-08-05T20:17:22.984Z] 120 public-sector/government/procurement signals collected.",
-    "[2026-08-05T20:17:22.984Z] 10 public sources used.",
-    "[2026-08-05T20:17:22.984Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-08-05T20:17:22.984Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-08-05T21:37:03.777Z] Korea public-data CEO engine started.",
+    "[2026-08-05T21:37:03.897Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-08-05T21:37:03.928Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-08-05T21:37:03.968Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-08-05T21:37:04.002Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-08-05T21:37:03.777Z] 295 total Korean-market signals collected.",
+    "[2026-08-05T21:37:03.777Z] 120 public-sector/government/procurement signals collected.",
+    "[2026-08-05T21:37:03.777Z] 10 public sources used.",
+    "[2026-08-05T21:37:03.777Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-08-05T21:37:03.777Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
