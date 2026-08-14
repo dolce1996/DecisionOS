@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-08-14T13:06:01.205Z",
+  "lastRun": "2026-08-14T14:19:04.753Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,8 +10,8 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 294,
-    "publicSignals": 118,
+    "liveSignals": 295,
+    "publicSignals": 120,
     "sources": 10,
     "opportunitiesScored": 6,
     "topScore": 100,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 294개, 공공/정부/조달 신호 118개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
-    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 118개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 295개, 공공/정부/조달 신호 120개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 120개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260814130601",
+    "id": "EXP-20260814141904",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -73,24 +73,24 @@
         },
         {
           "source": "나라장터/조달",
-          "title": "용 역 입 찰 공 고 (협상에 의한 계약) - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxOYUVMUVAwcXdjT09ITmhzS3FtOXBldk9ldVZKNDQ3SllxYlpwZWQzNm9rZk5TUUhuaDlha2k5cjcwT1FFMFlPdjhoUDkzZVRqeFFTdTU1X0N2dFV0aDhsUEZWX3Zoc1ozbDh3R2h2Qko2ZjIxRXJBYjU4dkxqR0NaMUo5Nm0zMngySVNQMjR3M1lDQzAxNDZmNmNkOGhENWZDajFLVHEwUmdOQ0NHbUh5bThpRHJ4Mkkzd0pWcFN3Y1RRa0RBc3FFUlJVandvbVpkUkN5eUNnWG0yN0FNSzVhM2FfaXFERzFyR0w0Z2hFd3VBb2JZLUZITjRyRkJTVFZZeV9uVER6VkY1UUM4clpadlpmSnFJVWh3NzNtQ2tMeDFkUmVJUWU5NTBVSmdRMmVzc0RGTUpXb092MXJHNFVLaklfMGhpMHNJZnJLZGxOSzRxUnRJdng2RlNzMi1FbXEtdnVMd1YzTkhKcDcwMm82UVJtSWJiR0YyMmhhOWI0eUxvUjJYODA1YUJJaE1qLTBzNExNYVQtWEpaYzlxeHV1WDduVWxURlVuU21uOUk4UTZEVkRhU1dCZnBGRFphdWFQclhIX0llWDFqaTRxQkQ4SnNNbEdYTGZ1OFV1eTY4M0NCRTJ3dkpDYVRfZkxaUEtVREI2RTh3?oc=5",
-          "createdAt": "Wed, 24 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "source": "나라장터/조달",
           "title": "｢2026 경기AI기업 글로벌 공동연구ㆍ해외진출 지원 프로그램 운영 용역｣ 입찰공고문 - 나라장터",
           "query": "site:g2b.go.kr AI 용역 입찰 제안서",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMV94WUp0OFhjbmJPSXBMRlBEN3ljUkdtTG92V29aZDlBSW8yOHBmN2hwRDBOLUJObVlRcFlFRl9FVHo1RUpkRllZVGdfbUZyN211U0hzQWItQUZuSkZOT3ZWemc0MzliU01LUnFVTWtUYU5Lb0ZqeHdGSW9SaUhXWFdDOU9RQ0diakdJQlhIR1M3aml6b0k1S2dTQWhwWWtCM0pTem0tcFhndDBlOXBqMTZralJhY013bjVqeFhpa0IweWhyQjR3SFY2LVdtNXQtOVZIR0Fn?oc=5",
           "createdAt": "Tue, 12 May 2026 07:00:00 GMT"
+        },
+        {
+          "source": "나라장터/조달",
+          "title": "「AI 투자 및 채용」 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPb3hwSzB1cUcyWVRTSjBMN0RHTHdoRXdORERjN1lvZUJvTWhrYWx0M2tZclhrd0FjNHJycGJIOVRnamtXUTRhUnNZX0FJTk1MX0pJcF92TW9jdklwbEk3a2I0eGIzeU41bjJ4bldiYy1TM3FmajR1ekJzMzBKYkU2RG1ZWkhGNW9sZG9rOUhNNnlHMUdSU19NZ2JXazMwX2h2QUptRi1PTUc5dVVCZ0kwZ0xiVERKcUpaUy0yNG5MUW50U21kZ1JfLUJ6VmVDZGN2YzBmTVhn?oc=5",
+          "createdAt": "Tue, 26 May 2026 07:00:00 GMT"
         }
       ]
     },
     {
       "name": "한국 정부지원금·보조금 Finder",
       "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 48개, 공공신호 37개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 47개, 공공신호 37개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
       "evidence": [
@@ -141,7 +141,7 @@
     {
       "name": "한국 소상공인 업무 자동화 Finder",
       "score": 100,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 141개, 공공신호 58개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 143개, 공공신호 60개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
@@ -192,51 +192,51 @@
     {
       "name": "한국 규제·세금 변경 알림 서비스",
       "score": 100,
-      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 48개, 공공신호 19개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
+      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 50개, 공공신호 21개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
       "target": "자영업자, 프리랜서, 작은 법인",
       "product": "세금/노무/규정 변경 알림 + 체크리스트",
       "evidence": [
         {
           "source": "고용노동부/노무",
-          "title": "고용노동부 - 고용노동부",
+          "title": "비정규직 근로자에 대한 합리적인 인적자원관리 방안 연구 - 고용노동부",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA2U1FZOFpVY25OVWcxVDJmd2lUaXVUQlBsYnVsS0tLV29FcTFSalNCdE1GdXFtX245ZGVR?oc=5",
-          "createdAt": "Thu, 11 Apr 2013 14:45:01 GMT"
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOVEzQUhCNGNEWEktOTBkeFpQcVFBU1Jnd2tmY2lmaFMycUJFRC1wQ0x2YmtfTHRvWmZSRTI3UzdpVFJISTA3QzFEbmpQcER1bjJrRURQX0pkcnQyeUlQTG10RFJabTRYSDJvcVJIQWJnM3l4Q19McG5HT2M1dlFEX1JEbndBc2p5VFU4aUNIT3dKMC1MQktKdWNxV0E2WjZ5Zm5kNw?oc=5",
+          "createdAt": "Wed, 23 Jan 2019 12:40:36 GMT"
         },
         {
           "source": "고용노동부/노무",
-          "title": "민원제도 안내 - 노동포털",
+          "title": "예산･기금운용계획 개요 - 고용노동부",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hX21XbHJXazlZd0FsY19OVWRhYy1hQXcyV0RXNjFlNGZCaG5jdFUwdTNnbmdBOS1xdkt2RTlNX3VpeFhadjJGbDl5SC1kWHZaZ2hOUXZ2N2owcTFySDBIRE9R?oc=5",
-          "createdAt": "Mon, 06 Mar 2023 04:30:19 GMT"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2FPaHVCS014OGVLV2JNQndrSElURUZFX3IzWVF3RTc4MDBFNmQ5bUJycHc5aE5xUGc3SmJ2RkJOOXNuNE9ueTRaTFFwQmtuWEo0d2ROLU9pdDFoR29sMjRycVZCZUtnX0tCMWszZFF6WUt1a2lycHdQelhOR2JBOWVyaDFaR2VXY2h6d3M3RHMwTkM4NzJKMWRiMkFNQ2QxVTU1NHd6YVNxVVdXTUE?oc=5",
+          "createdAt": "Mon, 06 May 2024 10:03:07 GMT"
         },
         {
           "source": "고용노동부/노무",
-          "title": "퇴직금 계산 - 고용노동부",
+          "title": "직장 내 괴롭힘 판단 및 예방･대응 매뉴얼(부록) - 고용노동부",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hUWFFaHpua3dVelRNUUU0S1NGa1pTNTJJQXYxUEduZWc4LTI4U3JXWnlwSFdoZm9VNV9OT2pMWHFKWi1wT2lsRkRHZ0VFYVNULUJWdQ?oc=5",
-          "createdAt": "Mon, 29 Apr 2019 23:26:45 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdjRfRmwybV9oR1ZUOHNuaVdPanI0Y29vcjdEREdtWnpwMkhhWHV3TmxHNzN2cUlWQVBXZlVZVV9xcGZuT2lUXy1TVWY5SVEyeGFVaUhPcUhjVHlUbVdYcXdOYmFYTjM3cmJucGVaanA5MG9LRDhNaUs3ajNuSHlpRU5YNzF3ZHpEeFo4ZkNhNGg2cktEdDJuUGVUOWJwY1FueW11VzlaeFJNN241WGVyVmVubVhrb1ZW?oc=5",
+          "createdAt": "Sat, 08 Jan 2022 07:50:40 GMT"
         },
         {
           "source": "고용노동부/노무",
-          "title": "플랫폼 기반 종사자(노무제공자) 고용보험 적용 설명자료 - 고용노동부",
+          "title": "방문취업 동포(H-2) 허용 업종 최소 규제 방식으로 전환 - 고용노동부",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLXk4T1FFemI1V244OG1naURVd3pPWHRMU0VHTm9ybVZ1Ym9VZFVTaHFqcEFJZ256TzdpUWZ4SW1yOHhwcTA2enZ6dnNaRUtXRWg3WFA2NnV3RUNGNnFuamlERW5mSndITS1mU3ZkMmpydFh0MS1jRHNCRVc4cXZGQXJ3UFlGeDdKTUJFUE82ODczcnF4ZjY5dm5SRTQ?oc=5",
-          "createdAt": "Sat, 01 Jan 2022 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XWUxYVmZLcWswT2QxMTYxN05ybllNVVVLdk9LWW83ZGZuX2dMZmVha09XTV9wNkM5U0llTlBwSFp0cGFzQUExRnVaZkdJck41XzhFa1F6cUdxc0VXVzRXT1RVaVNnakVqeGZtUUhmbTJSZUZYR1JN?oc=5",
+          "createdAt": "Tue, 15 Nov 2022 08:00:00 GMT"
         },
         {
           "source": "고용노동부/노무",
-          "title": "플랫폼 노무제공자 고용보험 관련 주요 질의문답 - 고용노동부",
+          "title": "2016 고용보험안내_내지_20160219.indd - 고용노동부",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbUpzWHNxaUV2aW5fdklYN3lqZmlnQk9vRnNoclBYSlNLV0RJaUpuWnp4c2QyUFg0UVp6RVFBLUhpdFgtN05vY1lQV2lXRUlIRG9TX3JIS1J2blZ5bzhsTndPSjV3RVFySy1xQmpQRlc0N3psdTlrU0NTbHNRQU1HNmI0QW0ta2lSWE1vc2pTb3hFekpUOEkyWFpuNVc?oc=5",
-          "createdAt": "Sat, 01 Jan 2022 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZWY3d3V0SW1MZFY5WmxsbnJLWUxmSUp1ME00bFlyNnVidlBhMGZwNzVnSnlGSWNuUFBrQW02d0J6N2VMMTg4MXh3dkZWd2xwZFAxWldyZUVKLW5rMVFZX0I4ZkxkZmhaQ0RrU05VejF4cXlFVXotVTMzaUJZcnVoazhQckdabUJncDZhYy1kTUdzRlhLOFI5X3JPMU9CeTkwaWdEc3R3MTlFbGxMc1hFRUcwVFNfQQ?oc=5",
+          "createdAt": "Sun, 21 Apr 2024 23:06:11 GMT"
         },
         {
           "source": "고용노동부/노무",
-          "title": "고용노동부 법정민원 대상 - 고용노동부",
+          "title": "2023년 - 고용노동부",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQkZkcFRfZG8tcWQ0OXlfSWtlQXlYb2lFSFdiYUFmcnlodHFqRGpkcGxCQ0dJS3lHb1Y3dWtxUU5YNHpScEtneFY4X3hGX2pXTjZ0ZVhZY01lNC1xSmgyZjA5MUVic3d2Vm41UXhSa1IyTGFZUVpQbHBVbXB3STYwa3NQWFFJYXBaY2dmaGhfb0xRUnFQZVh4MDN3dzdJYWxEcmR2c0NCdG5TS3ZqbXc?oc=5",
-          "createdAt": "Fri, 29 Nov 2024 09:14:44 GMT"
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTC1Dc29QU05meXhvT25acGdSTkxic2ZpM1doQk1BWFcxbHlrRXhPeWN1X01JblhDVjh1cldxZnJPcTNhbThMNF9YbFlCb1ZrNDlZaVYtNVd2cHNibVBfMnRzb2JPWFlRc19nUVh6UWhRTjk3aTN1NVUzU2VwSjN0T0hpNGd1cmZTODlQS2d5Tm9qVFZKOVdKSjdsMER5enEwd0pTMDR3?oc=5",
+          "createdAt": "Tue, 26 Dec 2023 08:00:00 GMT"
         }
       ]
     },
@@ -344,15 +344,15 @@
     }
   ],
   "logs": [
-    "[2026-08-14T13:06:01.205Z] Korea public-data CEO engine started.",
-    "[2026-08-14T13:06:01.313Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-08-14T13:06:01.337Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-08-14T13:06:01.354Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-08-14T13:06:01.373Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-08-14T13:06:01.205Z] 294 total Korean-market signals collected.",
-    "[2026-08-14T13:06:01.205Z] 118 public-sector/government/procurement signals collected.",
-    "[2026-08-14T13:06:01.205Z] 10 public sources used.",
-    "[2026-08-14T13:06:01.205Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-08-14T13:06:01.205Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-08-14T14:19:04.753Z] Korea public-data CEO engine started.",
+    "[2026-08-14T14:19:04.902Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-08-14T14:19:04.938Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-08-14T14:19:04.968Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-08-14T14:19:05.005Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-08-14T14:19:04.753Z] 295 total Korean-market signals collected.",
+    "[2026-08-14T14:19:04.753Z] 120 public-sector/government/procurement signals collected.",
+    "[2026-08-14T14:19:04.753Z] 10 public sources used.",
+    "[2026-08-14T14:19:04.753Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-08-14T14:19:04.753Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
