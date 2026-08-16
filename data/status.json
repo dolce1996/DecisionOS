@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-08-16T17:55:25.938Z",
+  "lastRun": "2026-08-16T18:25:06.893Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,8 +10,8 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 295,
-    "publicSignals": 119,
+    "liveSignals": 293,
+    "publicSignals": 118,
     "sources": 10,
     "opportunitiesScored": 6,
     "topScore": 100,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 295개, 공공/정부/조달 신호 119개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
-    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 119개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 293개, 공공/정부/조달 신호 118개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 118개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260816175525",
+    "id": "EXP-20260816182506",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -90,7 +90,7 @@
     {
       "name": "한국 정부지원금·보조금 Finder",
       "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 48개, 공공신호 37개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 47개, 공공신호 37개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
       "evidence": [
@@ -205,7 +205,7 @@
         },
         {
           "source": "고용노동부/노무",
-          "title": "민원제도 안내 - labor.moel.go.kr",
+          "title": "민원제도 안내 - 노동포털",
           "query": "site:moel.go.kr 자영업 노무 규정 변경",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hX21XbHJXazlZd0FsY19OVWRhYy1hQXcyV0RXNjFlNGZCaG5jdFUwdTNnbmdBOS1xdkt2RTlNX3VpeFhadjJGbDl5SC1kWHZaZ2hOUXZ2N2owcTFySDBIRE9R?oc=5",
           "createdAt": "Mon, 06 Mar 2023 04:30:19 GMT"
@@ -243,10 +243,31 @@
     {
       "name": "한국 요양원·시니어 케어 비교 엔진",
       "score": 98,
-      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 21개, 공공신호 11개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
+      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 20개, 공공신호 10개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
       "target": "부모님 요양시설을 찾는 가족",
       "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
       "evidence": [
+        {
+          "source": "공공데이터포털",
+          "title": "[국민건강보험공단] 장기요양기관 검색 서비스외 1종 OPEN API 서비스 변경 안내 공지사항 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMmxDQlV5WEpkb3U0d2hIYzJ5UDQzaUpINjFOVG9nd0J6TVB5dFBlNjZNUEZtaHF4MWJzMFNKbklsR3JIUzFyTE1pT0tVYmdKWDRVcTlNcWI2WU0zSUk2VUZlSkdhTDJjSmxVRFBjZ0ZTUy1IMEUxOGZfd2swbUZaOW1n?oc=5",
+          "createdAt": "Mon, 10 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "[국민건강보험공단] 장기요양기관검색서비스외 2종 OPEN API 점검으로 서비스 일시 중단 안내 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUzZScm1NQWpraHB1UktiS3kyYlZQbk9feEQwQVN4a1pEVU5EaDRCekhFNjk1dnhVaVhhdmxXTzB2MFRaQUpKNWphNDJpckJTa1gtV3BFNmJyV3p5ak9sZlpEUTZuNDF4S2pUenlGUFVrSHpWVkZ1UlhJZ1N6UzMzU0R3?oc=5",
+          "createdAt": "Thu, 20 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "[건강보험심사평가원] 요양기관개폐업정보조회서비스 외 OPEN API 서비스 변경 안내 공지사항 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSDZOcWFSdFNCY0FoRnU3RmNsR1daNDZxdlJkRkxhWWROZl9LVnBJWWNmZUVNT3NxM0JiV0lhdjBfV0kyMk5WX2RBZE5saFdZVjd2U1lRQjNhZUprY19wVlc5ZHFVcm1OQ2JWdWpsV2wyXzBvcWVWMlJzRjNjLW1nVjZR?oc=5",
+          "createdAt": "Fri, 06 Jun 2025 12:02:22 GMT"
+        },
         {
           "source": "공공데이터포털",
           "title": "데이터찾기 - data.go.kr",
@@ -256,38 +277,17 @@
         },
         {
           "source": "공공데이터포털",
-          "title": "행정안전부_건강_병원 조회서비스 - data.go.kr",
+          "title": "대구광역시 동구_재가장기요양기관 현황 - data.go.kr",
           "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZX09WcU1vTVc5ajhYWXFmY0U3RmVVZ2ZKT19KZHIya2l1WGFDb2F1VEllTUNGMjlGdVY0UkwwbTU1Y0dGYnFtOW1sUkgwZTQyYlFYYkpzbjRuZ0E?oc=5",
-          "createdAt": "Fri, 16 Jan 2026 11:35:26 GMT"
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12ODI0cURCLTdOb09LVklrLURIeXJXSVpMcnN4dHpVemZRVW9PRXQ5TkQxWUV6a0N0SG45MlVaOW5hS0x5bFlTUFpVRzR3T0ZKamFvUEdTTVhCQi14UnFlZV9mb19zWTlxc3Flcy1JNFU4cFE?oc=5",
+          "createdAt": "Tue, 28 Feb 2023 18:31:18 GMT"
         },
         {
           "source": "공공데이터포털",
-          "title": "국민건강보험공단_특정 상병그룹의 연도별 연령별 진료인원B_20221231 - data.go.kr",
+          "title": "경기도 광명시_재가장기요양기관 - data.go.kr",
           "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzbWkwVGh6SjBMa01GOUp2ckNkSmlQMHdpOFVVX3ZLRnBRQ1NjV1V0WjVMSk9OTGoxRXFEQWhCVDV3UVFma2M5MkVtazkybGVpdG90VGoyZUpTSHprYUNQeGVfNFlnVG1vbWMtdVRQdGxqcmt4?oc=5",
-          "createdAt": "Sat, 04 May 2024 10:56:51 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "경기도 화성시_의료기관 현황_20260515 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrNVZMTzJKaW1IMEpDSHlWNjU0cV9pTUswZnVjdW94RklfajFtOWM5YjIyVkFEaElWOGZiRjlxYVp2N2hwOGV5bFpqMm9DWk5qYmpNZkd1TFY1SFow?oc=5",
-          "createdAt": "Mon, 28 Jun 2021 17:14:29 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "국민건강보험공단_특정 상병코드의 약제 주성분코드별 진료정보_20231231 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01TjI2bzJuaTRkbHVwSm5jYlpTZG1HZFpMUmFvalRPbGdzQW9td0R1NVVScUhFczU4dW1wNy1lc0lraDFTOXNfVHdRRW5aX1VKWHhpRVNka1NPb2RmbjNDQ0k0R2xJeWNyc181ZlV4eno3cU55?oc=5",
-          "createdAt": "Tue, 25 Mar 2025 08:48:42 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "보건복지부_보건·복지현황_병원 및 의원 수 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HaG54ZnFOSE84LWYwRkp4c29QeGxjTTRyU3MxaXhheWxTZEZoMzVqMTRYbEJlZ1FoV1c2c2JQYm9tWFk4R3FQWWhKT1RmcDdiNTVVMHF2LW1GM0xwNEdEaFBEQlM5XzZDa2pBZTlYVGo3bGM?oc=5",
-          "createdAt": "Tue, 31 May 2022 22:20:15 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53bEZIa0R2TnY2OUl4ZjJCMUJHYlVkM1ZVel9mZE5BaE5PdVo5UlJUSzZqTUtBU0NmR3NERlYtMVJDRFRjV0V6Q1pHemRIX1BQVVpjY3pLZlVRTXM?oc=5",
+          "createdAt": "Tue, 29 Jun 2021 00:47:44 GMT"
         }
       ]
     },
@@ -330,15 +330,15 @@
     }
   ],
   "logs": [
-    "[2026-08-16T17:55:25.938Z] Korea public-data CEO engine started.",
-    "[2026-08-16T17:55:26.137Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-08-16T17:55:26.195Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-08-16T17:55:26.248Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-08-16T17:55:26.312Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-08-16T17:55:25.938Z] 295 total Korean-market signals collected.",
-    "[2026-08-16T17:55:25.938Z] 119 public-sector/government/procurement signals collected.",
-    "[2026-08-16T17:55:25.938Z] 10 public sources used.",
-    "[2026-08-16T17:55:25.938Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-08-16T17:55:25.938Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-08-16T18:25:06.893Z] Korea public-data CEO engine started.",
+    "[2026-08-16T18:25:07.062Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-08-16T18:25:07.085Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-08-16T18:25:07.112Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-08-16T18:25:07.135Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-08-16T18:25:06.893Z] 293 total Korean-market signals collected.",
+    "[2026-08-16T18:25:06.893Z] 118 public-sector/government/procurement signals collected.",
+    "[2026-08-16T18:25:06.893Z] 10 public sources used.",
+    "[2026-08-16T18:25:06.893Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-08-16T18:25:06.893Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
