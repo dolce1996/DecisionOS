@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-08-22T05:01:43.745Z",
+  "lastRun": "2026-08-22T05:36:12.421Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,8 +10,8 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 293,
-    "publicSignals": 118,
+    "liveSignals": 294,
+    "publicSignals": 117,
     "sources": 10,
     "opportunitiesScored": 6,
     "topScore": 100,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 293개, 공공/정부/조달 신호 118개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
-    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 118개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 294개, 공공/정부/조달 신호 117개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 117개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260822050143",
+    "id": "EXP-20260822053612",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -39,13 +39,13 @@
     {
       "name": "한국 입찰·제안서 AI 작성 도구",
       "score": 100,
-      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 69개, 공공신호 38개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
+      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 70개, 공공신호 39개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
       "target": "입찰 참여 중소기업, SI 업체, 용역 회사",
       "product": "입찰 공고 요약 + 제안서 초안 + 제출 체크리스트",
       "evidence": [
         {
           "source": "나라장터/조달",
-          "title": "나라장터 - 나라장터",
+          "title": "나라장터 (G2b) - 나라장터",
           "query": "site:g2b.go.kr AI 용역 입찰 제안서",
           "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBfQnpuOVc2TVYwTG9mZzg2c2JFTTY1WmlOblgwSFhGMk1qcnctMVNhYk4yOVNaT1FmTVE?oc=5",
           "createdAt": "Sat, 05 Nov 2016 23:59:17 GMT"
@@ -90,7 +90,7 @@
     {
       "name": "한국 정부지원금·보조금 Finder",
       "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 46개, 공공신호 36개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 46개, 공공신호 35개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
       "evidence": [
@@ -130,18 +130,18 @@
           "createdAt": "Thu, 26 Mar 2026 02:23:12 GMT"
         },
         {
-          "source": "K-Startup",
-          "title": "지원 사업 공고 정보 오픈 API 조회 - nidview.k-startup.go.kr",
-          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEZSalZTdC12VnMxY3YxYktLbUV3Q20wdG95Q0pEOGIyZ1ZLckFYSW9xUXBHR3MtN0JDR002NWFmWGJKZ1lzLXF4dUNPeHc0V3RJVUFpRHlaNU1ZOUoyeEdDWjhaX2Y3anpTaVVMb2NmSnRxWGxsZkFiTXk2T1p6dm1QX2tKWUpNSTVMeUc5MmExUQ?oc=5",
-          "createdAt": "Mon, 08 Jan 2024 00:51:45 GMT"
+          "source": "중소벤처기업부",
+          "title": "중소벤처기업부 - 중소벤처기업부",
+          "query": "site:mss.go.kr 소상공인 지원사업 디지털",
+          "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBZbFNjbEF1OW1oWVVGNktiYk16X1RsUU16eGJLbHhPNm9zTElwZkpfQlNfZ2lWZFh1Nmc?oc=5",
+          "createdAt": "Thu, 06 Dec 2018 11:42:47 GMT"
         }
       ]
     },
     {
       "name": "한국 소상공인 업무 자동화 Finder",
       "score": 100,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 143개, 공공신호 58개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 143개, 공공신호 56개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
@@ -181,18 +181,18 @@
           "createdAt": "Thu, 26 Mar 2026 02:23:12 GMT"
         },
         {
-          "source": "K-Startup",
-          "title": "지원 사업 공고 정보 오픈 API 조회 - nidview.k-startup.go.kr",
-          "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEZSalZTdC12VnMxY3YxYktLbUV3Q20wdG95Q0pEOGIyZ1ZLckFYSW9xUXBHR3MtN0JDR002NWFmWGJKZ1lzLXF4dUNPeHc0V3RJVUFpRHlaNU1ZOUoyeEdDWjhaX2Y3anpTaVVMb2NmSnRxWGxsZkFiTXk2T1p6dm1QX2tKWUpNSTVMeUc5MmExUQ?oc=5",
-          "createdAt": "Mon, 08 Jan 2024 00:51:45 GMT"
+          "source": "중소벤처기업부",
+          "title": "중소벤처기업부 - 중소벤처기업부",
+          "query": "site:mss.go.kr 소상공인 지원사업 디지털",
+          "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBZbFNjbEF1OW1oWVVGNktiYk16X1RsUU16eGJLbHhPNm9zTElwZkpfQlNfZ2lWZFh1Nmc?oc=5",
+          "createdAt": "Thu, 06 Dec 2018 11:42:47 GMT"
         }
       ]
     },
     {
       "name": "한국 규제·세금 변경 알림 서비스",
       "score": 100,
-      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 51개, 공공신호 20개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
+      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 50개, 공공신호 20개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
       "target": "자영업자, 프리랜서, 작은 법인",
       "product": "세금/노무/규정 변경 알림 + 체크리스트",
       "evidence": [
@@ -249,13 +249,6 @@
       "evidence": [
         {
           "source": "공공데이터포털",
-          "title": "[국민건강보험공단] 장기요양기관검색서비스외 2종 OPEN API 점검으로 서비스 일시 중단 안내 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUzZScm1NQWpraHB1UktiS3kyYlZQbk9feEQwQVN4a1pEVU5EaDRCekhFNjk1dnhVaVhhdmxXTzB2MFRaQUpKNWphNDJpckJTa1gtV3BFNmJyV3p5ak9sZlpEUTZuNDF4S2pUenlGUFVrSHpWVkZ1UlhJZ1N6UzMzU0R3?oc=5",
-          "createdAt": "Thu, 20 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "source": "공공데이터포털",
           "title": "경기도 광명시_재가장기요양기관 - data.go.kr",
           "query": "site:data.go.kr 요양기관 데이터 API",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53bEZIa0R2TnY2OUl4ZjJCMUJHYlVkM1ZVel9mZE5BaE5PdVo5UlJUSzZqTUtBU0NmR3NERlYtMVJDRFRjV0V6Q1pHemRIX1BQVVpjY3pLZlVRTXM?oc=5",
@@ -288,6 +281,13 @@
           "query": "site:data.go.kr 요양기관 데이터 API",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0YmFjaWFLaUpvb24zMUhRLVpIYnVrTnNRcXZDVnJZUjZsT0RkblhfYjdWWm1Femh5dnVIUFhVOWFkUndSN1JQNXMtbDZFQmZjSFZscGpQeUo3MkFweDdfRmtfT1VoeDluSl9HcUZKX0hSZG4x?oc=5",
           "createdAt": "Fri, 18 Apr 2025 08:09:45 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "국민건강보험공단_시군구별 다발성경화증(G35) 환자 진료현황_20231231 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HdHNGTXJONmNEOFRpNGN0Q3VNY19IUUdtNFFmdU1ldFVvYVFZTWh6b3lnb3dhd1hpdXB4dzdLYUNCaURBN0EtODY1dzJLOTFpSmRmcGdDalFZLVVR?oc=5",
+          "createdAt": "Thu, 19 Jun 2025 16:14:23 GMT"
         }
       ]
     },
@@ -337,15 +337,15 @@
     }
   ],
   "logs": [
-    "[2026-08-22T05:01:43.745Z] Korea public-data CEO engine started.",
-    "[2026-08-22T05:01:43.861Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-08-22T05:01:43.878Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-08-22T05:01:43.895Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-08-22T05:01:43.920Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-08-22T05:01:43.745Z] 293 total Korean-market signals collected.",
-    "[2026-08-22T05:01:43.745Z] 118 public-sector/government/procurement signals collected.",
-    "[2026-08-22T05:01:43.745Z] 10 public sources used.",
-    "[2026-08-22T05:01:43.745Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-08-22T05:01:43.745Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-08-22T05:36:12.421Z] Korea public-data CEO engine started.",
+    "[2026-08-22T05:36:12.536Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-08-22T05:36:12.554Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-08-22T05:36:12.581Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-08-22T05:36:12.598Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-08-22T05:36:12.421Z] 294 total Korean-market signals collected.",
+    "[2026-08-22T05:36:12.421Z] 117 public-sector/government/procurement signals collected.",
+    "[2026-08-22T05:36:12.421Z] 10 public sources used.",
+    "[2026-08-22T05:36:12.421Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-08-22T05:36:12.421Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
