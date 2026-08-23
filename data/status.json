@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-08-23T22:58:48.348Z",
+  "lastRun": "2026-08-23T23:27:37.561Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,7 +10,7 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 296,
+    "liveSignals": 295,
     "publicSignals": 120,
     "sources": 10,
     "opportunitiesScored": 6,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 296개, 공공/정부/조달 신호 120개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 295개, 공공/정부/조달 신호 120개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 120개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260823225848",
+    "id": "EXP-20260823232737",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -141,7 +141,7 @@
     {
       "name": "한국 소상공인 업무 자동화 Finder",
       "score": 100,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 145개, 공공신호 60개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 144개, 공공신호 60개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
@@ -192,7 +192,7 @@
     {
       "name": "한국 규제·세금 변경 알림 서비스",
       "score": 100,
-      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 56개, 공공신호 23개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
+      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 55개, 공공신호 23개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
       "target": "자영업자, 프리랜서, 작은 법인",
       "product": "세금/노무/규정 변경 알림 + 체크리스트",
       "evidence": [
@@ -270,6 +270,13 @@
         },
         {
           "source": "공공데이터포털",
+          "title": "국민건강보험공단_2형 당뇨병 연도별 시군구별 진료정보_20231231 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0YmFjaWFLaUpvb24zMUhRLVpIYnVrTnNRcXZDVnJZUjZsT0RkblhfYjdWWm1Femh5dnVIUFhVOWFkUndSN1JQNXMtbDZFQmZjSFZscGpQeUo3MkFweDdfRmtfT1VoeDluSl9HcUZKX0hSZG4x?oc=5",
+          "createdAt": "Fri, 18 Apr 2025 08:09:45 GMT"
+        },
+        {
+          "source": "공공데이터포털",
           "title": "국민건강보험공단_천식(J45 J46) 환자의 진료 현황_20231231 - data.go.kr",
           "query": "site:data.go.kr 요양기관 데이터 API",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5PUVRzYlRvSll5QVVZTEJyb2VmRGNnaHFUN2F3Z0pGVTJ2TExBVEpleTdRS1VLbHpaNjdLeUJsVlM2SlpqdXREdi1yMmE2dzZLd3p2bDVXWi1HbExGOTRRM3NNaEU0RDJpRXJURGNsbDhEU1ha?oc=5",
@@ -277,17 +284,10 @@
         },
         {
           "source": "공공데이터포털",
-          "title": "경기도_요양병원 현황(병원급) - data.go.kr",
+          "title": "국민건강보험공단_아토피성 피부염(L20) 시군구별 연도별 환자수 현황_20241231 - data.go.kr",
           "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5rVTZCUEYyaldDTkRkMG1jS1VtWVlwRlFvWUJMV00tZGR1TTFpMWtKS0JlSnhORUV1dkhEMUtaMmo4WFpDdnpmNXJhMF9JZ3ZDb2RQODktVHdScGpYbUVvd0FBODJHaDB2WU1TZG9OaVRFTjg?oc=5",
-          "createdAt": "Sun, 01 May 2022 06:34:42 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "국민건강보험공단_척수성 근위축 및 관련 증후군(G12) 진료현황_20231231 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDVzloc0M5eHZValJUeXlOQjVncTZaUkxIWFZaMV9KMlNQSnB4V3R1eFZQN1ZTdkpLNlRWdlVsek9Ra1ZDc1JTdjNTbU1tYXZNNmFVTTVYaE9UaXJw?oc=5",
-          "createdAt": "Wed, 25 Mar 2026 17:12:30 GMT"
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzbmZVUXYzdEEwaks1X0locDJBMnZfWWxsRVhCNGs1MEVRQmhROXJ5QnNfSlo5dE9BUXlBWENqSFJXWmVaTVNVZ0NfNUQ5RVUzaXJiR2lpU0hkR1BuMnZPT2RPVVRLQ3lmaGdLQjZTZ01HRHNE?oc=5",
+          "createdAt": "Fri, 29 May 2026 14:29:56 GMT"
         }
       ]
     },
@@ -344,15 +344,15 @@
     }
   ],
   "logs": [
-    "[2026-08-23T22:58:48.348Z] Korea public-data CEO engine started.",
-    "[2026-08-23T22:58:48.472Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-08-23T22:58:48.490Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-08-23T22:58:48.509Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-08-23T22:58:48.524Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-08-23T22:58:48.348Z] 296 total Korean-market signals collected.",
-    "[2026-08-23T22:58:48.348Z] 120 public-sector/government/procurement signals collected.",
-    "[2026-08-23T22:58:48.348Z] 10 public sources used.",
-    "[2026-08-23T22:58:48.348Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-08-23T22:58:48.348Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-08-23T23:27:37.561Z] Korea public-data CEO engine started.",
+    "[2026-08-23T23:27:37.691Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-08-23T23:27:37.706Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-08-23T23:27:37.720Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-08-23T23:27:37.734Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-08-23T23:27:37.561Z] 295 total Korean-market signals collected.",
+    "[2026-08-23T23:27:37.561Z] 120 public-sector/government/procurement signals collected.",
+    "[2026-08-23T23:27:37.561Z] 10 public sources used.",
+    "[2026-08-23T23:27:37.561Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-08-23T23:27:37.561Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
