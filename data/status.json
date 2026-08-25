@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-08-25T00:24:49.905Z",
+  "lastRun": "2026-08-25T01:59:15.640Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,7 +10,7 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 75,
+    "liveSignals": 77,
     "publicSignals": 0,
     "sources": 2,
     "opportunitiesScored": 6,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 88,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 75개, 공공/정부/조달 신호 0개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 77개, 공공/정부/조달 신호 0개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 0개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260825002449",
+    "id": "EXP-20260825015915",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -39,7 +39,7 @@
     {
       "name": "한국 입찰·제안서 AI 작성 도구",
       "score": 88,
-      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 22개, 공공신호 0개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
+      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 21개, 공공신호 0개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
       "target": "입찰 참여 중소기업, SI 업체, 용역 회사",
       "product": "입찰 공고 요약 + 제안서 초안 + 제출 체크리스트",
       "evidence": [
@@ -90,10 +90,24 @@
     {
       "name": "한국 소상공인 업무 자동화 Finder",
       "score": 87,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 23개, 공공신호 0개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 22개, 공공신호 0개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
+        {
+          "source": "Hacker News",
+          "title": "Brutal feedback on my failed idea (anyone up for part-time interview?)",
+          "query": "Korean startup automation",
+          "url": "https://news.ycombinator.com/item?id=43840606",
+          "createdAt": "2025-04-30T02:31:30Z"
+        },
+        {
+          "source": "Hacker News",
+          "title": "Ask HN: Building AI notetaker for immigrant founders. What am I missing?",
+          "query": "Korean startup automation",
+          "url": "https://news.ycombinator.com/item?id=43638474",
+          "createdAt": "2025-04-09T21:57:39Z"
+        },
         {
           "source": "Hacker News",
           "title": "Ask HN: If you have a great product that people love, so what next?",
@@ -110,13 +124,6 @@
         },
         {
           "source": "GitHub Search",
-          "title": "xmfldksl/kmcc-note: Monitoring bot that scrapes KMCC (Korea Media & Communications Commission) boards, summarizes posts with AI, and delivers them via email and Notion",
-          "query": "korea ai automation created:>2026-06-01",
-          "url": "https://github.com/xmfldksl/kmcc-note",
-          "createdAt": "2026-06-10T05:01:54Z"
-        },
-        {
-          "source": "GitHub Search",
           "title": "api-evangelist/vision-space-inc: Vision Space Inc. (VisionSpace) is a South Korean company building Physical AI robot simulation software for automation in the logistics and manufacturing sectors. Its TESSERACT product implements logistics and manufacturing sites as digital twins, visualizing process data and predicting operational efficiency through AI-based simulation, while…",
           "query": "korea ai automation created:>2026-06-01",
           "url": "https://github.com/api-evangelist/vision-space-inc",
@@ -124,146 +131,131 @@
         },
         {
           "source": "GitHub Search",
-          "title": "blxckwhite16/news-automation: AI-powered n8n pipeline for collecting, analyzing, and structuring Korean stock news with company-level error isolation, data integrity, and daily Telegram reports.",
+          "title": "xmfldksl/kmcc-note: Monitoring bot that scrapes KMCC (Korea Media & Communications Commission) boards, summarizes posts with AI, and delivers them via email and Notion",
           "query": "korea ai automation created:>2026-06-01",
-          "url": "https://github.com/blxckwhite16/news-automation",
-          "createdAt": "2026-08-02T06:48:19Z"
-        },
-        {
-          "source": "GitHub Search",
-          "title": "6aneffy/hwpx-kit: 한글(HWP/HWPX) 문서 자동화 Claude Code 플러그인 & CLI — 양식 채우기·메일머지·표 생성·공문서 검수. Korean HWPX document automation for AI agents",
-          "query": "korea ai automation created:>2026-06-01",
-          "url": "https://github.com/6aneffy/hwpx-kit",
-          "createdAt": "2026-07-11T13:32:53Z"
+          "url": "https://github.com/xmfldksl/kmcc-note",
+          "createdAt": "2026-06-10T05:01:54Z"
         }
       ]
     },
     {
       "name": "한국 규제·세금 변경 알림 서비스",
-      "score": 69,
-      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 12개, 공공신호 0개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
+      "score": 68,
+      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 11개, 공공신호 0개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
       "target": "자영업자, 프리랜서, 작은 법인",
       "product": "세금/노무/규정 변경 알림 + 체크리스트",
       "evidence": [
         {
           "source": "GitHub Search",
-          "title": "api-evangelist/collabra: Collabra (Collabra Pty Ltd, ABN 35 672 933 818) is an Australian enterprise AI automation company whose platform combines robotic process automation with large language models to run back-office operations — contract review, revenue assurance, financial operations, vendor management, data processing, and compliance monitoring.",
+          "title": "digvijaychouhan/carboncompass: Automated climate/carbon compliance knowledge hub — daily news, CBAM/GHG/ISO 14064 guides, startup tracker, zero-cost GitHub Pages deployment",
           "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/api-evangelist/collabra",
-          "createdAt": "2026-07-24T09:40:06Z"
+          "url": "https://github.com/digvijaychouhan/carboncompass",
+          "createdAt": "2026-06-07T08:38:58Z"
         },
         {
           "source": "GitHub Search",
-          "title": "api-evangelist/absencesoft: AbsenceSoft is a leave and accommodations management SaaS platform that automates and streamlines the administration of employee absences and workplace accommodations. Its Compliance Engine calculates employee eligibility across 200+ federal, state, and territorial leave laws including FMLA, ADA, and PWFA, with intelligent workflow automation, ACE…",
+          "title": "api-evangelist/wegalvanize: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com.",
           "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/api-evangelist/absencesoft",
-          "createdAt": "2026-07-23T02:33:21Z"
+          "url": "https://github.com/api-evangelist/wegalvanize",
+          "createdAt": "2026-08-02T12:38:48Z"
         },
         {
           "source": "GitHub Search",
-          "title": "api-evangelist/cleartax: Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises.",
+          "title": "api-evangelist/viso-trust-protecht: VISO TRUST is an AI-powered third-party risk management (TPRM) platform that automates vendor security due diligence — document analysis via Artifact Intelligence, inherent/residual risk scoring, questionnaire automation, vendor discovery, and continuous monitoring with risk advisories.",
           "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/api-evangelist/cleartax",
-          "createdAt": "2026-07-24T08:36:28Z"
+          "url": "https://github.com/api-evangelist/viso-trust-protecht",
+          "createdAt": "2026-08-02T10:53:18Z"
         },
         {
           "source": "GitHub Search",
-          "title": "DustyStudy/aws-cloud-security-toolbox: ​A collection of production-ready AWS cloud security tools, automation scripts, and Terraform modules designed to help cloud security professionals enforce compliance, detect misconfigurations, and automate incident response.",
+          "title": "api-evangelist/tradeshift: Tradeshift is a cloud-based business commerce network for accounts payable automation, e-invoicing compliance, procure-to-pay, supplier management, and B2B marketplace commerce, connecting buyers and sellers across more than 190 countries.",
           "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/DustyStudy/aws-cloud-security-toolbox",
-          "createdAt": "2026-08-24T01:28:16Z"
+          "url": "https://github.com/api-evangelist/tradeshift",
+          "createdAt": "2026-08-02T14:59:19Z"
         },
         {
           "source": "GitHub Search",
-          "title": "api-evangelist/chef-software: Chef Software is the DevOps automation company behind Chef Infra, Chef InSpec, Chef Habitat, and Chef Automate, now part of Progress Software. Chef pioneered infrastructure-as-code, letting teams define, deploy, and continuously enforce the configuration, compliance, and security posture of servers and applications across data centers and cloud at…",
+          "title": "api-evangelist/tipalti: Tipalti is a global accounts payable and mass payments automation platform that enables businesses to onboard suppliers, process payments across 196 countries in 120 currencies using 50+ payment methods, and automate invoice processing and tax compliance.",
           "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/api-evangelist/chef-software",
-          "createdAt": "2026-07-24T07:32:42Z"
+          "url": "https://github.com/api-evangelist/tipalti",
+          "createdAt": "2026-06-12T21:13:01Z"
         },
         {
           "source": "GitHub Search",
-          "title": "api-evangelist/caya: Caya (Caya GmbH, Berlin) is a German intelligent document processing (IDP) company whose Document Automation Suite digitizes, classifies, and routes business documents end to end. Its core capabilities are Post Scan (physical mail intake with OCR and automatic classification), Document Extractions (AI-powered structured data extraction), and…",
+          "title": "api-evangelist/timberhub: Timberhub is a European B2B timber trading platform that connects buyers with more than 70 sawmills across 28 countries. It offers timber sourcing with 24-hour quotes, built-in EUDR (EU Deforestation Regulation) compliance automation, and AI-powered workflow automation spanning product matching, logistics, and compliance documentation.",
           "query": "compliance automation created:>2026-06-01",
-          "url": "https://github.com/api-evangelist/caya",
-          "createdAt": "2026-07-24T06:36:54Z"
-        }
-      ]
-    },
-    {
-      "name": "한국 요양원·시니어 케어 비교 엔진",
-      "score": 55,
-      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 1개, 공공신호 0개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
-      "target": "부모님 요양시설을 찾는 가족",
-      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
-      "evidence": [
-        {
-          "source": "GitHub Search",
-          "title": "api-evangelist/aumet: Aumet is a MENA-based healthtech company building an AI-first procurement and pharmacy operating system for healthcare. Its platform connects pharmaceutical manufacturers, distributors, and pharmacies through a B2B marketplace and a suite of pharmacy software: Pulse (point-of-sale, inventory, and smart reordering for individual pharmacies), Chain…",
-          "query": "procurement ai created:>2026-06-01",
-          "url": "https://github.com/api-evangelist/aumet",
-          "createdAt": "2026-07-23T08:45:03Z"
-        }
-      ]
-    },
-    {
-      "name": "한국 로컬 서비스 리드 생성 사이트",
-      "score": 52,
-      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 1개, 공공신호 0개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
-      "target": "지역 서비스업체와 고객",
-      "product": "업종별 견적 요청 사이트 + 유료 리드 판매",
-      "evidence": [
-        {
-          "source": "GitHub Search",
-          "title": "api-evangelist/cloverleaf-ai: Cloverleaf AI is a business-to-government (B2G) sales intelligence platform, headquartered in Denver, Colorado, that monitors 45,000+ government organizations across federal, state, local, and education (SLED) agencies and turns 1.5 million public government meetings into pre-RFP buying signals.",
-          "query": "procurement ai created:>2026-06-01",
-          "url": "https://github.com/api-evangelist/cloverleaf-ai",
-          "createdAt": "2026-07-24T09:20:57Z"
+          "url": "https://github.com/api-evangelist/timberhub",
+          "createdAt": "2026-08-02T04:46:36Z"
         }
       ]
     },
     {
       "name": "한국 정부지원금·보조금 Finder",
-      "score": 51,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 0개, 공공신호 0개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "score": 56,
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 1개, 공공신호 0개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
+      "evidence": [
+        {
+          "source": "Hacker News",
+          "title": "Ask HN: Building AI notetaker for immigrant founders. What am I missing?",
+          "query": "Korean startup automation",
+          "url": "https://news.ycombinator.com/item?id=43638474",
+          "createdAt": "2025-04-09T21:57:39Z"
+        }
+      ]
+    },
+    {
+      "name": "한국 요양원·시니어 케어 비교 엔진",
+      "score": 51,
+      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 0개, 공공신호 0개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
+      "target": "부모님 요양시설을 찾는 가족",
+      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
+      "evidence": []
+    },
+    {
+      "name": "한국 로컬 서비스 리드 생성 사이트",
+      "score": 48,
+      "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 0개, 공공신호 0개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
+      "target": "지역 서비스업체와 고객",
+      "product": "업종별 견적 요청 사이트 + 유료 리드 판매",
       "evidence": []
     }
   ],
   "logs": [
-    "[2026-08-25T00:24:49.905Z] Korea public-data CEO engine started.",
-    "[2026-08-25T00:24:50.020Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-08-25T00:24:50.044Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-08-25T00:24:50.066Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-08-25T00:24:50.091Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-08-25T00:24:56.200Z] Market news failed: 한국 소상공인 자동화 — HTTP 503",
-    "[2026-08-25T00:24:56.890Z] Public sector search failed: K-Startup — HTTP 503",
-    "[2026-08-25T00:25:02.013Z] Public sector search failed: K-Startup — HTTP 503",
-    "[2026-08-25T00:25:05.445Z] Market news failed: 한국 중소기업 AI 도입 — HTTP 503",
-    "[2026-08-25T00:25:07.103Z] Public sector search failed: K-Startup — HTTP 503",
-    "[2026-08-25T00:25:11.725Z] Market news failed: 한국 요양원 비교 비용 — HTTP 503",
-    "[2026-08-25T00:25:16.908Z] Public sector search failed: 나라장터/조달 — HTTP 503",
-    "[2026-08-25T00:25:21.644Z] Market news failed: 한국 정부지원금 소상공인 — HTTP 503",
-    "[2026-08-25T00:25:23.794Z] Public sector search failed: 나라장터/조달 — HTTP 503",
-    "[2026-08-25T00:25:31.047Z] Market news failed: 한국 입찰 제안서 AI — HTTP 503",
-    "[2026-08-25T00:25:33.151Z] Public sector search failed: 나라장터/조달 — HTTP 503",
-    "[2026-08-25T00:25:39.710Z] Public sector search failed: 중소벤처기업부 — HTTP 503",
-    "[2026-08-25T00:25:39.805Z] Market news failed: 한국 세금 신고 자동화 — HTTP 503",
-    "[2026-08-25T00:25:46.404Z] Public sector search failed: 중소벤처기업부 — HTTP 503",
-    "[2026-08-25T00:25:48.778Z] Market news failed: 한국 규제 변화 자영업 — HTTP 503",
-    "[2026-08-25T00:25:54.102Z] Market news failed: 한국 가격 비교 서비스 — HTTP 503",
-    "[2026-08-25T00:25:54.479Z] Public sector search failed: 소상공인시장진흥공단 — HTTP 503",
-    "[2026-08-25T00:26:00.539Z] Public sector search failed: 공공데이터포털 — HTTP 503",
-    "[2026-08-25T00:26:01.751Z] Market news failed: 한국 병원 예약 자동화 — HTTP 503",
-    "[2026-08-25T00:26:08.083Z] Market news failed: 한국 부동산 문서 자동화 — HTTP 503",
-    "[2026-08-25T00:26:10.061Z] Public sector search failed: 공공데이터포털 — HTTP 503",
-    "[2026-08-25T00:26:19.311Z] Public sector search failed: 공공데이터포털 — HTTP 503",
-    "[2026-08-25T00:26:25.068Z] Public sector search failed: 고용노동부/노무 — HTTP 503",
-    "[2026-08-25T00:26:34.218Z] Public sector search failed: 국세청/세금 — HTTP 503",
-    "[2026-08-25T00:24:49.905Z] 75 total Korean-market signals collected.",
-    "[2026-08-25T00:24:49.905Z] 0 public-sector/government/procurement signals collected.",
-    "[2026-08-25T00:24:49.905Z] 2 public sources used.",
-    "[2026-08-25T00:24:49.905Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (88/100).",
-    "[2026-08-25T00:24:49.905Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-08-25T01:59:15.640Z] Korea public-data CEO engine started.",
+    "[2026-08-25T01:59:15.795Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-08-25T01:59:15.841Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-08-25T01:59:15.888Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-08-25T01:59:15.934Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-08-25T01:59:21.164Z] Market news failed: 한국 소상공인 자동화 — HTTP 503",
+    "[2026-08-25T01:59:21.335Z] Public sector search failed: K-Startup — HTTP 503",
+    "[2026-08-25T01:59:27.467Z] Market news failed: 한국 중소기업 AI 도입 — HTTP 503",
+    "[2026-08-25T01:59:30.038Z] Public sector search failed: K-Startup — HTTP 503",
+    "[2026-08-25T01:59:35.506Z] Market news failed: 한국 요양원 비교 비용 — HTTP 503",
+    "[2026-08-25T01:59:39.978Z] Public sector search failed: K-Startup — HTTP 503",
+    "[2026-08-25T01:59:43.425Z] Market news failed: 한국 정부지원금 소상공인 — HTTP 503",
+    "[2026-08-25T01:59:48.598Z] Market news failed: 한국 입찰 제안서 AI — HTTP 503",
+    "[2026-08-25T01:59:49.104Z] Public sector search failed: 나라장터/조달 — HTTP 503",
+    "[2026-08-25T01:59:54.858Z] Public sector search failed: 나라장터/조달 — HTTP 503",
+    "[2026-08-25T01:59:55.351Z] Market news failed: 한국 세금 신고 자동화 — HTTP 503",
+    "[2026-08-25T02:00:02.848Z] Market news failed: 한국 규제 변화 자영업 — HTTP 503",
+    "[2026-08-25T02:00:03.388Z] Public sector search failed: 나라장터/조달 — HTTP 503",
+    "[2026-08-25T02:00:08.769Z] Public sector search failed: 중소벤처기업부 — HTTP 503",
+    "[2026-08-25T02:00:12.705Z] Market news failed: 한국 가격 비교 서비스 — HTTP 503",
+    "[2026-08-25T02:00:14.449Z] Public sector search failed: 중소벤처기업부 — HTTP 503",
+    "[2026-08-25T02:00:20.546Z] Public sector search failed: 소상공인시장진흥공단 — HTTP 503",
+    "[2026-08-25T02:00:21.864Z] Market news failed: 한국 병원 예약 자동화 — HTTP 503",
+    "[2026-08-25T02:00:27.695Z] Public sector search failed: 공공데이터포털 — HTTP 503",
+    "[2026-08-25T02:00:31.537Z] Market news failed: 한국 부동산 문서 자동화 — HTTP 503",
+    "[2026-08-25T02:00:37.513Z] Public sector search failed: 공공데이터포털 — HTTP 503",
+    "[2026-08-25T02:00:46.440Z] Public sector search failed: 공공데이터포털 — HTTP 503",
+    "[2026-08-25T02:00:51.551Z] Public sector search failed: 고용노동부/노무 — HTTP 503",
+    "[2026-08-25T02:01:00.629Z] Public sector search failed: 국세청/세금 — HTTP 503",
+    "[2026-08-25T01:59:15.640Z] 77 total Korean-market signals collected.",
+    "[2026-08-25T01:59:15.640Z] 0 public-sector/government/procurement signals collected.",
+    "[2026-08-25T01:59:15.640Z] 2 public sources used.",
+    "[2026-08-25T01:59:15.640Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (88/100).",
+    "[2026-08-25T01:59:15.640Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
