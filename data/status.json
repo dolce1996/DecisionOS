@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-08-29T17:12:10.956Z",
+  "lastRun": "2026-08-29T19:44:56.182Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -10,8 +10,8 @@
     "currentGoal": "무료 공개/공공 데이터만으로 한국 시장 1순위 사업 결정"
   },
   "kpis": {
-    "liveSignals": 287,
-    "publicSignals": 109,
+    "liveSignals": 289,
+    "publicSignals": 111,
     "sources": 10,
     "opportunitiesScored": 6,
     "topScore": 100,
@@ -21,11 +21,11 @@
   "decision": {
     "score": 100,
     "action": "BUILD_EXPERIMENT",
-    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 287개, 공공/정부/조달 신호 109개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
-    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 109개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
+    "summary": "한국 입찰·제안서 AI 작성 도구가 현재 한국 시장 1순위입니다. 전체 공개 신호 289개, 공공/정부/조달 신호 111개, 수익성/제작용이성/공공데이터 적합도/위험도를 반영했습니다.",
+    "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 111개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20260829171210",
+    "id": "EXP-20260829194456",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -39,7 +39,7 @@
     {
       "name": "한국 입찰·제안서 AI 작성 도구",
       "score": 100,
-      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 66개, 공공신호 35개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
+      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 68개, 공공신호 37개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
       "target": "입찰 참여 중소기업, SI 업체, 용역 회사",
       "product": "입찰 공고 요약 + 제안서 초안 + 제출 체크리스트",
       "evidence": [
@@ -52,17 +52,17 @@
         },
         {
           "source": "나라장터/조달",
-          "title": "AI학습분석시스템 고도화 구축 용역 입찰공고 - 나라장터",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOVZEamxpYmI3aUhIaXpuZkE2bDJ4MlEzX3owbFJBSnpxdU5VWUJ0QlhCalFRUFBrcnJoQ1E0MExGaGJSWmJ6VHNBNWRpVjRfNmZIUTNLWHNqZE8yLWMtajJOR2dMYkhNMlZGdGZMV1dvc0lLSFBtaDR0cXAxbE1pVml5M2VPeTFsTjI1bmJRY3lORHA1QXFBN2w3OE1xMVU3RnZodlg5UzVzcXhydlJPYWVQTlh4Q29iRXdRUmJJd0Q?oc=5",
-          "createdAt": "Tue, 04 Nov 2025 23:56:38 GMT"
-        },
-        {
-          "source": "나라장터/조달",
           "title": "대면 교육운영 용역 입찰공고문 - 나라장터",
           "query": "site:g2b.go.kr AI 용역 입찰 제안서",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSzZtekptZVhTVDdZRDNHX0xBZmFoZ29ETzgyT0FwSkMxSzVBeUNrcG9ZVG1fNks5eU44Tmd6Z0FQTElzR0o1amtEMVdyVUhxUFJMc1REU2hUR01zYzUzUzJRcnFnd1Vvbm9GRm85YW83QTdkdThsN2d3d2tjdG8wZVNKa2FsVllkSHZETlJpczZUd0ZKeXBCbU56aENDOXBVaURxdWpPUGdvUGJlLXhuaTdWNEhmOTZjR0gtdnl1LTdMYWs1YTl6Z0YwX0J6Ukh0VGo5VWd3?oc=5",
           "createdAt": "Wed, 26 Aug 2026 18:55:32 GMT"
+        },
+        {
+          "source": "나라장터/조달",
+          "title": "2025년도 가톨릭관동대학교 AI 기반 학습·학사 지원 통합 플랫폼 개발 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWmc5a3BkdzlYU2VVN05EeWJOa0dCYlNaMHlBTkZpamE4R21qUE94UFhXaHBCTGFoaE1DTXcyRTVSNHU4WXBrNGNSMm5WMUllQjFTeWE1RUZnNFVqNms5dEl5OU5oUGYzeUY5cXhNZUlpUTJxcDJ4bDVPbk82RDQ0dEJBNTlkSnVnRHlVTGVoclpRQk5vcHRRLWgyQkhnZ2NsSmV5eUhidkFaSS05cHNEdFVXNEYtdkJiM08yVURlY0VqZWJLNU5uX0dPYlpuNmdSZDVGampB?oc=5",
+          "createdAt": "Mon, 05 Jan 2026 11:40:18 GMT"
         },
         {
           "source": "나라장터/조달",
@@ -90,7 +90,7 @@
     {
       "name": "한국 정부지원금·보조금 Finder",
       "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 45개, 공공신호 34개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 46개, 공공신호 34개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
       "evidence": [
@@ -135,6 +135,57 @@
           "query": "site:k-startup.go.kr 소상공인 창업 지원사업",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12MHROX094YW1DQWJCbVkzQi1SbkRvdW5fTGc3NkFpdXp4MTBPVTVmdWdzeFFSNlFhVlF5b2NRNkk3WGJNWDRVWTVUd1Z4aDA2dEhQamlvd0dyZkF4dlBrWGVR?oc=5",
           "createdAt": "Fri, 28 Jan 2022 01:36:04 GMT"
+        }
+      ]
+    },
+    {
+      "name": "한국 요양원·시니어 케어 비교 엔진",
+      "score": 100,
+      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 23개, 공공신호 12개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
+      "target": "부모님 요양시설을 찾는 가족",
+      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
+      "evidence": [
+        {
+          "source": "공공데이터포털",
+          "title": "[국민건강보험공단] 장기요양기관검색서비스외 2종 OPEN API 점검으로 서비스 일시 중단 안내 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUzZScm1NQWpraHB1UktiS3kyYlZQbk9feEQwQVN4a1pEVU5EaDRCekhFNjk1dnhVaVhhdmxXTzB2MFRaQUpKNWphNDJpckJTa1gtV3BFNmJyV3p5ak9sZlpEUTZuNDF4S2pUenlGUFVrSHpWVkZ1UlhJZ1N6UzMzU0R3?oc=5",
+          "createdAt": "Thu, 20 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "제주특별자치도_요양보호사교육기관현황_20250318 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oWE5RZEpLZlREejJjaVNNZ3pLMTI1SDVZb0JBZVVIRXRCRkNtaF9jdjQ2TC1OZXFUYVQwMURzNWdZc2thQ29rN0tOS0w5QjF4VlVTUFN0bkxCcXdGenBtMHBnaUhWSTlRUlBRNHRQaXhtYzd5?oc=5",
+          "createdAt": "Thu, 05 Jun 2025 12:24:23 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "건강보험심사평가원_수가기준정보조회서비스 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhSGQ3LWUxc0NxM0hPSzlMMkw1eGo5dVRETnZPbWFiSTFlNldyWWVYdEtwYWZrUGZ0Wkg0dmJ1QXAtam11U1h3SnRZSlBRVVBaZTJyUUhR?oc=5",
+          "createdAt": "Tue, 08 Sep 2020 09:43:45 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "국민건강보험공단_2형 당뇨병 연도별 시군구별 진료정보_20231231 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0YmFjaWFLaUpvb24zMUhRLVpIYnVrTnNRcXZDVnJZUjZsT0RkblhfYjdWWm1Femh5dnVIUFhVOWFkUndSN1JQNXMtbDZFQmZjSFZscGpQeUo3MkFweDdfRmtfT1VoeDluSl9HcUZKX0hSZG4x?oc=5",
+          "createdAt": "Fri, 18 Apr 2025 08:09:45 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "국민건강보험공단_간호간병통합서비스 평균재원일수 및 이용환자수_20230724 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HOVZNekQxU2tNZVNpdXVkakdaZWNLWlNrTE9RaDFtMWl1V21QMEhVdURrOTZ5UzZRU1FtSDM0NWV5cTZtQzd5eVVBZ0Jqak5HLXJnNEZMcUg2QklvUi0zdDdERHRfQlNUZHN6V0JqUHFkSTEt?oc=5",
+          "createdAt": "Fri, 03 May 2024 19:22:56 GMT"
+        },
+        {
+          "source": "공공데이터포털",
+          "title": "국민건강보험공단_특정 암 상병별 및 항악성종양제 약제주성분별 진료정보_20231231 - data.go.kr",
+          "query": "site:data.go.kr 요양기관 데이터 API",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5reURrTHNQMnZKNEs5SEQ4Z1JhT1c1VnZIeUJUWHN0VzF6clFqMUotZVJuTVZFVDdFUy00dTNmMUExTHhaa1FSNFVNUnBDNjdLS0RMdkpuVllIY0to?oc=5",
+          "createdAt": "Mon, 04 Nov 2024 23:14:34 GMT"
         }
       ]
     },
@@ -241,57 +292,6 @@
       ]
     },
     {
-      "name": "한국 요양원·시니어 케어 비교 엔진",
-      "score": 98,
-      "summary": "고령화와 정보 비대칭이 큰 요양시설 선택 문제를 비교 서비스로 만듭니다. 신호 22개, 공공신호 12개, 수익성 88, 제작용이성 72, 공공데이터적합도 82, 위험도 50.",
-      "target": "부모님 요양시설을 찾는 가족",
-      "product": "시설 비교표, 체크리스트, 상담 리드, 프리미엄 리포트",
-      "evidence": [
-        {
-          "source": "공공데이터포털",
-          "title": "[국민건강보험공단] 장기요양기관검색서비스외 2종 OPEN API 점검으로 서비스 일시 중단 안내 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUzZScm1NQWpraHB1UktiS3kyYlZQbk9feEQwQVN4a1pEVU5EaDRCekhFNjk1dnhVaVhhdmxXTzB2MFRaQUpKNWphNDJpckJTa1gtV3BFNmJyV3p5ak9sZlpEUTZuNDF4S2pUenlGUFVrSHpWVkZ1UlhJZ1N6UzMzU0R3?oc=5",
-          "createdAt": "Thu, 20 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "제주특별자치도_요양보호사교육기관현황_20250318 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oWE5RZEpLZlREejJjaVNNZ3pLMTI1SDVZb0JBZVVIRXRCRkNtaF9jdjQ2TC1OZXFUYVQwMURzNWdZc2thQ29rN0tOS0w5QjF4VlVTUFN0bkxCcXdGenBtMHBnaUhWSTlRUlBRNHRQaXhtYzd5?oc=5",
-          "createdAt": "Thu, 05 Jun 2025 12:24:23 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "건강보험심사평가원_수가기준정보조회서비스 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhSGQ3LWUxc0NxM0hPSzlMMkw1eGo5dVRETnZPbWFiSTFlNldyWWVYdEtwYWZrUGZ0Wkg0dmJ1QXAtam11U1h3SnRZSlBRVVBaZTJyUUhR?oc=5",
-          "createdAt": "Tue, 08 Sep 2020 09:43:45 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "국민건강보험공단_2형 당뇨병 연도별 시군구별 진료정보_20231231 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0YmFjaWFLaUpvb24zMUhRLVpIYnVrTnNRcXZDVnJZUjZsT0RkblhfYjdWWm1Femh5dnVIUFhVOWFkUndSN1JQNXMtbDZFQmZjSFZscGpQeUo3MkFweDdfRmtfT1VoeDluSl9HcUZKX0hSZG4x?oc=5",
-          "createdAt": "Fri, 18 Apr 2025 08:09:45 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "국민건강보험공단_간호간병통합서비스 평균재원일수 및 이용환자수_20230724 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HOVZNekQxU2tNZVNpdXVkakdaZWNLWlNrTE9RaDFtMWl1V21QMEhVdURrOTZ5UzZRU1FtSDM0NWV5cTZtQzd5eVVBZ0Jqak5HLXJnNEZMcUg2QklvUi0zdDdERHRfQlNUZHN6V0JqUHFkSTEt?oc=5",
-          "createdAt": "Fri, 03 May 2024 19:22:56 GMT"
-        },
-        {
-          "source": "공공데이터포털",
-          "title": "국민건강보험공단_특정 암 상병별 및 항악성종양제 약제주성분별 진료정보_20231231 - data.go.kr",
-          "query": "site:data.go.kr 요양기관 데이터 API",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5reURrTHNQMnZKNEs5SEQ4Z1JhT1c1VnZIeUJUWHN0VzF6clFqMUotZVJuTVZFVDdFUy00dTNmMUExTHhaa1FSNFVNUnBDNjdLS0RMdkpuVllIY0to?oc=5",
-          "createdAt": "Mon, 04 Nov 2024 23:14:34 GMT"
-        }
-      ]
-    },
-    {
       "name": "한국 로컬 서비스 리드 생성 사이트",
       "score": 80,
       "summary": "한국 지역 서비스 시장에서 고객 문의를 모아 업체에 연결합니다. 신호 5개, 공공신호 4개, 수익성 82, 제작용이성 84, 공공데이터적합도 55, 위험도 52.",
@@ -337,15 +337,15 @@
     }
   ],
   "logs": [
-    "[2026-08-29T17:12:10.956Z] Korea public-data CEO engine started.",
-    "[2026-08-29T17:12:11.136Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-08-29T17:12:11.201Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-08-29T17:12:11.260Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-08-29T17:12:11.322Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-08-29T17:12:10.956Z] 287 total Korean-market signals collected.",
-    "[2026-08-29T17:12:10.956Z] 109 public-sector/government/procurement signals collected.",
-    "[2026-08-29T17:12:10.956Z] 10 public sources used.",
-    "[2026-08-29T17:12:10.956Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-08-29T17:12:10.956Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-08-29T19:44:56.182Z] Korea public-data CEO engine started.",
+    "[2026-08-29T19:44:56.356Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-08-29T19:44:56.410Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-08-29T19:44:56.462Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-08-29T19:44:56.513Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-08-29T19:44:56.182Z] 289 total Korean-market signals collected.",
+    "[2026-08-29T19:44:56.182Z] 111 public-sector/government/procurement signals collected.",
+    "[2026-08-29T19:44:56.182Z] 10 public sources used.",
+    "[2026-08-29T19:44:56.182Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-08-29T19:44:56.182Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
