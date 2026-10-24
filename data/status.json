@@ -1,6 +1,6 @@
 {
   "systemStatus": "AI CEO running Korea public-data market engine",
-  "lastRun": "2026-10-24T21:30:04.958Z",
+  "lastRun": "2026-10-24T23:35:47.395Z",
   "topCandidate": "한국 입찰·제안서 AI 작성 도구",
   "company": {
     "mission": "한국 공공·정부·조달·창업지원 공개 신호를 최대한 수집하고, 수익성 높은 사업을 고르고, 다음 실험을 설계하는 AI CEO 대시보드입니다.",
@@ -25,7 +25,7 @@
     "reason": "무료 공개/공공 신호 기준으로 한국 입찰·제안서 AI 작성 도구가 가장 강합니다. 공공 신호 128개가 수집되었고, 공공데이터 적합도와 수익성이 모두 높아 첫 MVP 실험 대상으로 선정합니다."
   },
   "experiment": {
-    "id": "EXP-20261024213004",
+    "id": "EXP-20261024233547",
     "title": "한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증",
     "market": "한국",
     "hypothesis": "입찰 참여 중소기업, SI 업체, 용역 회사는 입찰 공고 요약 + 제안서 초안 + 제출 체크리스트에 비용을 지불할 가능성이 있다.",
@@ -39,7 +39,7 @@
     {
       "name": "한국 입찰·제안서 AI 작성 도구",
       "score": 100,
-      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 77개, 공공신호 46개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
+      "summary": "한국 중소기업의 입찰·제안서 작성 부담을 줄이는 문서 자동화 서비스입니다. 신호 76개, 공공신호 45개, 수익성 92, 제작용이성 70, 공공데이터적합도 90, 위험도 58.",
       "target": "입찰 참여 중소기업, SI 업체, 용역 회사",
       "product": "입찰 공고 요약 + 제안서 초안 + 제출 체크리스트",
       "evidence": [
@@ -49,13 +49,6 @@
           "query": "site:g2b.go.kr AI 용역 입찰 제안서",
           "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBfQnpuOVc2TVYwTG9mZzg2c2JFTTY1WmlOblgwSFhGMk1qcnctMVNhYk4yOVNaT1FmTVE?oc=5",
           "createdAt": "Sat, 05 Nov 2016 23:59:17 GMT"
-        },
-        {
-          "source": "나라장터/조달",
-          "title": "나라장터 입찰공고 - 나라장터 입찰공고",
-          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1JVHg0SE1nZ1lZRVNKbi0zbnVfVW1qc2kzUHpfLUJ3R2hSU3QtNkNCeXk5TFFUZVB2MWt6UVktYXc?oc=5",
-          "createdAt": "Thu, 02 Apr 2020 00:50:08 GMT"
         },
         {
           "source": "나라장터/조달",
@@ -80,17 +73,24 @@
         },
         {
           "source": "나라장터/조달",
-          "title": "2026 AI 기반 한류 빅데이터 대시보드 운영 용역 - 나라장터",
+          "title": "AI 서비스 음악저작권 사용료 징수규정 연구용역 제안요청서 - 나라장터",
           "query": "site:g2b.go.kr AI 용역 입찰 제안서",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWW9Ebk9DVmJZYXRVQ3VCR2RhaTdRZUQwc1l5bGF5anhVY0RXVWUtWnp6VHJ6V0Rnc2h3YXNIWlVkT3lrYXlBeU85Ny02Zm9oQ2F3QmN2bktyNlpsdzFjYzViaU5DQ0wwdmZKRGRWZk9KZHZhZ1FRbEkwWTVmV3ItN2tfX2ZKMjVIV2JqVDhvMjY1UE5BUjBGNjNuMm11dE1TV21JeFRWV3pHRkVTUmtEZzd4cXVQTTFQWms0RTdreE5LWm9MNjhfVFZBZEJrZFJYVWxrdHBn?oc=5",
-          "createdAt": "Fri, 10 Apr 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRGMzM3JKaDJfQkdSeUstTzllTFBKMkpmczhMLUt6eXptNWc5aWdQcldWRlJ0WTZuMzdJLWxkSUpFaXVtN01WblZTeHFHakRaZlJaR0hhamNqeE5GZjkzZTBCYk1jcy1XYUlpVnFtZi1jZGN4UjRUdlkzZ1AtMWZGU2ZGYktHdkZRNE1jbnNNWmY3YmVYTmJucDZEVE05WEZRSnhwT1pSVUFYTmtjd1dhbXY0Q0tjaE5lY2c2RVRFUWFPa0tnTkRnVEh6MHVhdVQxVTRJVUdn?oc=5",
+          "createdAt": "Thu, 18 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "source": "나라장터/조달",
+          "title": "『디자인 AI 인프라 구축사업』 [긴급] 디자인 AI 지원 시스템 개발 용역 입찰공고 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTXcwaDBRcTJxUEVvNHRMNVd4dF9KbnNreHNMcnVsZjU0MXV5bi1tWkdSQmlqc0xRcmcxMFFqVkNXWEN2enhLYnI5WndRcGNYMi1QM2xCU3U2Q0Nzd0xXa1JRQkNVWXZMVEV5cFd6a3hQNTUyZmVqTGNZRWl5eGZ6Znc1Z2dEYnZCbzE0NFlZbzZSeUQzc2ptSVlSOWxZN05GMHhsRG9teGY4LVlHWmw0M3NMQUFlNng4NDFuLWFocnVZeFpSUlU3eXJ1bWdxbG9vbVBuYmRB?oc=5",
+          "createdAt": "Tue, 22 Sep 2026 07:00:00 GMT"
         }
       ]
     },
     {
       "name": "한국 정부지원금·보조금 Finder",
       "score": 100,
-      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 48개, 공공신호 38개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
+      "summary": "복잡한 한국 정부지원금 정보를 업종별로 자동 매칭합니다. 신호 49개, 공공신호 39개, 수익성 86, 제작용이성 76, 공공데이터적합도 94, 위험도 54.",
       "target": "소상공인, 스타트업, 중소기업",
       "product": "지원사업 자동 매칭 + 신청 체크리스트 + 알림",
       "evidence": [
@@ -141,7 +141,7 @@
     {
       "name": "한국 소상공인 업무 자동화 Finder",
       "score": 100,
-      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 146개, 공공신호 61개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
+      "summary": "반복 수작업이 많은 한국 소상공인의 업무를 자동화 상품으로 전환합니다. 신호 147개, 공공신호 62개, 수익성 84, 제작용이성 78, 공공데이터적합도 76, 위험도 45.",
       "target": "한국 소상공인, 학원, 병원, 매장, 1인 사업자",
       "product": "업종별 반복 업무 자동화 템플릿 + 소형 SaaS",
       "evidence": [
@@ -181,18 +181,18 @@
           "createdAt": "Thu, 17 Oct 2024 07:52:12 GMT"
         },
         {
-          "source": "중소벤처기업부",
-          "title": "중소벤처기업부 - 중소벤처기업부",
-          "query": "site:mss.go.kr 소상공인 지원사업 디지털",
-          "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBZbFNjbEF1OW1oWVVGNktiYk16X1RsUU16eGJLbHhPNm9zTElwZkpfQlNfZ2lWZFh1Nmc?oc=5",
-          "createdAt": "Thu, 06 Dec 2018 11:42:47 GMT"
+          "source": "나라장터/조달",
+          "title": "AI 자율실증랩 자동화 시스템 구축 용역 입찰공고문 충북과학기술혁신원 재무관 - 나라장터",
+          "query": "site:g2b.go.kr AI 용역 입찰 제안서",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNTlQaHJHdTlESUVJNFVVNFZua2ttTmRtSGREeDYxRzZ1c002b19GOG1zbEkzU1lxOE5keFlQaWducXgxdTFkSkRjdlJPR0NFTXB2TkZOZGJGVUp0OTZKYjhvSVNtajF3cG5oSU15bFBuTXUwNlFqdTA5cFNHdzhhSC16OVpyOExpVzBNaE5jSHdQS1pDbXRfVGlRNWI1NXJtOGtfYmdpU3Jtc1NLRFc2QWFtVWJadkhQbkxBeXEwLWE0TXE2VFU1Q1BkZURWdURpVGdKUGp3?oc=5",
+          "createdAt": "Thu, 10 Sep 2026 07:00:00 GMT"
         }
       ]
     },
     {
       "name": "한국 규제·세금 변경 알림 서비스",
       "score": 100,
-      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 51개, 공공신호 21개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
+      "summary": "자영업자가 놓치기 쉬운 세금·노무·규정 변화를 알림 서비스로 만듭니다. 신호 52개, 공공신호 21개, 수익성 87, 제작용이성 62, 공공데이터적합도 88, 위험도 62.",
       "target": "자영업자, 프리랜서, 작은 법인",
       "product": "세금/노무/규정 변경 알림 + 체크리스트",
       "evidence": [
@@ -323,15 +323,15 @@
     }
   ],
   "logs": [
-    "[2026-10-24T21:30:04.958Z] Korea public-data CEO engine started.",
-    "[2026-10-24T21:30:05.063Z] Reddit failed: r/korea — HTTP 403",
-    "[2026-10-24T21:30:05.081Z] Reddit failed: r/Entrepreneur — HTTP 403",
-    "[2026-10-24T21:30:05.097Z] Reddit failed: r/smallbusiness — HTTP 403",
-    "[2026-10-24T21:30:05.107Z] Reddit failed: r/SaaS — HTTP 403",
-    "[2026-10-24T21:30:04.958Z] 310 total Korean-market signals collected.",
-    "[2026-10-24T21:30:04.958Z] 128 public-sector/government/procurement signals collected.",
-    "[2026-10-24T21:30:04.958Z] 10 public sources used.",
-    "[2026-10-24T21:30:04.958Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
-    "[2026-10-24T21:30:04.958Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
+    "[2026-10-24T23:35:47.395Z] Korea public-data CEO engine started.",
+    "[2026-10-24T23:35:47.618Z] Reddit failed: r/korea — HTTP 403",
+    "[2026-10-24T23:35:47.697Z] Reddit failed: r/Entrepreneur — HTTP 403",
+    "[2026-10-24T23:35:47.775Z] Reddit failed: r/smallbusiness — HTTP 403",
+    "[2026-10-24T23:35:47.853Z] Reddit failed: r/SaaS — HTTP 403",
+    "[2026-10-24T23:35:47.395Z] 310 total Korean-market signals collected.",
+    "[2026-10-24T23:35:47.395Z] 128 public-sector/government/procurement signals collected.",
+    "[2026-10-24T23:35:47.395Z] 10 public sources used.",
+    "[2026-10-24T23:35:47.395Z] CEO selected: 한국 입찰·제안서 AI 작성 도구 (100/100).",
+    "[2026-10-24T23:35:47.395Z] Next experiment designed: 한국 입찰·제안서 AI 작성 도구 48시간 한국 시장 검증."
   ]
 }
